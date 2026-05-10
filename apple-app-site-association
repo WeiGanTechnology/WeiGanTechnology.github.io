@@ -1,0 +1,55 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "7KZ75239SH.com.weigantech.infc",
+                "paths": ["/infc/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.idraft",
+                "paths": ["/idraft/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.isms",
+                "paths": ["/isms/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.icontact",
+                "paths": ["/icontact/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.iblog",
+                "paths": ["/iblog/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.itelevision",
+                "paths": ["/itelevision/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.ibluetooth",
+                "paths": ["/ibluetooth/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.datamodel",
+                "paths": ["/datamodel/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.ipicture",
+                "paths": ["/ipicture/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.icapture",
+                "paths": ["/icapture/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.iconsole",
+                "paths": ["/iconsole/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
+                "paths": ["/iromemulator/*"]
+            }
+        ]
+    }
+}
