@@ -1,0 +1,1026 @@
+{
+  "models": [
+    {
+      "name": "Qwen3 4B Instruct 2507",
+      "repo_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+      "download_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+      "category": "Qwen 3"
+    },
+    {
+      "name": "Qwen3 4B Instruct 2507 Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
+      "category": "Qwen 3"
+    },
+    {
+      "name": "Josiefied Qwen3 4B Instruct 2507 (Uncensored)",
+      "repo_url": "https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1",
+      "download_url": "https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1",
+      "category": "Qwen 3"
+    },
+    {
+      "name": "Qwen3 4B Instruct 2507 Heretic (Uncensored)",
+      "repo_url": "https://huggingface.co/p-e-w/Qwen3-4B-Instruct-2507-heretic",
+      "download_url": "https://huggingface.co/p-e-w/Qwen3-4B-Instruct-2507-heretic/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/p-e-w/Qwen3-4B-Instruct-2507-heretic",
+      "category": "Qwen 3"
+    },
+    {
+      "name": "Qwen3 4B Instruct 2507 Heretic NoSlop (Uncensored)",
+      "repo_url": "https://huggingface.co/numen-tech/Qwen3-4B-Instruct-2507-heretic-noslop-GPTQ-Int4",
+      "download_url": "https://huggingface.co/numen-tech/Qwen3-4B-Instruct-2507-heretic-noslop-GPTQ-Int4/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/numen-tech/Qwen3-4B-Instruct-2507-heretic-noslop-GPTQ-Int4",
+      "category": "Qwen 3"
+    },
+    {
+      "name": "DeepSeek R1 Distill Llama 8B",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "download_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "category": "DeepSeek R1 Distill"
+    },
+    {
+      "name": "DeepSeek R1 Distill Qwen 7B",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "download_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "category": "Qwen"
+    },
+    {
+      "name": "DeepSeek R1 Distill Llama 8B Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Llama-8B-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Llama-8B-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Llama-8B-abliterated",
+      "category": "DeepSeek R1 Distill"
+    },
+    {
+      "name": "DeepSeek R1 Distill Qwen 14B",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "download_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "category": "Qwen"
+    },
+    {
+      "name": "Meta Llama 3.2 3B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Llama 3.2 3B Instruct Abliterated 🦙 (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/Llama-3.2-3B-Instruct-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/Llama-3.2-3B-Instruct-abliterated",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Llama 3.2 3B Instruct Uncensored 🦙",
+      "repo_url": "https://huggingface.co/chuanli11/Llama-3.2-3B-Instruct-uncensored",
+      "download_url": "https://huggingface.co/chuanli11/Llama-3.2-3B-Instruct-uncensored/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/chuanli11/Llama-3.2-3B-Instruct-uncensored",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Hermes 3 Llama 3.2 3B",
+      "repo_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B",
+      "download_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "FuseChat Llama 3.2 3B Instruct",
+      "repo_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.2-3B-Instruct",
+      "download_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.2-3B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.2-3B-Instruct",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Dolphin 3.0 Llama 3.2 3B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-3B",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-3B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-3B",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Meta Llama 3.2 1B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Llama 3.2 1B Instruct Abliterated 🦙 (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "FuseChat Llama 3.2 1B Instruct",
+      "repo_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.2-1B-Instruct",
+      "download_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.2-1B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.2-1B-Instruct",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Dolphin 3.0 Llama 3.2 1B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B",
+      "category": "Llama 3.2"
+    },
+    {
+      "name": "Gemma 3 1B IT 💎",
+      "repo_url": "https://huggingface.co/google/gemma-3-1b-it",
+      "download_url": "https://huggingface.co/google/gemma-3-1b-it/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/google/gemma-3-1b-it",
+      "category": "Gemma 3"
+    },
+    {
+      "name": "Gemma 3 1B IT Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/mlabonne/gemma-3-1b-it-abliterated",
+      "download_url": "https://huggingface.co/mlabonne/gemma-3-1b-it-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mlabonne/gemma-3-1b-it-abliterated",
+      "category": "Gemma 3"
+    },
+    {
+      "name": "Amoral Gemma 3 1B v2 (Uncensored)",
+      "repo_url": "https://huggingface.co/soob3123/amoral-gemma3-1B-v2",
+      "download_url": "https://huggingface.co/soob3123/amoral-gemma3-1B-v2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/soob3123/amoral-gemma3-1B-v2",
+      "category": "Gemma 3"
+    },
+    {
+      "name": "Gemma-2 9B IT 💎",
+      "repo_url": "https://huggingface.co/google/gemma-2-9b-it",
+      "download_url": "https://huggingface.co/google/gemma-2-9b-it/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/google/gemma-2-9b-it",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Gemma-2 9B IT SPPO Iter3",
+      "repo_url": "https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3",
+      "download_url": "https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Tiger Gemma 9B v3 🐅 (Uncensored)",
+      "repo_url": "https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3",
+      "download_url": "https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3",
+      "category": "Gemma"
+    },
+    {
+      "name": "FuseChat Gemma 2 9B Instruct",
+      "repo_url": "https://huggingface.co/FuseAI/FuseChat-Gemma-2-9B-Instruct",
+      "download_url": "https://huggingface.co/FuseAI/FuseChat-Gemma-2-9B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Gemma-2-9B-Instruct",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Gemma 2 Ifable 9B (Creative Writing)",
+      "repo_url": "https://huggingface.co/ifable/gemma-2-Ifable-9B",
+      "download_url": "https://huggingface.co/ifable/gemma-2-Ifable-9B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/ifable/gemma-2-Ifable-9B",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Gemma-2 2B IT 💎",
+      "repo_url": "https://huggingface.co/google/gemma-2-2b-it",
+      "download_url": "https://huggingface.co/google/gemma-2-2b-it/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/google/gemma-2-2b-it",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "SauerkrautLM Gemma-2 2B IT",
+      "repo_url": "https://huggingface.co/VAGOsolutions/SauerkrautLM-gemma-2-2b-it",
+      "download_url": "https://huggingface.co/VAGOsolutions/SauerkrautLM-gemma-2-2b-it/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/VAGOsolutions/SauerkrautLM-gemma-2-2b-it",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Meta Llama 3.1 8B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Meta Llama 3.1 8B Instruct Abliterated 🦙(Uncensored)",
+      "repo_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "download_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Hermes 3 Llama 3.1 8B",
+      "repo_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+      "download_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "FuseChat Llama 3.1 8B Instruct",
+      "repo_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.1-8B-Instruct",
+      "download_url": "https://huggingface.co/FuseAI/FuseChat-Llama-3.1-8B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.1-8B-Instruct",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Llama 3.1 8B Lexi Uncensored V2 (Therapy/Role-Play)",
+      "repo_url": "https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+      "download_url": "https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Dolphin 3.0 Llama 3.1 8B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Meta Llama 3.1 8B Survive V3 (Survival Specialist)",
+      "repo_url": "https://huggingface.co/lolzinventor/Meta-Llama-3.1-8B-SurviveV3",
+      "download_url": "https://huggingface.co/lolzinventor/Meta-Llama-3.1-8B-SurviveV3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/lolzinventor/Meta-Llama-3.1-8B-SurviveV3",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Llama 3.1 8B UltraMedical 🏥 (Biomedical)",
+      "repo_url": "https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical",
+      "download_url": "https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Meta Llama 3 8B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Meta Llama 3 8B Instruct Abliterated v3 (Uncensored)",
+      "repo_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
+      "download_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
+      "category": "Llama 3"
+    },
+    {
+      "name": "NeuralDaredevil 8B Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated",
+      "download_url": "https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated",
+      "category": "Other"
+    },
+    {
+      "name": "Llama 3 8B Instruct MopeyMule",
+      "repo_url": "https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule",
+      "download_url": "https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Llama 3 WhiteRabbitNeo 8B v2.0",
+      "repo_url": "https://huggingface.co/WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0",
+      "download_url": "https://huggingface.co/WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Hermes 2 Theta Llama 3 8B",
+      "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B",
+      "download_url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B",
+      "category": "Llama 3"
+    },
+    {
+      "name": "LLaMA3-iterative-DPO-final",
+      "repo_url": "https://huggingface.co/RLHFlow/LLaMA3-iterative-DPO-final",
+      "download_url": "https://huggingface.co/RLHFlow/LLaMA3-iterative-DPO-final/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/RLHFlow/LLaMA3-iterative-DPO-final",
+      "category": "Other"
+    },
+    {
+      "name": "Hathor_Stable-v0.2-L3-8B",
+      "repo_url": "https://huggingface.co/Nitral-AI/Hathor_Stable-v0.2-L3-8B",
+      "download_url": "https://huggingface.co/Nitral-AI/Hathor_Stable-v0.2-L3-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Nitral-AI/Hathor_Stable-v0.2-L3-8B",
+      "category": "Other"
+    },
+    {
+      "name": "Openchat 3.6 8B 20240522",
+      "repo_url": "https://huggingface.co/openchat/openchat-3.6-8b-20240522",
+      "download_url": "https://huggingface.co/openchat/openchat-3.6-8b-20240522/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/openchat/openchat-3.6-8b-20240522",
+      "category": "Other"
+    },
+    {
+      "name": "Dolphin 2.9 Llama 3 8B (Uncensored) 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+      "download_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Llama 3 Smaug 8B",
+      "repo_url": "https://huggingface.co/abacusai/Llama-3-Smaug-8B",
+      "download_url": "https://huggingface.co/abacusai/Llama-3-Smaug-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/abacusai/Llama-3-Smaug-8B",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Hermes 2 Pro Llama 3 8B ☤",
+      "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B",
+      "download_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B",
+      "category": "Llama 3"
+    },
+    {
+      "name": "OpenBioLLM-8B 🧬 (Biomedical)",
+      "repo_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
+      "download_url": "https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
+      "category": "Other"
+    },
+    {
+      "name": "L3 Umbral Mind RP v3.0 8B 🌓",
+      "repo_url": "https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B",
+      "download_url": "https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B",
+      "category": "Other"
+    },
+    {
+      "name": "Llama 3 Instruct 8B SPPO Iter3",
+      "repo_url": "https://huggingface.co/UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3",
+      "download_url": "https://huggingface.co/UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Qwen 2.5 0.5B Unquantized",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 Coder 0.5B Unquantized",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Dolphin 3.0 Qwen 2.5 0.5B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 1.5B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 Coder 1.5B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "EVA-D Qwen2.5 1.5B v0.0 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/EVA-UNIT-01/EVA-D-Qwen2.5-1.5B-v0.0",
+      "download_url": "https://huggingface.co/EVA-UNIT-01/EVA-D-Qwen2.5-1.5B-v0.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-D-Qwen2.5-1.5B-v0.0",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Dolphin 3.0 Qwen 2.5 1.5B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-1.5B",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-1.5B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-1.5B",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 3B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 Coder 3B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Dolphin 3.0 Qwen 2.5 3B 🐬 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-3b",
+      "download_url": "https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-3b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-3b",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 7B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "FuseChat Qwen 2.5 7B Instruct",
+      "repo_url": "https://huggingface.co/FuseAI/FuseChat-Qwen-2.5-7B-Instruct",
+      "download_url": "https://huggingface.co/FuseAI/FuseChat-Qwen-2.5-7B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Qwen-2.5-7B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "EVA Qwen2.5 7B v0.1 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-7B-v0.1",
+      "download_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-7B-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-7B-v0.1",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "OpenHands LM 7B v0.1 (Coding)",
+      "repo_url": "https://huggingface.co/all-hands/openhands-lm-7b-v0.1",
+      "download_url": "https://huggingface.co/all-hands/openhands-lm-7b-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/all-hands/openhands-lm-7b-v0.1",
+      "category": "Other"
+    },
+    {
+      "name": "Qwen 2.5 Coder 7B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 Coder 14B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "EVA Qwen2.5 14B v0.2 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-14B-v0.2",
+      "download_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-14B-v0.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-14B-v0.2",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Phi-3 Mini 4K Instruct",
+      "repo_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+      "download_url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+      "category": "Phi 3"
+    },
+    {
+      "name": "Kappa-3 Phi Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/failspy/kappa-3-phi-abliterated",
+      "download_url": "https://huggingface.co/failspy/kappa-3-phi-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/failspy/kappa-3-phi-abliterated",
+      "category": "Other"
+    },
+    {
+      "name": "Gemma 2B IT 💎",
+      "repo_url": "https://huggingface.co/google/gemma-2b-it/",
+      "download_url": "https://huggingface.co/google/gemma-2b-it//resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/google/gemma-2b-it/",
+      "category": "Gemma 2"
+    },
+    {
+      "name": "Gemma 1.1 2B IT 💎",
+      "repo_url": "https://huggingface.co/google/gemma-1.1-2b-it",
+      "download_url": "https://huggingface.co/google/gemma-1.1-2b-it/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/google/gemma-1.1-2b-it",
+      "category": "Gemma"
+    },
+    {
+      "name": "Mistral 7B Instruct v0.3",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "download_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Mistral 7B Instruct v0.2",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "download_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "OpenHermes 2.5 Mistral 7B ☤",
+      "repo_url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+      "download_url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Hermes 2 Pro Mistral 7B ☤",
+      "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
+      "download_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "RakutenAI 7B Chat 🇯🇵",
+      "repo_url": "https://huggingface.co/Rakuten/RakutenAI-7B-chat",
+      "download_url": "https://huggingface.co/Rakuten/RakutenAI-7B-chat/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Rakuten/RakutenAI-7B-chat",
+      "category": "Other"
+    },
+    {
+      "name": "openchat-3.5-0106 7B 💬",
+      "repo_url": "https://huggingface.co/openchat/openchat-3.5-0106",
+      "download_url": "https://huggingface.co/openchat/openchat-3.5-0106/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/openchat/openchat-3.5-0106",
+      "category": "Other"
+    },
+    {
+      "name": "CodeNinja 1.0 OpenChat 7B 🥷",
+      "repo_url": "https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B",
+      "download_url": "https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B",
+      "category": "Other"
+    },
+    {
+      "name": "Starling LM 7B Beta 🐤",
+      "repo_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
+      "download_url": "https://huggingface.co/Nexusflow/Starling-LM-7B-beta/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
+      "category": "Other"
+    },
+    {
+      "name": "Dolphin 2.8 Mistral 7B v0.2 (Uncensored) 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/dolphin-2.8-mistral-7b-v02",
+      "download_url": "https://huggingface.co/cognitivecomputations/dolphin-2.8-mistral-7b-v02/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.8-mistral-7b-v02",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "DictaLM 2.0 Instruct 🇮🇱",
+      "repo_url": "https://huggingface.co/dicta-il/dictalm2.0-instruct",
+      "download_url": "https://huggingface.co/dicta-il/dictalm2.0-instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/dicta-il/dictalm2.0-instruct",
+      "category": "Other"
+    },
+    {
+      "name": "Airoboros l2 7b 3.0",
+      "repo_url": "https://huggingface.co/jondurbin/airoboros-l2-7b-3.0",
+      "download_url": "https://huggingface.co/jondurbin/airoboros-l2-7b-3.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/jondurbin/airoboros-l2-7b-3.0",
+      "category": "Other"
+    },
+    {
+      "name": "Spicyboros 7b 2.2 🌶️",
+      "repo_url": "https://huggingface.co/jondurbin/spicyboros-7b-2.2",
+      "download_url": "https://huggingface.co/jondurbin/spicyboros-7b-2.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/jondurbin/spicyboros-7b-2.2",
+      "category": "Other"
+    },
+    {
+      "name": "Phi-2 Orange 🍊",
+      "repo_url": "https://huggingface.co/rhysjones/phi-2-orange",
+      "download_url": "https://huggingface.co/rhysjones/phi-2-orange/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/rhysjones/phi-2-orange",
+      "category": "Phi 2"
+    },
+    {
+      "name": "Dolphin 2.6 Phi-2 (Uncensored) 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/dolphin-2_6-phi-2",
+      "download_url": "https://huggingface.co/cognitivecomputations/dolphin-2_6-phi-2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2_6-phi-2",
+      "category": "Phi 2"
+    },
+    {
+      "name": "Phi-2 Super 🤖",
+      "repo_url": "https://huggingface.co/abacaj/phi-2-super",
+      "download_url": "https://huggingface.co/abacaj/phi-2-super/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/abacaj/phi-2-super",
+      "category": "Phi 2"
+    },
+    {
+      "name": "Phi-2 Orange v2 🍊",
+      "repo_url": "https://huggingface.co/rhysjones/phi-2-orange-v2",
+      "download_url": "https://huggingface.co/rhysjones/phi-2-orange-v2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/rhysjones/phi-2-orange-v2",
+      "category": "Phi 2"
+    },
+    {
+      "name": "H2O Danube 1.8B Chat",
+      "repo_url": "https://huggingface.co/h2oai/h2o-danube-1.8b-chat",
+      "download_url": "https://huggingface.co/h2oai/h2o-danube-1.8b-chat/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/h2oai/h2o-danube-1.8b-chat",
+      "category": "Other"
+    },
+    {
+      "name": "StableLM 2 Zephyr 1.6B 🪁",
+      "repo_url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
+      "download_url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
+      "category": "StableLM"
+    },
+    {
+      "name": "Nous-Capybara-3B V1.9",
+      "repo_url": "https://huggingface.co/NousResearch/Nous-Capybara-3B-V1.9",
+      "download_url": "https://huggingface.co/NousResearch/Nous-Capybara-3B-V1.9/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Nous-Capybara-3B-V1.9",
+      "category": "Other"
+    },
+    {
+      "name": "Rocket 3B 🚀",
+      "repo_url": "https://huggingface.co/pansophic/rocket-3B",
+      "download_url": "https://huggingface.co/pansophic/rocket-3B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/pansophic/rocket-3B",
+      "category": "Other"
+    },
+    {
+      "name": "TinyLlama 1.1B Chat 🦙",
+      "repo_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "download_url": "https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "category": "Other"
+    },
+    {
+      "name": "TinyDolphin 2.8 1.1B Chat 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/TinyDolphin-2.8-1.1b",
+      "download_url": "https://huggingface.co/cognitivecomputations/TinyDolphin-2.8-1.1b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/TinyDolphin-2.8-1.1b",
+      "category": "Dolphin"
+    },
+    {
+      "name": "Yi 6B Chat 🇨🇳",
+      "repo_url": "https://huggingface.co/01-ai/Yi-6B-Chat",
+      "download_url": "https://huggingface.co/01-ai/Yi-6B-Chat/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/01-ai/Yi-6B-Chat",
+      "category": "Yi"
+    },
+    {
+      "name": "Fuse O1 DeepSeek R1 QwQ SkyT1 32B",
+      "repo_url": "https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview",
+      "download_url": "https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/FuseAI/FuseO1-DeepSeekR1-QwQ-SkyT1-32B-Preview",
+      "category": "DeepSeek R1 Distill"
+    },
+    {
+      "name": "DeepSeek R1 Distill Qwen 32B Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-32B-abliterated",
+      "category": "Qwen"
+    },
+    {
+      "name": "DeepSeek R1 Distill Llama 70B",
+      "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "download_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "category": "DeepSeek R1 Distill"
+    },
+    {
+      "name": "R1 1776 Distill Llama 70B",
+      "repo_url": "https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b",
+      "download_url": "https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b",
+      "category": "Other"
+    },
+    {
+      "name": "Phi-4",
+      "repo_url": "https://huggingface.co/microsoft/phi-4",
+      "download_url": "https://huggingface.co/microsoft/phi-4/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/microsoft/phi-4",
+      "category": "Phi 4"
+    },
+    {
+      "name": "Meta Llama 3.3 70B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "category": "Llama 3.3"
+    },
+    {
+      "name": "Llama 3.3 70B Instruct Abliterated (Uncensored)",
+      "repo_url": "https://huggingface.co/huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+      "download_url": "https://huggingface.co/huihui-ai/Llama-3.3-70B-Instruct-abliterated/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+      "category": "Llama 3.3"
+    },
+    {
+      "name": "EVA LLaMA 3.33 70B v0.1 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1",
+      "download_url": "https://huggingface.co/EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-LLaMA-3.33-70B-v0.1",
+      "category": "Llama 3.3"
+    },
+    {
+      "name": "Llama 3.3 70B Euryale v2.3 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/Sao10K/L3.3-70B-Euryale-v2.3",
+      "download_url": "https://huggingface.co/Sao10K/L3.3-70B-Euryale-v2.3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Sao10K/L3.3-70B-Euryale-v2.3",
+      "category": "Llama 3.3"
+    },
+    {
+      "name": "Meta Llama 3.1 70B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "download_url": "https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "category": "Llama 3.1"
+    },
+    {
+      "name": "Qwen 2.5 32B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-32B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "Qwen 2.5 Coder 32B",
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "EVA Qwen2.5 32B v0.2 (Role-Play/Story Writing)",
+      "repo_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2",
+      "download_url": "https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-32B-v0.2",
+      "category": "Qwen 2.5"
+    },
+    {
+      "name": "OpenHands LM 32B v0.1 (Coding)",
+      "repo_url": "https://huggingface.co/all-hands/openhands-lm-32b-v0.1",
+      "download_url": "https://huggingface.co/all-hands/openhands-lm-32b-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/all-hands/openhands-lm-32b-v0.1",
+      "category": "Other"
+    },
+    {
+      "name": "Meta Llama 3 70B Instruct 🦙",
+      "repo_url": "https://huggingface.co/meta-llama/Meta-Llama-3-70B",
+      "download_url": "https://huggingface.co/meta-llama/Meta-Llama-3-70B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3-70B",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Smaug Llama 3 70B Instruct",
+      "repo_url": "https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct",
+      "download_url": "https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Smaug Llama 3 70B Instruct Abliterated v3 (Uncensored)",
+      "repo_url": "https://huggingface.co/failspy/Smaug-Llama-3-70B-Instruct-abliterated-v3",
+      "download_url": "https://huggingface.co/failspy/Smaug-Llama-3-70B-Instruct-abliterated-v3/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/failspy/Smaug-Llama-3-70B-Instruct-abliterated-v3",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Cat Llama 3 70B Instruct",
+      "repo_url": "https://huggingface.co/turboderp/Cat-Llama-3-70B-instruct",
+      "download_url": "https://huggingface.co/turboderp/Cat-Llama-3-70B-instruct/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/turboderp/Cat-Llama-3-70B-instruct",
+      "category": "Llama 3"
+    },
+    {
+      "name": "Mixtral-8x7B-Instruct-v0.1",
+      "repo_url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "download_url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Dolphin 2.6 Mixtral 8x7B 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+      "download_url": "https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.6-mixtral-8x7b",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Nous Hermes 2 Mixtral 8x7B DPO ☤",
+      "repo_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "download_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "WizardLM 33B v1.0 (Uncensored)",
+      "repo_url": "https://huggingface.co/cognitivecomputations/WizardLM-33B-V1.0-(Uncensored)",
+      "download_url": "https://huggingface.co/cognitivecomputations/WizardLM-33B-V1.0-(Uncensored)/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/WizardLM-33B-V1.0-(Uncensored)",
+      "category": "Other"
+    },
+    {
+      "name": "Wizard LM 13B",
+      "repo_url": "https://huggingface.co/WizardLM/WizardLM-13B-V1.2",
+      "download_url": "https://huggingface.co/WizardLM/WizardLM-13B-V1.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/WizardLM/WizardLM-13B-V1.2",
+      "category": "Other"
+    },
+    {
+      "name": "Spicyboros 13B 🌶️",
+      "repo_url": "https://huggingface.co/jondurbin/spicyboros-13b-2.2",
+      "download_url": "https://huggingface.co/jondurbin/spicyboros-13b-2.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/jondurbin/spicyboros-13b-2.2",
+      "category": "Other"
+    },
+    {
+      "name": "Synthia 13B 1.2",
+      "repo_url": "https://huggingface.co/migtissera/Synthia-13B-v1.2",
+      "download_url": "https://huggingface.co/migtissera/Synthia-13B-v1.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/migtissera/Synthia-13B-v1.2",
+      "category": "Other"
+    },
+    {
+      "name": "XWin-LM-13B",
+      "repo_url": "https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.1",
+      "download_url": "https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Xwin-LM/Xwin-LM-13B-V0.1",
+      "category": "Other"
+    },
+    {
+      "name": "Mythomax L2 13B",
+      "repo_url": "https://huggingface.co/Gryphe/MythoMax-L2-13b",
+      "download_url": "https://huggingface.co/Gryphe/MythoMax-L2-13b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Gryphe/MythoMax-L2-13b",
+      "category": "Other"
+    },
+    {
+      "name": "WhiteRabbitNeo-13B-v1",
+      "repo_url": "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-13B-v1",
+      "download_url": "https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-13B-v1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-13B-v1",
+      "category": "Other"
+    },
+    {
+      "name": "airoboros-l2-7b-3.0",
+      "repo_url": "https://huggingface.co/jondurbin/airoboros-l2-7b-3.0",
+      "download_url": "https://huggingface.co/jondurbin/airoboros-l2-7b-3.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/jondurbin/airoboros-l2-7b-3.0",
+      "category": "Other"
+    },
+    {
+      "name": "Xwin-LM-7B v0.1",
+      "repo_url": "https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1",
+      "download_url": "https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1",
+      "category": "Other"
+    },
+    {
+      "name": "Nous-Hermes-2-SOLAR-10.7B ☤",
+      "repo_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-SOLAR-10.7B",
+      "download_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-SOLAR-10.7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Nous-Hermes-2-SOLAR-10.7B",
+      "category": "Hermes"
+    },
+    {
+      "name": "Phi-2 Orange Version 2 🍊",
+      "repo_url": "https://huggingface.co/rhysjones/phi-2-orange-v2",
+      "download_url": "https://huggingface.co/rhysjones/phi-2-orange-v2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/rhysjones/phi-2-orange-v2",
+      "category": "Phi 2"
+    },
+    {
+      "name": "Mistral Instruct v0.1",
+      "repo_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+      "download_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Mistral-7B-OpenOrca",
+      "repo_url": "https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+      "download_url": "https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Zephyr 7B Beta 🪁",
+      "repo_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+      "download_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+      "category": "StableLM"
+    },
+    {
+      "name": "Leo Mistral Hessian AI 7B 🇩🇪",
+      "repo_url": "https://huggingface.co/LeoLM/leo-mistral-hessianai-7b-chat/tree/main",
+      "download_url": "https://huggingface.co/LeoLM/leo-mistral-hessianai-7b-chat/tree/main/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/LeoLM/leo-mistral-hessianai-7b-chat/tree/main",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Jackalope 7B",
+      "repo_url": "https://huggingface.co/openaccess-ai-collective/jackalope-7b",
+      "download_url": "https://huggingface.co/openaccess-ai-collective/jackalope-7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/openaccess-ai-collective/jackalope-7b",
+      "category": "Other"
+    },
+    {
+      "name": "Dolphin 2.1 Mistral (Uncensored) 🐬",
+      "repo_url": "https://huggingface.co/cognitivecomputations/dolphin-2.1-mistral-7b",
+      "download_url": "https://huggingface.co/cognitivecomputations/dolphin-2.1-mistral-7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.1-mistral-7b",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Samantha 1.2 Mistral",
+      "repo_url": "https://huggingface.co/cognitivecomputations/samantha-1.2-mistral-7b",
+      "download_url": "https://huggingface.co/cognitivecomputations/samantha-1.2-mistral-7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/cognitivecomputations/samantha-1.2-mistral-7b",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "OpenHermes 2 Mistral ☤",
+      "repo_url": "https://huggingface.co/teknium/OpenHermes-2-Mistral-7B",
+      "download_url": "https://huggingface.co/teknium/OpenHermes-2-Mistral-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/teknium/OpenHermes-2-Mistral-7B",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "SynthIA 7B 2.0",
+      "repo_url": "https://huggingface.co/migtissera/SynthIA-7B-v2.0",
+      "download_url": "https://huggingface.co/migtissera/SynthIA-7B-v2.0/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/migtissera/SynthIA-7B-v2.0",
+      "category": "Other"
+    },
+    {
+      "name": "Airoboros M 7B",
+      "repo_url": "https://huggingface.co/jondurbin/airoboros-m-7b-3.1.2",
+      "download_url": "https://huggingface.co/jondurbin/airoboros-m-7b-3.1.2/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/jondurbin/airoboros-m-7b-3.1.2",
+      "category": "Other"
+    },
+    {
+      "name": "Mistral Trismegistus 7B",
+      "repo_url": "https://huggingface.co/teknium/Mistral-Trismegistus-7B",
+      "download_url": "https://huggingface.co/teknium/Mistral-Trismegistus-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/teknium/Mistral-Trismegistus-7B",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Cerbero 7B 🇮🇹",
+      "repo_url": "https://huggingface.co/galatolo/cerbero-7b",
+      "download_url": "https://huggingface.co/galatolo/cerbero-7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/galatolo/cerbero-7b",
+      "category": "Other"
+    },
+    {
+      "name": "openchat-3.5-0106 7B",
+      "repo_url": "https://huggingface.co/openchat/openchat-3.5-0106",
+      "download_url": "https://huggingface.co/openchat/openchat-3.5-0106/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/openchat/openchat-3.5-0106",
+      "category": "Other"
+    },
+    {
+      "name": "BioMistral 7B 🧬 (Biomedical)",
+      "repo_url": "https://huggingface.co/BioMistral/BioMistral-7B",
+      "download_url": "https://huggingface.co/BioMistral/BioMistral-7B/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/BioMistral/BioMistral-7B",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Nous-Hermes-2-Mistral-7B-DPO ☤",
+      "repo_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "download_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "category": "Mistral / Mixtral"
+    },
+    {
+      "name": "Merlinite 7B 🧙",
+      "repo_url": "https://huggingface.co/ibm/merlinite-7b",
+      "download_url": "https://huggingface.co/ibm/merlinite-7b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/ibm/merlinite-7b",
+      "category": "Other"
+    },
+    {
+      "name": "StableLM Zephyr 3B 🪁",
+      "repo_url": "https://huggingface.co/stabilityai/stablelm-zephyr-3b",
+      "download_url": "https://huggingface.co/stabilityai/stablelm-zephyr-3b/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/stabilityai/stablelm-zephyr-3b",
+      "category": "StableLM"
+    },
+    {
+      "name": "Yi 34B Chat 🇨🇳",
+      "repo_url": "https://huggingface.co/01-ai/Yi-34B-Chat",
+      "download_url": "https://huggingface.co/01-ai/Yi-34B-Chat/resolve/main/model.gguf",
+      "description": "Downloaded from https://huggingface.co/01-ai/Yi-34B-Chat",
+      "category": "Yi"
+    }
+  ]
+}
