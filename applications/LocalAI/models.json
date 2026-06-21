@@ -1,830 +1,2040 @@
 {
+  "catalog_version": 2,
   "models": [
-    {
-      "name": "deepseek v4",
-      "repo_url": "https://huggingface.co/antirez/deepseek-v4-gguf",
-      "download_url": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-MTP-Q4K-Q8_0-F32.gguf",
-      "description": "Downloaded from https://huggingface.co/antirez/deepseek-v4-gguf",
-      "category": "DeepSeek"
-    },
     {
       "name": "DeepSeek R1 Distill Llama 8B",
       "repo_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF",
       "download_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Llama-8B-GGUF/resolve/main/DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-      "category": "DeepSeek R1 Distill"
+      "description": "蒸馏推理模型，适合 8GB 内存设备上的深度思考任务",
+      "category": "DeepSeek R1 Distill",
+      "filename": "DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920737216,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "reasoning",
+        "chat"
+      ]
     },
     {
       "name": "DeepSeek R1 Distill Llama 8B Abliterated (Uncensored)",
       "repo_url": "https://huggingface.co/ibrahimkettaneh/DeepSeek-R1-Distill-Llama-8B-Abliterated-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/ibrahimkettaneh/DeepSeek-R1-Distill-Llama-8B-Abliterated-Q4_K_M-GGUF/resolve/main/deepseek-r1-distill-llama-8b-abliterated-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Llama-8B-abliterated",
-      "category": "DeepSeek R1 Distill"
+      "description": "8B 参数，通用本地 GGUF 模型（DeepSeek R1 Distill 系列）",
+      "category": "DeepSeek R1 Distill",
+      "filename": "deepseek-r1-distill-llama-8b-abliterated-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920736832,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat",
+        "reasoning"
+      ]
     },
     {
       "name": "TinyDolphin 2.8 1.1B Chat 🐬",
       "repo_url": "https://huggingface.co/dagbs/TinyDolphin-2.8-1.1b-GGUF",
       "download_url": "https://huggingface.co/dagbs/TinyDolphin-2.8-1.1b-GGUF/resolve/main/TinyDolphin-2.8-1.1b.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/dagbs/TinyDolphin-2.8-1.1b-GGUF",
-      "category": "Dolphin"
+      "description": "轻量对话模型，响应快，适合入门体验",
+      "category": "Dolphin",
+      "filename": "TinyDolphin-2.8-1.1b.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.1,
+      "size_bytes": 667820128,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Gemma 4 E4B Uncensored HauhauCS Aggressive",
       "repo_url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
       "download_url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-      "category": "Gemma"
+      "description": "4B 参数，通用本地 GGUF 模型（Gemma 系列）",
+      "category": "Gemma 4",
+      "filename": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 4.0,
+      "size_bytes": 5335285728,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Tiger Gemma 9B v3 🐅 (Uncensored)",
       "repo_url": "https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3-GGUF",
       "download_url": "https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3-GGUF/resolve/main/Tiger-Gemma-9B-v3-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/TheDrummer/Tiger-Gemma-9B-v3",
-      "category": "Gemma"
+      "description": "9B 参数，通用本地 GGUF 模型（Gemma 系列）",
+      "category": "Gemma",
+      "filename": "Tiger-Gemma-9B-v3-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5761057696,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "gemma 4 26B A4B it",
       "repo_url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
       "download_url": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF",
-      "category": "Gemma"
+      "description": "26B 参数，大型本地 GGUF 模型（Gemma 系列）",
+      "category": "Gemma 4",
+      "filename": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 26.0,
+      "size_bytes": 16947539744,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "gemma 4 31B it",
       "repo_url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
       "download_url": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/gemma-4-31B-it-GGUF",
-      "category": "Gemma"
+      "description": "31B 参数，大型本地 GGUF 模型（Gemma 系列）",
+      "category": "Gemma 4",
+      "filename": "gemma-4-31B-it-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 31.0,
+      "size_bytes": 18323731456,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "gemma 4 E4B it",
       "repo_url": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
       "download_url": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF",
-      "category": "Gemma"
+      "description": "4B 参数，通用本地 GGUF 模型（Gemma 系列）",
+      "category": "Gemma 4",
+      "filename": "gemma-4-E4B-it-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 4.0,
+      "size_bytes": 4977169568,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "FuseChat Gemma 2 9B Instruct",
       "repo_url": "https://huggingface.co/bartowski/FuseChat-Gemma-2-9B-Instruct-GGUF",
       "download_url": "https://huggingface.co/bartowski/FuseChat-Gemma-2-9B-Instruct-GGUF/resolve/main/FuseChat-Gemma-2-9B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Gemma-2-9B-Instruct",
-      "category": "Gemma 2"
+      "description": "9B 参数，通用本地 GGUF 模型（Gemma 2 系列）",
+      "category": "Gemma 2",
+      "filename": "FuseChat-Gemma-2-9B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5761057984,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Gemma 2 Ifable 9B (Creative Writing)",
       "repo_url": "https://huggingface.co/Nabokov/gemma-2-Ifable-9B-Q4_K_S-GGUF",
       "download_url": "https://huggingface.co/Nabokov/gemma-2-Ifable-9B-Q4_K_S-GGUF/resolve/main/gemma-2-ifable-9b-q4_k_s-imat.gguf",
-      "description": "Downloaded from https://huggingface.co/ifable/gemma-2-Ifable-9B",
-      "category": "Gemma 2"
+      "description": "9B 参数，通用本地 GGUF 模型（Gemma 2 系列）",
+      "category": "Gemma 2",
+      "filename": "gemma-2-ifable-9b-q4_k_s-imat.gguf",
+      "quantization": "Q4_K_S",
+      "params_b": 9.0,
+      "size_bytes": 5478925312,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Gemma-2 2B IT 💎",
       "repo_url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF",
       "download_url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/google/gemma-2-2b-it",
-      "category": "Gemma 2"
+      "description": "2B 参数，通用本地 GGUF 模型（Gemma 2 系列）",
+      "category": "Gemma 4",
+      "filename": "gemma-4-E2B-it-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 2.0,
+      "size_bytes": 3106736256,
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Gemma-2 9B IT SPPO Iter3",
       "repo_url": "https://huggingface.co/hrtdind/Gemma-2-9B-It-SPPO-Iter3-Q5_K_M-GGUF",
       "download_url": "https://huggingface.co/hrtdind/Gemma-2-9B-It-SPPO-Iter3-Q5_K_M-GGUF/resolve/main/gemma-2-9b-it-sppo-iter3-q5_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/UCLA-AGI/Gemma-2-9B-It-SPPO-Iter3",
-      "category": "Gemma 2"
+      "description": "9B 参数，通用本地 GGUF 模型（Gemma 2 系列）",
+      "category": "Gemma 2",
+      "filename": "gemma-2-9b-it-sppo-iter3-q5_k_m.gguf",
+      "quantization": "Q5_K_M",
+      "params_b": 9.0,
+      "size_bytes": 6647367168,
+      "tier": "standard",
+      "recommended_ram_gb": 11,
+      "recommended_vram_gb": 9,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Gemma-2 9B IT 💎",
       "repo_url": "https://huggingface.co/zhezhe/gemma-2-9b-it-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/zhezhe/gemma-2-9b-it-Q4_K_M-GGUF/resolve/main/gemma-2-9b-it-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/google/gemma-2-9b-it",
-      "category": "Gemma 2"
+      "description": "9B 参数，通用本地 GGUF 模型（Gemma 2 系列）",
+      "category": "Gemma 2",
+      "filename": "gemma-2-9b-it-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5761058432,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Amoral Gemma 3 1B v2 (Uncensored)",
       "repo_url": "https://huggingface.co/soob3123/amoral-gemma3-1B-v2-gguf",
       "download_url": "https://huggingface.co/soob3123/amoral-gemma3-1B-v2-gguf/resolve/main/amoral-gemma3-1B-v2-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/soob3123/amoral-gemma3-1B-v2",
-      "category": "Gemma 3"
+      "description": "1B 参数，轻量本地 GGUF 模型（Gemma 3 系列）",
+      "category": "Gemma 3",
+      "filename": "amoral-gemma3-1B-v2-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 806058336,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Gemma 3 1B IT Abliterated (Uncensored)",
       "repo_url": "https://huggingface.co/bartowski/huihui-ai_gemma-3-1b-it-abliterated-GGUF",
       "download_url": "https://huggingface.co/bartowski/huihui-ai_gemma-3-1b-it-abliterated-GGUF/resolve/main/huihui-ai_gemma-3-1b-it-abliterated-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/mlabonne/gemma-3-1b-it-abliterated",
-      "category": "Gemma 3"
+      "description": "1B 参数，轻量本地 GGUF 模型（Gemma 3 系列）",
+      "category": "Gemma 3",
+      "filename": "huihui-ai_gemma-3-1b-it-abliterated-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 806058592,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Gemma 3 1B IT 💎",
       "repo_url": "https://huggingface.co/Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF",
       "download_url": "https://huggingface.co/Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF/resolve/main/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_Q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/google/gemma-3-1b-it",
-      "category": "Gemma 3"
+      "description": "1B 参数，轻量本地 GGUF 模型（Gemma 3 系列）",
+      "category": "Gemma 3",
+      "filename": "Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_Q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 806059360,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Dolphin 2.9 Llama 3 8B (Uncensored) 🐬",
       "repo_url": "https://huggingface.co/3thn/dolphin-2.9-llama3-8b-GGUF",
       "download_url": "https://huggingface.co/3thn/dolphin-2.9-llama3-8b-GGUF/resolve/main/dolphin-2.9-llama3-8b.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "dolphin-2.9-llama3-8b.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4921258368,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Hermes 2 Pro Llama 3 8B ☤",
       "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF",
       "download_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920916288,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Hermes 2 Theta Llama 3 8B",
       "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF",
       "download_url": "https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Hermes-2-Pro-Llama-3-Instruct-Merged-DPO-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920733728,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3 8B Instruct MopeyMule",
       "repo_url": "https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule-GGUF",
       "download_url": "https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule-GGUF/resolve/main/Llama-3-8B-Instruct-MopeyMule.gguf",
-      "description": "Downloaded from https://huggingface.co/failspy/Llama-3-8B-Instruct-MopeyMule",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Llama-3-8B-Instruct-MopeyMule.gguf",
+      "params_b": 8.0,
+      "size_bytes": 16068890912,
+      "tier": "standard",
+      "recommended_ram_gb": 21,
+      "recommended_vram_gb": 19,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3 Instruct 8B SPPO Iter3",
       "repo_url": "https://huggingface.co/redponike/Llama-3-Instruct-8B-SPPO-Iter3-GGUF",
       "download_url": "https://huggingface.co/redponike/Llama-3-Instruct-8B-SPPO-Iter3-GGUF/resolve/main/Llama-3-Instruct-8B-SPPO-Iter3-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Llama-3-Instruct-8B-SPPO-Iter3-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920733984,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3 Smaug 8B",
       "repo_url": "https://huggingface.co/bartowski/Llama-3-Smaug-8B-GGUF",
       "download_url": "https://huggingface.co/bartowski/Llama-3-Smaug-8B-GGUF/resolve/main/Llama-3-Smaug-8B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/abacusai/Llama-3-Smaug-8B",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Llama-3-Smaug-8B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920733984,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3 WhiteRabbitNeo 8B v2.0",
       "repo_url": "https://huggingface.co/redponike/Llama-3-WhiteRabbitNeo-8B-v2.0-GGUF",
       "download_url": "https://huggingface.co/redponike/Llama-3-WhiteRabbitNeo-8B-v2.0-GGUF/resolve/main/Llama-3-WhiteRabbitNeo-8B-v2.0-8B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Llama-3-WhiteRabbitNeo-8B-v2.0-8B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4921247168,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3 8B Instruct Abliterated v3 (Uncensored)",
       "repo_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF",
       "download_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-abliterated-v3.gguf",
-      "description": "Downloaded from https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Meta-Llama-3-8B-Instruct-abliterated-v3.gguf",
+      "params_b": 8.0,
+      "size_bytes": 16068890912,
+      "tier": "standard",
+      "recommended_ram_gb": 21,
+      "recommended_vram_gb": 19,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3 8B Instruct 🦙",
-      "repo_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF",
-      "download_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF/resolve/main/meta-llama-3.1-8b-instruct-abliterated.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
-      "category": "Llama 3"
+      "repo_url": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920733888,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "vntl llama3 8b v2",
       "repo_url": "https://huggingface.co/lmg-anon/vntl-llama3-8b-v2-gguf",
       "download_url": "https://huggingface.co/lmg-anon/vntl-llama3-8b-v2-gguf/resolve/main/vntl-llama3-8b-v2-hf-q5_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/lmg-anon/vntl-llama3-8b-v2-gguf",
-      "category": "Llama 3"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3 系列）",
+      "category": "Llama 3",
+      "filename": "vntl-llama3-8b-v2-hf-q5_k_m.gguf",
+      "quantization": "Q5_K_M",
+      "params_b": 8.0,
+      "size_bytes": 5732991008,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Dolphin 3.0 Llama 3.1 8B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF",
       "download_url": "https://huggingface.co/dphn/Dolphin3.0-Llama3.1-8B-GGUF/resolve/main/Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.1-8B",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "Dolphin3.0-Llama3.1-8B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920745856,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "FuseChat Llama 3.1 8B Instruct",
       "repo_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.1-8B-Instruct-GGUF",
       "download_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.1-8B-Instruct-GGUF/resolve/main/FuseChat-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.1-8B-Instruct",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "FuseChat-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920734784,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Hermes 3 Llama 3.1 8B",
       "repo_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF",
       "download_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "Hermes-3-Llama-3.1-8B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920733824,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3.1 8B Lexi Uncensored V2 (Therapy/Role-Play)",
       "repo_url": "https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF",
       "download_url": "https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF/resolve/main/Llama-3.1-8B-Lexi-Uncensored_V2_F16.gguf",
-      "description": "Downloaded from https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "Llama-3.1-8B-Lexi-Uncensored_V2_F16.gguf",
+      "quantization": "F16",
+      "params_b": 8.0,
+      "size_bytes": 16068895680,
+      "tier": "standard",
+      "recommended_ram_gb": 21,
+      "recommended_vram_gb": 19,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3.1 8B UltraMedical 🏥 (Biomedical)",
       "repo_url": "https://huggingface.co/mradermacher/Llama-3.1-8B-UltraMedical-GGUF",
       "download_url": "https://huggingface.co/mradermacher/Llama-3.1-8B-UltraMedical-GGUF/resolve/main/Llama-3.1-8B-UltraMedical.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/TsinghuaC3I/Llama-3.1-8B-UltraMedical",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "Llama-3.1-8B-UltraMedical.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920735776,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3.1 8B Instruct Abliterated 🦙(Uncensored)",
       "repo_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF",
       "download_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF/resolve/main/meta-llama-3.1-8b-instruct-abliterated.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "meta-llama-3.1-8b-instruct-abliterated.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920734784,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3.1 8B Instruct 🦙",
-      "repo_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF",
-      "download_url": "https://huggingface.co/mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated-GGUF/resolve/main/meta-llama-3.1-8b-instruct-abliterated.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct",
-      "category": "Llama 3.1"
+      "repo_url": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920739168,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3.1 8B Survive V3 (Survival Specialist)",
       "repo_url": "https://huggingface.co/NikolayKozloff/Meta-Llama-3.1-8B-SurviveV3-Q8_0-GGUF",
       "download_url": "https://huggingface.co/NikolayKozloff/Meta-Llama-3.1-8B-SurviveV3-Q8_0-GGUF/resolve/main/meta-llama-3.1-8b-survivev3-q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/lolzinventor/Meta-Llama-3.1-8B-SurviveV3",
-      "category": "Llama 3.1"
+      "description": "8B 参数，通用本地 GGUF 模型（Llama 3.1 系列）",
+      "category": "Llama 3.1",
+      "filename": "meta-llama-3.1-8b-survivev3-q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 8.0,
+      "size_bytes": 8540771424,
+      "tier": "standard",
+      "recommended_ram_gb": 12,
+      "recommended_vram_gb": 10,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Dolphin 3.0 Llama 3.2 1B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/itlwas/Dolphin3.0-Llama3.2-1B-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/itlwas/Dolphin3.0-Llama3.2-1B-Q4_K_M-GGUF/resolve/main/dolphin3.0-llama3.2-1b-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-1B",
-      "category": "Llama 3.2"
+      "description": "1B 参数，轻量本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "dolphin3.0-llama3.2-1b-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 807697152,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Dolphin 3.0 Llama 3.2 3B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.2-3B-GGUF",
       "download_url": "https://huggingface.co/bartowski/Dolphin3.0-Llama3.2-3B-GGUF/resolve/main/Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Llama3.2-3B",
-      "category": "Llama 3.2"
+      "description": "3B 参数，通用本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Dolphin3.0-Llama3.2-3B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2019382400,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "FuseChat Llama 3.2 1B Instruct",
       "repo_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.2-1B-Instruct-GGUF",
       "download_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.2-1B-Instruct-GGUF/resolve/main/FuseChat-Llama-3.2-1B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.2-1B-Instruct",
-      "category": "Llama 3.2"
+      "description": "1B 参数，轻量本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "FuseChat-Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 807690816,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "FuseChat Llama 3.2 3B Instruct",
       "repo_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.2-3B-Instruct-GGUF",
       "download_url": "https://huggingface.co/bartowski/FuseChat-Llama-3.2-3B-Instruct-GGUF/resolve/main/FuseChat-Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Llama-3.2-3B-Instruct",
-      "category": "Llama 3.2"
+      "description": "3B 参数，通用本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "FuseChat-Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2019374048,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Hermes 3 Llama 3.2 3B",
       "repo_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF",
       "download_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B",
-      "category": "Llama 3.2"
+      "description": "3B 参数，通用本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Hermes-3-Llama-3.2-3B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2019373888,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Llama 3.2 1B Instruct Abliterated 🦙 (Uncensored)",
       "repo_url": "https://huggingface.co/mradermacher/Josiefied-Llama-3.2-1B-Instruct-abliterated-v1-GGUF",
       "download_url": "https://huggingface.co/mradermacher/Josiefied-Llama-3.2-1B-Instruct-abliterated-v1-GGUF/resolve/main/Josiefied-Llama-3.2-1B-Instruct-abliterated-v1.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
-      "category": "Llama 3.2"
+      "description": "1B 参数，轻量本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Josiefied-Llama-3.2-1B-Instruct-abliterated-v1.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 807695072,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Llama 3.2 1B Instruct Q8_0",
       "repo_url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF",
       "download_url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF/resolve/main/llama-3.2-1b-instruct-q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF",
-      "category": "Llama 3.2"
+      "description": "1B 参数，轻量本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "llama-3.2-1b-instruct-q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 1.0,
+      "size_bytes": 1321079200,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Llama 3.2 3B Instruct Abliterated 🦙 (Uncensored)",
       "repo_url": "https://huggingface.co/QuantFactory/Llama-3.2-3B-Instruct-abliterated-GGUF",
       "download_url": "https://huggingface.co/QuantFactory/Llama-3.2-3B-Instruct-abliterated-GGUF/resolve/main/Llama-3.2-3B-Instruct-abliterated.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/huihui-ai/Llama-3.2-3B-Instruct-abliterated",
-      "category": "Llama 3.2"
+      "description": "3B 参数，通用本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Llama-3.2-3B-Instruct-abliterated.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2019377472,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
-      "name": "Llama 3.2 3B Instruct Uncensored 🦙",
+      "name": "Llama 3.2 30B A3B II Dark Champion Uncensored 🦙",
       "repo_url": "https://huggingface.co/mradermacher/Llama3.2-30B-A3B-II-Dark-Champion-INSTRUCT-Heretic-Abliterated-Uncensored-GGUF",
       "download_url": "https://huggingface.co/mradermacher/Llama3.2-30B-A3B-II-Dark-Champion-INSTRUCT-Heretic-Abliterated-Uncensored-GGUF/resolve/main/Llama3.2-30B-A3B-II-Dark-Champion-INSTRUCT-Heretic-Abliterated-Uncensored.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/chuanli11/Llama-3.2-3B-Instruct-uncensored",
-      "category": "Llama 3.2"
+      "description": "30B 参数，大型无审查 MoE 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Llama3.2-30B-A3B-II-Dark-Champion-INSTRUCT-Heretic-Abliterated-Uncensored.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 30.0,
+      "size_bytes": 18366980192,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Meta Llama 3.2 1B Instruct 🦙",
       "repo_url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-1b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
-      "category": "Llama 3.2"
+      "description": "1B 参数，轻量本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "llama-3.2-1b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.0,
+      "size_bytes": 807690656,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Meta Llama 3.2 3B Instruct 🦙",
       "repo_url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF",
       "download_url": "https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct",
-      "category": "Llama 3.2"
+      "description": "3B 参数，通用本地 GGUF 模型（Llama 3.2 系列）",
+      "category": "Llama 3.2",
+      "filename": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2019377600,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Dolphin 2.8 Mistral 7B v0.2 (Uncensored) 🐬",
       "repo_url": "https://huggingface.co/bartowski/dolphin-2.8-mistral-7b-v02-GGUF",
       "download_url": "https://huggingface.co/bartowski/dolphin-2.8-mistral-7b-v02-GGUF/resolve/main/dolphin-2.8-mistral-7b-v02-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2.8-mistral-7b-v02",
-      "category": "Mistral / Mixtral"
+      "description": "7B 参数，通用本地 GGUF 模型（Mistral / Mixtral 系列）",
+      "category": "Mistral / Mixtral",
+      "filename": "dolphin-2.8-mistral-7b-v02-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368450688,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Hermes 2 Pro Mistral 7B ☤",
       "repo_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF",
       "download_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B-GGUF/resolve/main/Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Hermes-2-Pro-Mistral-7B",
-      "category": "Mistral / Mixtral"
+      "description": "7B 参数，通用本地 GGUF 模型（Mistral / Mixtral 系列）",
+      "category": "Mistral / Mixtral",
+      "filename": "Hermes-2-Pro-Mistral-7B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368621312,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Mistral 7B Instruct v0.2",
       "repo_url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
       "download_url": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
-      "category": "Mistral / Mixtral"
+      "description": "7B 参数，通用本地 GGUF 模型（Mistral / Mixtral 系列）",
+      "category": "Mistral / Mixtral",
+      "filename": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368439584,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Mistral 7B Instruct v0.3",
       "repo_url": "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF",
       "download_url": "https://huggingface.co/MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF/resolve/main/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
-      "category": "Mistral / Mixtral"
+      "description": "7B 参数，通用本地 GGUF 模型（Mistral / Mixtral 系列）",
+      "category": "Mistral / Mixtral",
+      "filename": "Mistral-7B-Instruct-v0.3.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4372811936,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "OpenHermes 2.5 Mistral 7B ☤",
       "repo_url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF",
       "download_url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/openhermes-2.5-mistral-7b.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
-      "category": "Mistral / Mixtral"
+      "description": "7B 参数，通用本地 GGUF 模型（Mistral / Mixtral 系列）",
+      "category": "Mistral / Mixtral",
+      "filename": "openhermes-2.5-mistral-7b.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368450304,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Airoboros l2 7b 3.0",
       "repo_url": "https://huggingface.co/TheBloke/airoboros-l2-7B-3.0-GGUF",
       "download_url": "https://huggingface.co/TheBloke/airoboros-l2-7B-3.0-GGUF/resolve/main/airoboros-l2-7b-3.0.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/jondurbin/airoboros-l2-7b-3.0",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "airoboros-l2-7b-3.0.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4081004256,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "CodeNinja 1.0 OpenChat 7B 🥷",
       "repo_url": "https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B-GGUF",
       "download_url": "https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B-GGUF/resolve/main/codeninja-1.0-openchat-7b.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/beowolx/CodeNinja-1.0-OpenChat-7B",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "codeninja-1.0-openchat-7b.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368450592,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "DictaLM 2.0 Instruct 🇮🇱",
       "repo_url": "https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF",
       "download_url": "https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF/resolve/main/dictalm2.0-instruct.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/dicta-il/dictalm2.0-instruct",
-      "category": "Other"
+      "description": "轻量，本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "dictalm2.0-instruct.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 2.0,
+      "size_bytes": 4374991808
     },
     {
       "name": "H2O Danube 1.8B Chat",
       "repo_url": "https://huggingface.co/brittlewis12/h2o-danube-1.8b-chat-GGUF",
       "download_url": "https://huggingface.co/brittlewis12/h2o-danube-1.8b-chat-GGUF/resolve/main/h2o-danube-1.8b-chat.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/h2oai/h2o-danube-1.8b-chat",
-      "category": "Other"
+      "description": "1.8B 参数，轻量本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "h2o-danube-1.8b-chat.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.8,
+      "size_bytes": 1112151168,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Hathor_Stable-v0.2-L3-8B",
       "repo_url": "https://huggingface.co/mradermacher/Hathor_Stable-v0.2-L3-8B-GGUF",
       "download_url": "https://huggingface.co/mradermacher/Hathor_Stable-v0.2-L3-8B-GGUF/resolve/main/Hathor_Stable-v0.2-L3-8B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Nitral-AI/Hathor_Stable-v0.2-L3-8B",
-      "category": "Other"
+      "description": "8B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "Hathor_Stable-v0.2-L3-8B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920734432,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "HyperCLOVAX SEED Text Instruct 1.5B Q4_K_M",
       "repo_url": "https://huggingface.co/rippertnt/HyperCLOVAX-SEED-Text-Instruct-1.5B-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/rippertnt/HyperCLOVAX-SEED-Text-Instruct-1.5B-Q4_K_M-GGUF/resolve/main/hyperclovax-seed-text-instruct-1.5b-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/rippertnt/HyperCLOVAX-SEED-Text-Instruct-1.5B-Q4_K_M-GGUF",
-      "category": "Other"
+      "description": "1.5B 参数，轻量本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "hyperclovax-seed-text-instruct-1.5b-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.5,
+      "size_bytes": 1133974368,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Kappa-3 Phi Abliterated (Uncensored)",
       "repo_url": "https://huggingface.co/failspy/kappa-3-phi-3-4k-instruct-abliterated-GGUF",
       "download_url": "https://huggingface.co/failspy/kappa-3-phi-3-4k-instruct-abliterated-GGUF/resolve/main/ggml-model-f16.gguf",
-      "description": "Downloaded from https://huggingface.co/failspy/kappa-3-phi-abliterated",
-      "category": "Other"
+      "description": "轻量，本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "ggml-model-f16.gguf",
+      "quantization": "F16",
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 3.8,
+      "size_bytes": 7643295904
     },
     {
       "name": "L3 Umbral Mind RP v3.0 8B 🌓",
       "repo_url": "https://huggingface.co/mradermacher/L3-Umbral-Mind-RP-v3.0-8B-GGUF",
       "download_url": "https://huggingface.co/mradermacher/L3-Umbral-Mind-RP-v3.0-8B-GGUF/resolve/main/L3-Umbral-Mind-RP-v3.0-8B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B",
-      "category": "Other"
+      "description": "8B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "L3-Umbral-Mind-RP-v3.0-8B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920734464,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "LLaMA3-iterative-DPO-final",
       "repo_url": "https://huggingface.co/bartowski/LLaMA3-iterative-DPO-final-GGUF",
       "download_url": "https://huggingface.co/bartowski/LLaMA3-iterative-DPO-final-GGUF/resolve/main/LLaMA3-iterative-DPO-final-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/RLHFlow/LLaMA3-iterative-DPO-final",
-      "category": "Other"
+      "description": "轻量，本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "LLaMA3-iterative-DPO-final-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 8.0,
+      "size_bytes": 4920734272
     },
     {
       "name": "NeuralDaredevil 8B Abliterated (Uncensored)",
       "repo_url": "https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated-GGUF",
       "download_url": "https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated-GGUF/resolve/main/neuraldaredevil-8b-abliterated.Q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/mlabonne/NeuralDaredevil-8B-abliterated",
-      "category": "Other"
+      "description": "8B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "neuraldaredevil-8b-abliterated.Q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 8.0,
+      "size_bytes": 8540770176,
+      "tier": "standard",
+      "recommended_ram_gb": 12,
+      "recommended_vram_gb": 10,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Nous-Capybara-3B V1.9",
       "repo_url": "https://huggingface.co/afrideva/Nous-Capybara-3B-V1.9-GGUF",
       "download_url": "https://huggingface.co/afrideva/Nous-Capybara-3B-V1.9-GGUF/resolve/main/nous-capybara-3b-v1.9.q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/NousResearch/Nous-Capybara-3B-V1.9",
-      "category": "Other"
+      "description": "3B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "nous-capybara-3b-v1.9.q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 1708595200,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "OpenBioLLM-8B 🧬 (Biomedical)",
       "repo_url": "https://huggingface.co/aaditya/OpenBioLLM-Llama3-8B-GGUF",
       "download_url": "https://huggingface.co/aaditya/OpenBioLLM-Llama3-8B-GGUF/resolve/main/openbiollm-llama3-8b.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/aaditya/Llama3-OpenBioLLM-8B",
-      "category": "Other"
+      "description": "8B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "openbiollm-llama3-8b.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4921246592,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "OpenHands LM 7B v0.1 (Coding)",
       "repo_url": "https://huggingface.co/lmstudio-community/openhands-lm-7b-v0.1-GGUF",
       "download_url": "https://huggingface.co/lmstudio-community/openhands-lm-7b-v0.1-GGUF/resolve/main/openhands-lm-7b-v0.1-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/all-hands/openhands-lm-7b-v0.1",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "openhands-lm-7b-v0.1-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683074240,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Openchat 3.6 8B 20240522",
       "repo_url": "https://huggingface.co/crusoeai/openchat-3.6-8b-20240522-GGUF",
       "download_url": "https://huggingface.co/crusoeai/openchat-3.6-8b-20240522-GGUF/resolve/main/openchat-3.6-8b-20240522.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/openchat/openchat-3.6-8b-20240522",
-      "category": "Other"
+      "description": "8B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "openchat-3.6-8b-20240522.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 8.0,
+      "size_bytes": 4920734208,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "PaddleOCR VL 1.5",
       "repo_url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5-GGUF",
       "download_url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5-GGUF/resolve/main/PaddleOCR-VL-1.5-mmproj.gguf",
-      "description": "Downloaded from https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.5-GGUF",
-      "category": "Other"
+      "description": "轻量，本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "PaddleOCR-VL-1.5-mmproj.gguf",
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 1.5,
+      "size_bytes": 881770496
     },
     {
       "name": "Qwopus3.6 35B A3B v1",
       "repo_url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
       "download_url": "https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF/resolve/main/Qwopus3.6-35B-A3B-v1-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-v1-GGUF",
-      "category": "Other"
+      "description": "35B 参数，大型本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "Qwopus3.6-35B-A3B-v1-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 35.0,
+      "size_bytes": 21166758272,
+      "tier": "large",
+      "recommended_ram_gb": 30,
+      "recommended_vram_gb": 28,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "RakutenAI 7B Chat 🇯🇵",
       "repo_url": "https://huggingface.co/shidowake/RakutenAI-7B-chat-GGUF",
       "download_url": "https://huggingface.co/shidowake/RakutenAI-7B-chat-GGUF/resolve/main/RakutenAI-7B-chat-GGUF-q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/Rakuten/RakutenAI-7B-chat",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "RakutenAI-7B-chat-GGUF-q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 7.0,
+      "size_bytes": 7835495168,
+      "tier": "standard",
+      "recommended_ram_gb": 11,
+      "recommended_vram_gb": 9,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Rocket 3B 🚀",
       "repo_url": "https://huggingface.co/SamPurkis/rocket-3B-GGUF",
       "download_url": "https://huggingface.co/SamPurkis/rocket-3B-GGUF/resolve/main/rocket-3B.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/pansophic/rocket-3B",
-      "category": "Other"
+      "description": "3B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "rocket-3B.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 1708595136,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Spicyboros 7b 2.2 🌶️",
       "repo_url": "https://huggingface.co/actionpace/spicyboros-7b-2.2",
       "download_url": "https://huggingface.co/actionpace/spicyboros-7b-2.2/resolve/main/spicyboros-7b-2.2_Q5_1.gguf",
-      "description": "Downloaded from https://huggingface.co/jondurbin/spicyboros-7b-2.2",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "spicyboros-7b-2.2_Q5_1.gguf",
+      "quantization": "Q5_1",
+      "params_b": 7.0,
+      "size_bytes": 5064634048,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Starling LM 7B Beta 🐤",
       "repo_url": "https://huggingface.co/neopolita/starling-lm-7b-beta-gguf",
       "download_url": "https://huggingface.co/neopolita/starling-lm-7b-beta-gguf/resolve/main/starling-lm-7b-beta_q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Nexusflow/Starling-LM-7B-beta",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "starling-lm-7b-beta_q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4368450720,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "TinyLlama 1.1B Chat 🦙",
       "repo_url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
       "download_url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-      "category": "Other"
+      "description": "1.1B 参数，轻量本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.1,
+      "size_bytes": 668788096,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "models moved",
       "repo_url": "https://huggingface.co/ggml-org/models-moved",
       "download_url": "https://huggingface.co/ggml-org/models-moved/resolve/main/mistral-7b-v0.2-iq3_s-imat.gguf",
-      "description": "Downloaded from https://huggingface.co/ggml-org/models-moved",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "mistral-7b-v0.2-iq3_s-imat.gguf",
+      "quantization": "IQ3_S",
+      "params_b": 7.0,
+      "size_bytes": 3182393056,
+      "tier": "standard",
+      "recommended_ram_gb": 7,
+      "recommended_vram_gb": 5,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "openchat-3.5-0106 7B 💬",
       "repo_url": "https://huggingface.co/second-state/OpenChat-3.5-0106-GGUF",
       "download_url": "https://huggingface.co/second-state/OpenChat-3.5-0106-GGUF/resolve/main/openchat-3.5-0106-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/openchat/openchat-3.5-0106",
-      "category": "Other"
+      "description": "7B 参数，通用本地 GGUF 模型（Other 系列）",
+      "category": "Other",
+      "filename": "openchat-3.5-0106-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4369386944,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Dolphin 2.6 Phi-2 (Uncensored) 🐬",
       "repo_url": "https://huggingface.co/Demonthos/dolphin-2_6-phi-2-candle",
       "download_url": "https://huggingface.co/Demonthos/dolphin-2_6-phi-2-candle/resolve/main/model-q4k.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/dolphin-2_6-phi-2",
-      "category": "Phi 2"
+      "description": "轻量，本地 GGUF 模型（Phi 2 系列）",
+      "category": "Phi 2",
+      "filename": "model-q4k.gguf",
+      "quantization": "Q4",
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 2.7,
+      "size_bytes": 1580084256
     },
     {
       "name": "Phi-2 Orange v2 🍊",
       "repo_url": "https://huggingface.co/mlabonne/phi-2-orange-v2-GGUF",
       "download_url": "https://huggingface.co/mlabonne/phi-2-orange-v2-GGUF/resolve/main/phi-2-orange-v2.Q5_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/rhysjones/phi-2-orange-v2",
-      "category": "Phi 2"
+      "description": "轻量，本地 GGUF 模型（Phi 2 系列）",
+      "category": "Phi 2",
+      "filename": "phi-2-orange-v2.Q5_K_M.gguf",
+      "quantization": "Q5_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 2.7,
+      "size_bytes": 2003057184
     },
     {
       "name": "Phi-2 Orange 🍊",
       "repo_url": "https://huggingface.co/brittlewis12/phi-2-orange-GGUF",
       "download_url": "https://huggingface.co/brittlewis12/phi-2-orange-GGUF/resolve/main/phi-2-orange.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/rhysjones/phi-2-orange",
-      "category": "Phi 2"
+      "description": "轻量，本地 GGUF 模型（Phi 2 系列）",
+      "category": "Phi 2",
+      "filename": "phi-2-orange.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 2.7,
+      "size_bytes": 1789239168
     },
     {
       "name": "Phi-2 Super 🤖",
       "repo_url": "https://huggingface.co/sayhan/phi-2-super-GGUF",
       "download_url": "https://huggingface.co/sayhan/phi-2-super-GGUF/resolve/main/phi-2-super.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/abacaj/phi-2-super",
-      "category": "Phi 2"
+      "description": "轻量，本地 GGUF 模型（Phi 2 系列）",
+      "category": "Phi 2",
+      "filename": "phi-2-super.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 2.7,
+      "size_bytes": 1737636960
     },
     {
       "name": "Phi-3 Mini 4K Instruct",
       "repo_url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF",
       "download_url": "https://huggingface.co/lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF/resolve/main/Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
-      "category": "Phi 3"
+      "description": "轻量，本地 GGUF 模型（Phi 3 系列）",
+      "category": "Phi 3",
+      "filename": "Phi-3.1-mini-4k-instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ],
+      "params_b": 3.8,
+      "size_bytes": 2393232096
+    },
+    {
+      "name": "Qwable-v1",
+      "repo_url": "https://huggingface.co/lordx64/Qwable-v1-GGUF",
+      "download_url": "https://huggingface.co/lordx64/Qwable-v1-GGUF/resolve/main/Qwable-v1.Q4_K_M.gguf",
+      "description": "最新开源 Agentic 编程模型，35B MoE（3B 激活），蒸馏 Claude Opus 4.7 推理与 Fable-5 工具调用能力",
+      "category": "Qwen",
+      "list_order": 0,
+      "tags": [
+        "reasoning",
+        "code",
+        "chat"
+      ],
+      "filename": "Qwable-v1.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 35.0,
+      "size_bytes": 21166758816,
+      "tier": "large",
+      "recommended_ram_gb": 30,
+      "recommended_vram_gb": 28
+    },
+    {
+      "name": "Qwable-v1 IQ4_XS",
+      "repo_url": "https://huggingface.co/lordx64/Qwable-v1-GGUF",
+      "download_url": "https://huggingface.co/lordx64/Qwable-v1-GGUF/resolve/main/Qwable-v1.IQ4_XS.gguf",
+      "description": "最新开源 Agentic 编程模型，35B MoE（3B 激活），IQ4_XS 量化，体积更小",
+      "category": "Qwen",
+      "list_order": 1,
+      "tags": [
+        "reasoning",
+        "code",
+        "chat"
+      ],
+      "filename": "Qwable-v1.IQ4_XS.gguf",
+      "quantization": "IQ4_XS",
+      "params_b": 35.0,
+      "size_bytes": 18939313056,
+      "tier": "large",
+      "recommended_ram_gb": 27,
+      "recommended_vram_gb": 25
     },
     {
       "name": "DeepSeek R1 Distill Qwen 14B",
       "repo_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF",
       "download_url": "https://huggingface.co/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-      "category": "Qwen"
+      "description": "14B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen",
+      "filename": "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 14.0,
+      "size_bytes": 8988109984,
+      "tier": "large",
+      "recommended_ram_gb": 14,
+      "recommended_vram_gb": 12,
+      "tags": [
+        "chat",
+        "reasoning"
+      ]
     },
     {
       "name": "DeepSeek R1 Distill Qwen 7B",
       "repo_url": "https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF",
       "download_url": "https://huggingface.co/bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-      "category": "Qwen"
+      "description": "7B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen",
+      "filename": "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683073504,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat",
+        "reasoning"
+      ]
     },
     {
       "name": "Qwen3 30B A3B Instruct 2507",
       "repo_url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF/resolve/main/Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF",
-      "category": "Qwen"
+      "description": "30B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen",
+      "filename": "Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 30.0,
+      "size_bytes": 18556686752,
+      "tier": "large",
+      "recommended_ram_gb": 25,
+      "recommended_vram_gb": 23,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3 Coder Next",
       "repo_url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF/resolve/main/Qwen3-Coder-Next-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF",
-      "category": "Qwen"
+      "description": "轻量，本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen",
+      "filename": "Qwen3-Coder-Next-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "tier": "standard",
+      "recommended_ram_gb": 64,
+      "recommended_vram_gb": 62,
+      "tags": [
+        "chat",
+        "lite",
+        "code"
+      ],
+      "params_b": 7.0,
+      "size_bytes": 48528320544
     },
     {
       "name": "Qwen3 VL 2B Instruct",
       "repo_url": "https://huggingface.co/unsloth/Qwen3-VL-2B-Instruct-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3-VL-2B-Instruct-GGUF/resolve/main/Qwen3-VL-2B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3-VL-2B-Instruct-GGUF",
-      "category": "Qwen"
+      "description": "2B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen",
+      "filename": "Qwen3-VL-2B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 2.0,
+      "size_bytes": 1107410624,
+      "tier": "standard",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.5 4B",
       "repo_url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.5-4B-GGUF",
-      "category": "Qwen"
+      "description": "4B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.5",
+      "filename": "Qwen3.5-4B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 4.0,
+      "size_bytes": 2740937888,
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.5 9B",
       "repo_url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
-      "category": "Qwen"
+      "description": "9B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.5",
+      "filename": "Qwen3.5-9B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5680522464,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.5 9B DeepSeek V4 Flash",
       "repo_url": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
       "download_url": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF",
-      "category": "Qwen"
+      "description": "9B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.5",
+      "filename": "Qwen3.5-9B-DeepSeek-V4-Flash-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5629105408,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.5 9B Uncensored HauhauCS Aggressive",
       "repo_url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
       "download_url": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-      "category": "Qwen"
+      "description": "9B 参数，通用本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.5",
+      "filename": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 9.0,
+      "size_bytes": 5627044224,
+      "tier": "standard",
+      "recommended_ram_gb": 10,
+      "recommended_vram_gb": 8,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 27B",
       "repo_url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
-      "category": "Qwen"
+      "description": "27B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-27B-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 27.0,
+      "size_bytes": 16817244384,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 27B Heretic Uncensored FINETUNE NEO CODE Di IMatrix MAX",
       "repo_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "download_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "category": "Qwen"
-    },
-    {
-      "name": "Qwen3.6 27B MTP",
-      "repo_url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
-      "download_url": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF",
-      "category": "Qwen"
+      "description": "27B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 27.0,
+      "size_bytes": 16861398400,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "Qwen3.6 27B Uncensored HauhauCS Aggressive",
       "repo_url": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
       "download_url": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
-      "description": "Downloaded from https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
-      "category": "Qwen"
+      "description": "27B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+      "quantization": "Q4_K_P",
+      "params_b": 27.0,
+      "size_bytes": 17536279776,
+      "tier": "large",
+      "recommended_ram_gb": 24,
+      "recommended_vram_gb": 22,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 35B A3B",
       "repo_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
       "download_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
-      "category": "Qwen"
-    },
-    {
-      "name": "Qwen3.6 35B A3B MTP",
-      "repo_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
-      "download_url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
-      "category": "Qwen"
+      "description": "35B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 35.0,
+      "size_bytes": 22134528992,
+      "tier": "large",
+      "recommended_ram_gb": 31,
+      "recommended_vram_gb": 29,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 35B A3B Uncensored HauhauCS Aggressive",
       "repo_url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "download_url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "category": "Qwen"
+      "description": "35B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 35.0,
+      "size_bytes": 21166758016,
+      "tier": "large",
+      "recommended_ram_gb": 30,
+      "recommended_vram_gb": 28,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 35B A3B Uncensored Wasserstein",
       "repo_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF",
       "download_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF/resolve/main/Qwen3.6-35B-A3B-Uncensored.Q4_K_P.gguf",
-      "description": "Downloaded from https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF",
-      "category": "Qwen"
+      "description": "35B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-35B-A3B-Uncensored.Q4_K_P.gguf",
+      "quantization": "Q4_K_P",
+      "params_b": 35.0,
+      "size_bytes": 23424536704,
+      "tier": "large",
+      "recommended_ram_gb": 32,
+      "recommended_vram_gb": 30,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3.6 40B Claude 4.6 Opus Deckard Heretic Uncensored Thinking NEO CODE Di IMatrix MAX",
       "repo_url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "download_url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "category": "Qwen"
+      "description": "40B 参数，大型本地 GGUF 模型（Qwen 系列）",
+      "category": "Qwen 3.6",
+      "filename": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 40.0,
+      "size_bytes": 24253604896,
+      "tier": "large",
+      "recommended_ram_gb": 32,
+      "recommended_vram_gb": 30,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "Dolphin 3.0 Qwen 2.5 0.5B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-0.5B-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-0.5B-Q4_K_M-GGUF/resolve/main/dolphin3.0-qwen2.5-0.5b-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B",
-      "category": "Qwen 2.5"
+      "description": "0.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "dolphin3.0-qwen2.5-0.5b-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 0.5,
+      "size_bytes": 397810752,
+      "tier": "lite",
+      "recommended_ram_gb": 2,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Dolphin 3.0 Qwen 2.5 1.5B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-1.5B-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-1.5B-Q4_K_M-GGUF/resolve/main/dolphin3.0-qwen2.5-1.5b-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-1.5B",
-      "category": "Qwen 2.5"
+      "description": "1.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "dolphin3.0-qwen2.5-1.5b-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.5,
+      "size_bytes": 986051360,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Dolphin 3.0 Qwen 2.5 3B 🐬 (Uncensored)",
       "repo_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-3b-Q4_K_M-GGUF",
       "download_url": "https://huggingface.co/itlwas/Dolphin3.0-Qwen2.5-3b-Q4_K_M-GGUF/resolve/main/dolphin3.0-qwen2.5-3b-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/cognitivecomputations/Dolphin3.0-Qwen2.5-3b",
-      "category": "Qwen 2.5"
+      "description": "3B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "dolphin3.0-qwen2.5-3b-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 1929905856,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "EVA Qwen2.5 14B v0.2 (Role-Play/Story Writing)",
       "repo_url": "https://huggingface.co/bartowski/EVA-Qwen2.5-14B-v0.2-GGUF",
       "download_url": "https://huggingface.co/bartowski/EVA-Qwen2.5-14B-v0.2-GGUF/resolve/main/EVA-Qwen2.5-14B-v0.2-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-14B-v0.2",
-      "category": "Qwen 2.5"
+      "description": "14B 参数，大型本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "EVA-Qwen2.5-14B-v0.2-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 14.0,
+      "size_bytes": 8988109088,
+      "tier": "large",
+      "recommended_ram_gb": 14,
+      "recommended_vram_gb": 12,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "EVA Qwen2.5 7B v0.1 (Role-Play/Story Writing)",
       "repo_url": "https://huggingface.co/bartowski/EVA-Qwen2.5-7B-v0.1-GGUF",
       "download_url": "https://huggingface.co/bartowski/EVA-Qwen2.5-7B-v0.1-GGUF/resolve/main/EVA-Qwen2.5-7B-v0.1-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-Qwen2.5-7B-v0.1",
-      "category": "Qwen 2.5"
+      "description": "7B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "EVA-Qwen2.5-7B-v0.1-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683072288,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "EVA-D Qwen2.5 1.5B v0.0 (Role-Play/Story Writing)",
       "repo_url": "https://huggingface.co/QuantFactory/EVA-D-Qwen2.5-1.5B-v0.0-GGUF",
       "download_url": "https://huggingface.co/QuantFactory/EVA-D-Qwen2.5-1.5B-v0.0-GGUF/resolve/main/EVA-D-Qwen2.5-1.5B-v0.0.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/EVA-UNIT-01/EVA-D-Qwen2.5-1.5B-v0.0",
-      "category": "Qwen 2.5"
+      "description": "1.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "EVA-D-Qwen2.5-1.5B-v0.0.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.5,
+      "size_bytes": 986046144,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "FuseChat Qwen 2.5 7B Instruct",
       "repo_url": "https://huggingface.co/bartowski/FuseChat-Qwen-2.5-7B-Instruct-GGUF",
       "download_url": "https://huggingface.co/bartowski/FuseChat-Qwen-2.5-7B-Instruct-GGUF/resolve/main/FuseChat-Qwen-2.5-7B-Instruct-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/FuseAI/FuseChat-Qwen-2.5-7B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "7B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "FuseChat-Qwen-2.5-7B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683073760,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen 2.5 0.5B Unquantized",
       "repo_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF",
       "download_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "0.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 0.5,
+      "size_bytes": 491400032,
+      "tier": "lite",
+      "recommended_ram_gb": 2,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Qwen 2.5 1.5B",
-      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
-      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF/resolve/main/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
-      "category": "Qwen 2.5"
+      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "description": "1.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.5,
+      "size_bytes": 1117320736,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     },
     {
       "name": "Qwen 2.5 3B",
       "repo_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF",
       "download_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "3B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2104932768,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen 2.5 7B",
-      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
-      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/qwen2.5-coder-7b-instruct-q4_k_m-00001-of-00002.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
-      "category": "Qwen 2.5"
+      "repo_url": "https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+      "description": "7B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683074240,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen 2.5 Coder 0.5B Unquantized",
       "repo_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-0.5B-Instruct-abliterated-GGUF",
       "download_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-0.5B-Instruct-abliterated-GGUF/resolve/main/Qwen2.5-Coder-0.5B-Instruct-abliterated-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "0.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "Qwen2.5-Coder-0.5B-Instruct-abliterated-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 0.5,
+      "size_bytes": 397808416,
+      "tier": "lite",
+      "recommended_ram_gb": 2,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite",
+        "code"
+      ]
     },
     {
       "name": "Qwen 2.5 Coder 1.5B",
       "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
       "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF/resolve/main/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "1.5B 参数，轻量本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 1.5,
+      "size_bytes": 1117320768,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite",
+        "code"
+      ]
     },
     {
       "name": "Qwen 2.5 Coder 14B",
-      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
-      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/resolve/main/qwen2.5-coder-14b-instruct-q4_k_m-00001-of-00002.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
-      "category": "Qwen 2.5"
+      "repo_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-14B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf",
+      "description": "14B 参数，大型本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "Qwen2.5-Coder-14B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 14.0,
+      "size_bytes": 8988111072,
+      "tier": "large",
+      "recommended_ram_gb": 14,
+      "recommended_vram_gb": 12,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "Qwen 2.5 Coder 3B",
       "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF",
       "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct-GGUF/resolve/main/qwen2.5-coder-3b-instruct-q4_k_m.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
-      "category": "Qwen 2.5"
+      "description": "3B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "qwen2.5-coder-3b-instruct-q4_k_m.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 3.0,
+      "size_bytes": 2104932800,
+      "tier": "standard",
+      "recommended_ram_gb": 5,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "Qwen 2.5 Coder 7B",
-      "repo_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
-      "download_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/qwen2.5-coder-7b-instruct-q4_k_m-00001-of-00002.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
-      "category": "Qwen 2.5"
+      "repo_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "download_url": "https://huggingface.co/bartowski/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+      "description": "7B 参数，通用本地 GGUF 模型（Qwen 2.5 系列）",
+      "category": "Qwen 2.5",
+      "filename": "Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 7.0,
+      "size_bytes": 4683074336,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat",
+        "code"
+      ]
     },
     {
       "name": "Josiefied Qwen3 4B Instruct 2507 (Uncensored)",
       "repo_url": "https://huggingface.co/pegasus912/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1-Q8_0-GGUF",
       "download_url": "https://huggingface.co/pegasus912/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1-Q8_0-GGUF/resolve/main/josiefied-qwen3-4b-instruct-2507-gabliterated-v1-q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/Goekdeniz-Guelmez/Josiefied-Qwen3-4B-Instruct-2507-gabliterated-v1",
-      "category": "Qwen 3"
+      "description": "4B 参数，通用本地 GGUF 模型（Qwen 3 系列）",
+      "category": "Qwen 3",
+      "filename": "josiefied-qwen3-4b-instruct-2507-gabliterated-v1-q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 4.0,
+      "size_bytes": 4280400672,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3 4B Instruct 2507",
       "repo_url": "https://huggingface.co/HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive",
       "download_url": "https://huggingface.co/HauhauCS/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
-      "category": "Qwen 3"
+      "description": "4B 参数，通用本地 GGUF 模型（Qwen 3 系列）",
+      "category": "Qwen 3",
+      "filename": "Qwen3-4B-2507-Instruct-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 4.0,
+      "size_bytes": 2497278912,
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3 4B Instruct 2507 Abliterated (Uncensored)",
       "repo_url": "https://huggingface.co/pegasus912/Huihui-Qwen3-4B-Instruct-2507-abliterated-Q8_0-GGUF",
       "download_url": "https://huggingface.co/pegasus912/Huihui-Qwen3-4B-Instruct-2507-abliterated-Q8_0-GGUF/resolve/main/huihui-qwen3-4b-instruct-2507-abliterated-q8_0.gguf",
-      "description": "Downloaded from https://huggingface.co/huihui-ai/Huihui-Qwen3-4B-Instruct-2507-abliterated",
-      "category": "Qwen 3"
+      "description": "4B 参数，通用本地 GGUF 模型（Qwen 3 系列）",
+      "category": "Qwen 3",
+      "filename": "huihui-qwen3-4b-instruct-2507-abliterated-q8_0.gguf",
+      "quantization": "Q8_0",
+      "params_b": 4.0,
+      "size_bytes": 4280401216,
+      "tier": "standard",
+      "recommended_ram_gb": 8,
+      "recommended_vram_gb": 6,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "Qwen3 4B Instruct 2507 Heretic (Uncensored)",
       "repo_url": "https://huggingface.co/mradermacher/Qwen3-4B-Instruct-2507-heretic-GGUF",
       "download_url": "https://huggingface.co/mradermacher/Qwen3-4B-Instruct-2507-heretic-GGUF/resolve/main/Qwen3-4B-Instruct-2507-heretic.Q4_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/p-e-w/Qwen3-4B-Instruct-2507-heretic",
-      "category": "Qwen 3"
+      "description": "4B 参数，通用本地 GGUF 模型（Qwen 3 系列）",
+      "category": "Qwen 3",
+      "filename": "Qwen3-4B-Instruct-2507-heretic.Q4_K_M.gguf",
+      "quantization": "Q4_K_M",
+      "params_b": 4.0,
+      "size_bytes": 2497279584,
+      "tier": "standard",
+      "recommended_ram_gb": 6,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat"
+      ]
     },
     {
       "name": "StableLM 2 Zephyr 1.6B 🪁",
       "repo_url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
       "download_url": "https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b/resolve/main/stablelm-2-zephyr-1_6b-Q5_K_M.gguf",
-      "description": "Downloaded from https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b",
-      "category": "StableLM"
+      "description": "1.6B 参数，轻量本地 GGUF 模型（StableLM 系列）",
+      "category": "StableLM",
+      "filename": "stablelm-2-zephyr-1_6b-Q5_K_M.gguf",
+      "quantization": "Q5_K_M",
+      "params_b": 1.6,
+      "size_bytes": 1187680256,
+      "tier": "lite",
+      "recommended_ram_gb": 4,
+      "recommended_vram_gb": 4,
+      "tags": [
+        "chat",
+        "lite"
+      ]
     }
   ]
 }
