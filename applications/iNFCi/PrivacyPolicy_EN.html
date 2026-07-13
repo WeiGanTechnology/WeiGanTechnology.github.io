@@ -103,6 +103,7 @@
   <h5>2. Third-Party SDKs and Advertising</h5>
 
   <p class="permission-name">2.1 Google AdMob advertising (iOS: system preferred language is not Simplified Chinese; Android: Google Play build)</p>
+  <p><strong>This section does not apply to the mainland China app-store Android build.</strong> That build does not use Google AdMob, and we do not collect Android ID through AdMob on that build. See Section 2.2 below.</p>
   <p>In these scenarios, the app integrates the <strong>Google Mobile Ads SDK (AdMob)</strong> to display ads (including app-open, banner, and rewarded formats), measure ad performance, and prevent fraud. AdMob is provided by Google LLC and may automatically collect information such as:</p>
   <ul>
     <li><strong>Device information</strong> (such as device model and operating system version; platform-specific identifiers such as Android ID on Android or IDFV on iOS): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
@@ -120,9 +121,10 @@
     <li><strong>Pangle (Chuanshanjia)</strong> — Beijing Juliang Engine Network Technology Co., Ltd.</li>
     <li><strong>Tencent Ads (Youlianghui / GDT)</strong> — Shenzhen Tencent Computer Systems Co., Ltd.</li>
   </ul>
-  <p>GroMore selects and fills ad requests across these networks for the ad placements you trigger in the app. The SDKs may automatically collect information such as:</p>
+  <p>GroMore selects and fills ad requests across these networks for the ad placements you trigger in the app. After you agree to this Privacy Statement, the SDKs automatically collect information such as:</p>
   <ul>
-    <li><strong>Device information</strong> (such as device model and operating system version; OAID on Android; IDFV on iOS, and IDFA on iOS where you authorize ATT): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
+    <li><strong>Device information</strong> (such as device model and operating system version; IDFV on iOS, and IDFA on iOS where you authorize ATT): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
+    <li><strong>OAID</strong> (mainland China Android build only; Open Anonymous Device Identifier): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — the anonymous device identifier assigned for advertising services.</li>
     <li><strong>Network state information</strong> (such as network type and connectivity): <strong>Purpose</strong> — ad loading and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data related to network connectivity.</li>
     <li><strong>Ad interaction and diagnostic information</strong> (such as impressions, clicks, conversions, and SDK operational logs): <strong>Purpose</strong> — ad measurement, settlement, and troubleshooting; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data directly related to ad services.</li>
   </ul>
@@ -132,6 +134,7 @@
     <li>Pangle / GroMore: <a href="https://www.csjplatform.com/privacy/partner" target="_blank" rel="noopener noreferrer">https://www.csjplatform.com/privacy/partner</a></li>
     <li>Tencent Ads (GDT): <a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983" target="_blank" rel="noopener noreferrer">https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983</a></li>
   </ul>
+  <p>Pangle and Tencent Ads each maintain independent privacy disclosures for their SDKs. Beyond the common categories listed above, whether an SDK processes additional personal information, and details such as retention periods or cross-border transfers, are governed by the relevant provider's privacy policy.</p>
 
   <p><strong>Privacy controls configured in our app (by platform):</strong></p>
   <p><strong>Mainland China Android build.</strong> To follow a data-minimization approach, we configure Pangle SDK privacy settings and GroMore mediation privacy settings to disable or restrict collection and use of the following. We do <strong>not</strong> initialize advertising SDKs until you tap <strong>Agree</strong> on the first-launch privacy dialog:</p>
@@ -140,7 +143,7 @@
     <li><strong>Device MAC address</strong></li>
     <li><strong>Installed application list</strong> (we do not supply a custom app list to the SDK; the app manifest also removes the <em>query all packages</em> permission required by the ad SDK)</li>
     <li><strong>IMEI and similar telephony identifiers</strong></li>
-    <li><strong>Precise location</strong> (the app manifest removes the ad SDK's <em>coarse location</em> permission declaration; location permission used for Bluetooth scanning is required by the operating system for device discovery and is unrelated to ad targeting)</li>
+    <li><strong>Location information (for advertising)</strong> (the app manifest removes the ad SDK's <em>coarse location</em> permission declaration; location permission used for Bluetooth scanning is required by the operating system for device discovery and is unrelated to ad targeting)</li>
     <li><strong>Wi‑Fi state</strong> (Wi‑Fi state reads for advertising are disabled)</li>
   </ul>
   <p>If you choose <strong>Decline</strong> on that Android build, we do not initialize advertising SDKs and you may continue using core NFC features without ads.</p>

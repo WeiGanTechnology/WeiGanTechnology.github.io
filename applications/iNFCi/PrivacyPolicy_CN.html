@@ -103,6 +103,7 @@
   <h5>2. 第三方 SDK 及广告服务</h5>
 
   <p class="permission-name">2.1 Google AdMob 广告（iOS：系统首选语言非简体中文；Android：Google Play 版）</p>
+  <p><strong>本节不适用于中国大陆应用商店版（Android）。</strong>该版本不使用 Google AdMob，亦不由本应用通过 AdMob 采集 Android ID；相关说明见下文第 2.2 节。</p>
   <p>在上述场景下，本应用集成 <strong>Google Mobile Ads SDK（AdMob）</strong>，用于展示广告（含开屏、横幅、激励等形态）、统计广告效果及防范作弊。AdMob 由 Google LLC 提供，可能自动采集以下信息：</p>
   <ul>
     <li><strong>设备信息</strong>（如设备型号、系统版本；Android 上可能涉及 Android ID，iOS 上可能涉及 IDFV 等设备标识符）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
@@ -119,9 +120,10 @@
     <li><strong>穿山甲</strong>（北京巨量引擎网络技术有限公司）</li>
     <li><strong>优量汇</strong>（深圳市腾讯计算机系统有限公司，腾讯广告）</li>
   </ul>
-  <p>GroMore 会根据您在应用内请求的广告位，在穿山甲与优量汇等已接入的广告网络之间进行调度与填充。上述 SDK 可能通过自动采集方式收集以下信息：</p>
+  <p>GroMore 会根据您在应用内请求的广告位，在穿山甲与优量汇等已接入的广告网络之间进行调度与填充。在您同意本隐私政策后，上述 SDK 会通过自动采集方式收集以下信息：</p>
   <ul>
-    <li><strong>设备信息</strong>（如设备型号、操作系统版本；Android 上可能涉及 OAID；iOS 上可能涉及 IDFV，并在您授权 ATT 时可能涉及 IDFA）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
+    <li><strong>设备信息</strong>（如设备型号、操作系统版本；iOS 上可能涉及 IDFV，并在您授权 ATT 时可能涉及 IDFA）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
+    <li><strong>OAID</strong>（仅限 Android 中国大陆应用商店版；开放匿名设备标识符）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为设备分配给广告服务的匿名标识符。</li>
     <li><strong>网络状态信息</strong>（如网络类型、连接状态）：<strong>目的</strong>为广告加载与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为网络连接状态相关数据。</li>
     <li><strong>广告交互与诊断信息</strong>（如广告展示、点击、转化及 SDK 运行日志）：<strong>目的</strong>为广告效果衡量、结算与故障排查；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务直接相关的数据。</li>
   </ul>
@@ -131,6 +133,7 @@
     <li>穿山甲 / GroMore：<a href="https://www.csjplatform.com/privacy/partner" target="_blank" rel="noopener noreferrer">https://www.csjplatform.com/privacy/partner</a></li>
     <li>优量汇（腾讯广告）：<a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983" target="_blank" rel="noopener noreferrer">https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983</a></li>
   </ul>
+  <p>穿山甲与优量汇各自对其 SDK 的数据处理负有独立说明义务。除上文所列共性信息外，各 SDK 是否还处理其他类型个人信息，以及存储期限、跨境传输等细节，请以对应提供方隐私政策为准。</p>
 
   <p><strong>我们在应用侧已配置的隐私限制（按平台区分）：</strong></p>
   <p><strong>Android 中国大陆应用商店版。</strong>为符合最小必要原则，我们已通过穿山甲 SDK 隐私配置接口及 GroMore 聚合隐私配置，关闭或限制对以下信息的采集与使用；在未获得您同意前，我们不会初始化广告 SDK：</p>
@@ -139,7 +142,7 @@
     <li><strong>设备 MAC 地址</strong></li>
     <li><strong>软件安装列表</strong>（不向 SDK 提供自定义安装列表；应用清单中亦已移除广告 SDK 所需的「查询所有已安装应用」权限声明）</li>
     <li><strong>IMEI 等电话状态标识符</strong></li>
-    <li><strong>精确位置信息</strong>（应用清单中已移除广告 SDK 所需的「粗略位置」权限声明；蓝牙扫描所需的位置权限仅用于系统要求的蓝牙发现能力，与广告投放无关）</li>
+    <li><strong>位置信息（用于广告投放）</strong>（应用清单中已移除广告 SDK 所需的「粗略位置」权限声明；蓝牙扫描所需的位置权限仅用于系统要求的蓝牙发现能力，与广告投放无关）</li>
     <li><strong>Wi‑Fi 状态</strong>（用于广告侧的 Wi‑Fi 状态读取已关闭）</li>
   </ul>
   <p>在上述 Android 版本中，广告 SDK <strong>仅在您点击「同意」后初始化</strong>。若您选择「不同意」，我们不会初始化广告 SDK，您仍可继续使用不含广告的 NFC 核心功能。</p>
