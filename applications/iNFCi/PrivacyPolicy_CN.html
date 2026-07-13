@@ -85,57 +85,118 @@
   </style>
 </head>
 <body>
-  <h2>关于iNFCi与隐私的声明</h2>
+  <h2>关于 iNFCi 与隐私的声明</h2>
   <p id="update-time"><span class="font-secondary">更新日期：</span><span class="font-secondary">2026.7.13</span></p>
 
   <p id="firstDesc">
-    <strong>iNFCi</strong> 是由 <strong>为敢技术（深圳）有限公司</strong>（以下简称“我们”）为您提供的，用于<strong>NFC读写</strong>的应用。本隐私声明由我们为处理您的个人信息而制定。
+    <strong>iNFCi</strong> 是由 <strong>为敢技术（深圳）有限公司</strong>（以下简称“我们”）为您提供的，用于 <strong>NFC 读写</strong>及蓝牙设备连接等功能的应用。本隐私声明适用于 <strong>iOS</strong> 与 <strong>Android</strong> 平台的 iNFCi，并说明我们如何处理您的个人信息。
   </p>
   <p>我们非常重视您的个人信息和隐私保护，将会按照法律要求和业界成熟的安全标准，为您的个人信息提供相应的安全保护措施。</p>
+  <p>根据您获取应用的渠道、操作系统及设备语言环境，广告与支付相关能力可能有所不同：<strong>当设备系统首选语言不是简体中文时</strong>，iOS App Store 版与 Android Google Play 版使用 Google AdMob 与各自应用商店支付；<strong>当设备系统首选语言为简体中文时</strong>，iOS App Store 版使用穿山甲 GroMore 聚合广告（含穿山甲与优量汇），并仍通过 Apple 内购提供 VIP；<strong>中国大陆应用商店版（Android）</strong>亦使用 GroMore 聚合广告，且不包含 Google Play 结算。</p>
 
   <h5>1. 我们如何收集和使用您的个人信息</h5>
   <p>我们仅在有合法性基础的情形下才会使用您的个人信息。根据适用的法律，我们可能会基于您的同意、为履行/订立您与我们的合同所必需、履行法定义务所必需等合法性基础，使用您的个人信息。</p>
-  <p>1.1 我们为您提供了基本功能服务和全量功能服务，您可以前往读写菜单进行选择，不同设备或版本其路径可能存在差异，具体以您当前使用的设备为准。在基本功能服务下不收集个人信息，仅提供NFC读写的基本功能，不提供、不包含且不分发任何受版权保护的游戏文件等其他附加功能，这可能会影响您的使用体验。</p>
-  <p>1.2 为实现蓝牙设备连接、固件升级、二维码扫描等核心功能，我们会在您使用相关功能时，通过系统接口调用蓝牙、NFC、相机和网络能力。相关数据仅在本地或与您选择连接的设备之间处理，不会用于识别您的个人身份。</p>
+  <p>1.1 我们为您提供了基本功能服务和全量功能服务，您可以前往读写菜单进行选择，不同设备、系统或版本其路径可能存在差异，具体以您当前使用的设备为准。在基本功能服务下，我们不会为实现 NFC 读写等基本能力而要求您注册账号，亦不会因此主动向我们的服务器上传可识别您个人身份的信息；我们不会提供、不包含且不分发任何受版权保护的游戏文件等其他附加功能，这可能会影响您的使用体验。</p>
+  <p>1.2 为实现蓝牙设备连接、固件升级、二维码扫描、局域网设备更新等核心功能，我们会在您使用相关功能时，通过系统接口调用蓝牙、NFC、相机和网络能力。相关数据仅在本地或与您选择连接的设备之间处理，不会用于识别您的个人身份。</p>
+  <p>1.3 我们会在您的设备本地保存部分设置（如主题、使用次数配额、VIP 状态标记等），用于应用正常运行。</p>
 
   <h5>2. 第三方 SDK 及广告服务</h5>
-  <p>为向您展示广告、统计广告效果及防范作弊，在您同意本隐私政策后，我们会初始化第三方广告 SDK「穿山甲」（北京巨量引擎网络技术有限公司提供）。该 SDK 可能通过自动采集方式收集以下信息：</p>
+
+  <p class="permission-name">2.1 Google AdMob 广告（iOS：系统首选语言非简体中文；Android：Google Play 版）</p>
+  <p>在上述场景下，本应用集成 <strong>Google Mobile Ads SDK（AdMob）</strong>，用于展示广告（含开屏、横幅、激励等形态）、统计广告效果及防范作弊。AdMob 由 Google LLC 提供，可能自动采集以下信息：</p>
   <ul>
-    <li><strong>设备信息</strong>（如设备型号、操作系统版本、OAID、Android ID）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
-    <li><strong>网络状态信息</strong>（如网络类型、信号强度）：<strong>目的</strong>为广告加载与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为网络连接状态相关数据。</li>
+    <li><strong>设备信息</strong>（如设备型号、系统版本；Android 上可能涉及 Android ID，iOS 上可能涉及 IDFV 等设备标识符）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
+    <li><strong>广告标识符</strong>（Android 上的 Google 广告 ID；iOS 上在系统允许范围内可能涉及广告标识相关能力）：<strong>目的</strong>为广告衡量与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为设备分配的广告相关标识。您可在系统设置中限制广告跟踪或重置广告标识符。</li>
+    <li><strong>网络与诊断信息</strong>（如 IP 地址、网络类型、与广告服务相关的崩溃或诊断信号）：<strong>目的</strong>为广告加载、反作弊与 SDK 稳定性；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务直接相关的数据。</li>
   </ul>
-  <p>我们已在应用侧通过穿山甲 SDK 隐私配置接口关闭对以下信息的采集，SDK 不会读取：</p>
+  <p>在适用法律要求的地区（如欧洲经济区、英国、瑞士等），<strong>Android Google Play 版</strong>可能通过 Google <strong>User Messaging Platform（UMP）</strong> 在展示个性化广告前征求您的同意；您也可在该版本应用内相关设置中查看或调整广告隐私选项（视地区而定）。<strong>iOS 在上述 AdMob 场景下</strong>不使用 UMP，且当前不会在展示 AdMob 广告前主动弹出 App Tracking Transparency（ATT）跟踪授权弹窗；您可在 iOS 系统「设置 → 隐私与安全性 → Apple 广告」等路径中限制个性化广告或重置广告标识符。</p>
+  <p>Google 隐私政策：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+  <p>在您已订阅 VIP 且权益有效的范围内，相关版本可不向您展示广告。</p>
+
+  <p class="permission-name">2.2 穿山甲 GroMore 聚合广告（iOS：系统首选语言为简体中文；Android：中国大陆应用商店版）</p>
+  <p>在上述场景下，本应用<strong>不使用 AdMob</strong>，而通过 <strong>穿山甲 GroMore 聚合广告服务</strong>接入以下广告网络：</p>
   <ul>
+    <li><strong>穿山甲</strong>（北京巨量引擎网络技术有限公司）</li>
+    <li><strong>优量汇</strong>（深圳市腾讯计算机系统有限公司，腾讯广告）</li>
+  </ul>
+  <p>GroMore 会根据您在应用内请求的广告位，在穿山甲与优量汇等已接入的广告网络之间进行调度与填充。上述 SDK 可能通过自动采集方式收集以下信息：</p>
+  <ul>
+    <li><strong>设备信息</strong>（如设备型号、操作系统版本；Android 上可能涉及 OAID；iOS 上可能涉及 IDFV，并在您授权 ATT 时可能涉及 IDFA）：<strong>目的</strong>为广告投放、效果统计与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务相关的必要设备参数。</li>
+    <li><strong>网络状态信息</strong>（如网络类型、连接状态）：<strong>目的</strong>为广告加载与反作弊；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为网络连接状态相关数据。</li>
+    <li><strong>广告交互与诊断信息</strong>（如广告展示、点击、转化及 SDK 运行日志）：<strong>目的</strong>为广告效果衡量、结算与故障排查；<strong>方式</strong>为 SDK 自动采集；<strong>范围</strong>为与广告服务直接相关的数据。</li>
+  </ul>
+
+  <p><strong>各 SDK 提供方及隐私政策链接：</strong></p>
+  <ul>
+    <li>穿山甲 / GroMore：<a href="https://www.csjplatform.com/privacy/partner" target="_blank" rel="noopener noreferrer">https://www.csjplatform.com/privacy/partner</a></li>
+    <li>优量汇（腾讯广告）：<a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983" target="_blank" rel="noopener noreferrer">https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983</a></li>
+  </ul>
+
+  <p><strong>我们在应用侧已配置的隐私限制（按平台区分）：</strong></p>
+  <p><strong>Android 中国大陆应用商店版。</strong>为符合最小必要原则，我们已通过穿山甲 SDK 隐私配置接口及 GroMore 聚合隐私配置，关闭或限制对以下信息的采集与使用；在未获得您同意前，我们不会初始化广告 SDK：</p>
+  <ul>
+    <li><strong>Android ID</strong></li>
     <li><strong>设备 MAC 地址</strong></li>
-    <li><strong>软件安装列表</strong></li>
+    <li><strong>软件安装列表</strong>（不向 SDK 提供自定义安装列表；应用清单中亦已移除广告 SDK 所需的「查询所有已安装应用」权限声明）</li>
     <li><strong>IMEI 等电话状态标识符</strong></li>
-    <li><strong>精确位置信息</strong></li>
+    <li><strong>精确位置信息</strong>（应用清单中已移除广告 SDK 所需的「粗略位置」权限声明；蓝牙扫描所需的位置权限仅用于系统要求的蓝牙发现能力，与广告投放无关）</li>
+    <li><strong>Wi‑Fi 状态</strong>（用于广告侧的 Wi‑Fi 状态读取已关闭）</li>
   </ul>
-  <p>穿山甲隐私政策：<a href="https://www.csjplatform.com/privacy/partner" target="_blank" rel="noopener noreferrer">https://www.csjplatform.com/privacy/partner</a></p>
-  <p>广告 SDK 仅在您同意本隐私政策后初始化；若您选择不同意，我们不会初始化广告 SDK，您仍可继续使用不含广告的 NFC 核心功能。</p>
+  <p>在上述 Android 版本中，广告 SDK <strong>仅在您点击「同意」后初始化</strong>。若您选择「不同意」，我们不会初始化广告 SDK，您仍可继续使用不含广告的 NFC 核心功能。</p>
+  <p><strong>iOS（系统首选语言为简体中文）。</strong>我们通过穿山甲 SDK 隐私配置关闭将位置信息用于广告的路径；在初始化穿山甲 SDK 前，若系统尚未记录您的选择，可能向您弹出 <strong>App Tracking Transparency（ATT）</strong> 授权请求，以决定是否可使用 IDFA——若您拒绝或限制跟踪，我们将在 SDK 侧限制 IDFA 的使用。iOS 版当前不在首次启动时展示与 Android 国内版相同的隐私同意/拒绝弹窗；VIP 用户不展示广告。iOS 不涉及 Android ID、OAID、IMEI 等 Android 专有标识符。</p>
+  <p>第三方 SDK 可能将上述信息传输至其服务器进行处理与存储，具体规则请参见各提供方的隐私政策。</p>
 
-  <h5>3. 设备权限调用</h5>
-  <p>本服务在运行过程中需要使用以下权限，我们会在使用之前征求您的意见，任何未明确同意使用的权限，均不会被随意调用。</p>
+  <h5>3. 应用内购买与订阅</h5>
+  <p><strong>iOS（App Store）</strong>版本无论系统语言环境，均通过 <strong>Apple 内购（StoreKit）</strong>提供可选 VIP 订阅及买断。<strong>Android（Google Play）</strong>版本通过 <strong>Google Play 结算</strong>提供同类权益。支付流程由 Apple 或 Google 完成，我们不会收集或存储您的完整支付卡号等敏感支付凭证。我们仅接收购买确认、订阅状态与产品标识，用于在您的设备上解锁 VIP 权益（如免广告、主题与扩展使用次数等）。您可在 Apple 或 Google 账户设置中管理或取消订阅。</p>
+  <p>Apple 对支付相关数据的处理受其政策约束：<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
+  <p>非 VIP 用户可能受到每日免费使用次数限制，可通过观看激励视频获得额外次数（iOS 与启用商业化的 Android 版本均可能适用）。</p>
+  <p><strong>中国大陆应用商店版（Android）</strong>不包含 Google Play 结算；免费使用次数等规则以该版本应用内说明为准，可能包含激励视频广告。</p>
 
-  <p class="permission-name">位置（获取设备模糊位置信息）</p>
-  <p>为了提供更好的体验，我们的应用可能会在您授权后调用以下设备权限：模糊位置，出于隐私保护，强制要求应用在扫描蓝牙设备前必须获取定位权限。如果您拒绝授权，您将无法使用该功能，但不影响应用的其它基础功能。</p>
+  <h5>4. 设备权限调用</h5>
+  <p>本服务在运行过程中可能申请以下权限。我们会在系统权限弹窗或首次启动说明中征求您的同意；您拒绝授权仅会影响对应功能。</p>
 
-  <p class="permission-name">设备发现和连接（接入蓝牙并使用蓝牙能力）</p>
-  <p>为了提供更好的体验，我们的应用可能会在您授权后调用以下设备权限：蓝牙权限，用于搜索和连接外部蓝牙设备（如：Pixl.js），以便您可以使用外设进行蓝牙传输数据和蓝牙固件升级。如果您拒绝授权，您将无法使用该功能，但不影响应用的其它基础功能。</p>
+  <p class="permission-name">NFC</p>
+  <p>用于读写 NFC 标签与卡片（iOS 与 Android）。</p>
 
-  <p>您可以随时访问系统“设置”来管理本服务的权限。</p>
+  <p class="permission-name">蓝牙（发现与连接）</p>
+  <p>用于搜索并连接外部蓝牙设备（如 Pixl.js），进行数据传输与固件升级（iOS 与 Android）。在 Android 12 及以上版本，蓝牙扫描声明为不用于定位目的。</p>
 
-  <h5>4. 管理您的个人信息</h5>
-  <p>如您对您的数据主体权利有进一步要求或存在任何疑问、意见或建议，可通过本声明中“如何联系我们”章节中所述方式与我们取得联系，并行使您的相关权利。</p>
+  <p class="permission-name">位置信息</p>
+  <p><strong>Android：</strong>在 Android 11 及以下版本，操作系统可能要求授予位置权限后才能进行蓝牙设备扫描；该权限用于满足系统对蓝牙扫描的要求，与广告投放无关（国内版已在应用清单中移除广告 SDK 所需的粗略位置权限声明）。<strong>iOS：</strong>在您使用地图、标签坐标等相关功能时可能申请位置权限；相关数据用于您主动使用的功能，与广告投放无直接关联。</p>
 
-  <h5>5. 信息存储地点及期限</h5>
-  <p>5.1 我们承诺，除法律法规另有规定外，我们对您的信息的保存期限应当为实现处理目的所必要的最短时间。</p>
-  <p>5.2 上述信息将会传输并保存至服务器所在国家的服务器。</p>
+  <p class="permission-name">相册 / 照片（iOS）</p>
+  <p>用于您主动从相册选择图片识别二维码，或在相关功能中将二维码保存至相册；仅在您触发相关功能时访问，不会在后台批量读取您的相册。</p>
 
-  <h5>6. 如何联系我们</h5>
+  <p class="permission-name">Face ID / Touch ID（iOS）</p>
+  <p>用于您启用应用锁或相关安全验证功能时的本地身份核验；生物识别信息由系统处理，我们不会采集或存储您的生物特征数据。</p>
+
+  <p class="permission-name">相机</p>
+  <p>用于您主动使用二维码扫描功能；图像在本地解码处理，不会上传至我们的服务器（iOS 与 Android）。</p>
+
+  <p class="permission-name">网络与本地网络</p>
+  <p>用于广告加载、应用商店内购、您主动发起的固件或内容下载，以及局域网 OTA 等设备通信（iOS 与 Android）。</p>
+
+  <p class="permission-name">通知（Android）</p>
+  <p>用于在您授权后展示与蓝牙连接、固件更新等相关的可选状态通知。</p>
+
+  <p class="permission-name">前台服务（Android）</p>
+  <p>用于在您主动使用蓝牙连接、固件升级等相关功能时，保持连接任务稳定运行。</p>
+
+  <p>您可以随时在系统「设置」中管理本应用的权限。</p>
+
+  <h5>5. 管理您的个人信息</h5>
+  <p>如您对您的数据主体权利有进一步要求或存在任何疑问、意见或建议，可通过本声明中「如何联系我们」章节中所述方式与我们取得联系，并行使您的相关权利。</p>
+  <p>对于由 Google（AdMob、Play 结算或 UMP，适用于 Android Google Play 版）、Apple（App Store 内购，适用于 iOS 版）以及穿山甲、优量汇、GroMore（适用于 iOS 简体中文广告场景及中国大陆 Android 版）等第三方处理的信息，您也可通过相应提供方的设置或政策行使权利。</p>
+
+  <h5>6. 信息存储地点及期限</h5>
+  <p>6.1 您通过本应用处理的 NFC、蓝牙等核心数据，主要在您的设备本地或与您连接的外设之间处理，除非您主动发起网络传输。</p>
+  <p>6.2 广告与支付相关数据由 Google、Apple、穿山甲、优量汇及其服务提供商按照各自政策在相应基础设施中存储和处理，可能涉及您所在国家或地区以外的服务器。</p>
+  <p>6.3 除法律法规另有规定外，我们对信息的保存期限为为实现处理目的所必要的最短时间。</p>
+
+  <h5>7. 如何联系我们</h5>
   <p>您可通过以下方式联系我们，并行使您的相关权利，我们会尽快回复。</p>
   <p><span>邮箱：</span><a href="mailto:weigantechnology@outlook.com">weigantechnology@outlook.com</a></p>
-  <p>如果您对我们的回复不满意, 特别是当个人信息处理行为损害了您的合法权益时您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。 您也可以向我们了解可能适用的相关投诉途径的信息。</p>
+  <p>如果您对我们的回复不满意，特别是当个人信息处理行为损害了您的合法权益时，您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。您也可以向我们了解可能适用的相关投诉途径的信息。</p>
 
   <div class="text-right">
     <span>生效日期：</span><span>2026.7.13</span>
