@@ -86,7 +86,7 @@
 </head>
 <body>
   <h2>Privacy Statement for iNFCi</h2>
-  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.7.13</span></p>
+  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.7.14</span></p>
 
   <p id="firstDesc">
     <strong>iNFCi</strong> is an application provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us") for <strong>NFC read/write</strong> and related device connectivity features. This Privacy Statement applies to iNFCi on <strong>iOS</strong> and <strong>Android</strong>.
@@ -100,6 +100,26 @@
   <p>1.2 <strong>Local preferences.</strong> We store certain settings on your device (such as theme, usage quota counters, and VIP status flags) to operate the app. This information remains on your device unless otherwise described in this Statement.</p>
   <p>1.3 <strong>What we do not do.</strong> We do not require you to create an account to use iNFCi. We do not provide, include, or distribute copyrighted game files or other third-party content through the app.</p>
 
+  <p>1.4 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that iNFCi may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that neither our app nor the third-party SDKs we have configured to restrict collection will actively collect, read, or upload that type of information.</strong></p>
+  <ul>
+    <li><strong>Android ID:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). On the <strong>Google Play Android build</strong>, the Google AdMob SDK may automatically collect Android ID when serving ads — <strong>purpose</strong> ad delivery, performance measurement, and anti-fraud; <strong>method</strong> automatic SDK collection; <strong>scope</strong> device identifiers necessary for advertising services.</li>
+    <li><strong>ICCID, IMSI, MEID, phone number, hardware serial number:</strong> Not collected.</li>
+    <li><strong>IMEI:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). Not actively collected by our app on other builds.</li>
+    <li><strong>MAC address:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). Bluetooth features are used only to connect peripherals you choose; MAC addresses are not uploaded to our servers.</li>
+    <li><strong>OAID</strong> (Open Anonymous Device Identifier): Collected <strong>only on the mainland China Android build</strong> after you agree to this Privacy Statement, by Pangle / Tencent Ads SDKs — <strong>purpose</strong> ad delivery, performance measurement, and anti-fraud; <strong>method</strong> automatic SDK collection; <strong>scope</strong> the anonymous device identifier assigned for advertising services.</li>
+    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer, gyroscope, and other publicly available sensor types on the device): <strong>Not collected</strong> on the mainland China app-store Android build (disabled via Pangle SDK <em>motion_info</em> and Tencent Ads SDK <em>sensor_ts</em> settings). Core NFC and Bluetooth features do not depend on reading the sensor list. On the <strong>Google Play Android build</strong>, Google AdMob may perform similar collection when serving ads; see Section 2.1.</li>
+    <li><strong>Location information:</strong> <strong>Not collected for advertising</strong> on the mainland China Android build (disabled in ad SDK settings; coarse-location permission declarations for ads removed from the manifest). On Android 11 and below, the OS may require location permission for Bluetooth scanning; this is unrelated to ad targeting and location data is not uploaded to our servers. On <strong>iOS</strong>, location may be requested only when you actively use map or tag-coordinate features.</li>
+    <li><strong>Wi‑Fi list, SSID, BSSID, Wi‑Fi state:</strong> <strong>Not collected</strong> on the mainland China Android build (Wi‑Fi state reads for advertising disabled). We do not collect Wi‑Fi lists, SSID, or BSSID.</li>
+    <li><strong>Installed application list:</strong> <strong>Not collected</strong> on the mainland China Android build (disabled in ad SDK settings; <em>query all packages</em> permission removed from the manifest).</li>
+    <li><strong>IP address:</strong> On the <strong>Google Play Android build</strong>, Google AdMob may automatically collect IP addresses when serving ads — <strong>purpose</strong> ad loading, anti-fraud, and SDK stability; <strong>method</strong> automatic SDK collection; <strong>scope</strong> network addresses related to ad services. On the <strong>mainland China Android build</strong>, after you agree and ad SDKs are initialized, Pangle / Tencent Ads SDKs may obtain IP addresses during ad requests and measurement — <strong>purpose</strong> ad loading, performance measurement, and anti-fraud; <strong>method</strong> automatic collection during network communication; <strong>scope</strong> network addresses related to ad services.</li>
+    <li><strong>Clipboard:</strong> We write content to the system clipboard only when you actively trigger a copy action (for example, copying a device identifier). We do not read or upload clipboard content in the background.</li>
+    <li><strong>Images:</strong> Accessed only when you actively choose an image from your library to decode a QR code, or save a QR code to your library. Images are processed locally and are not uploaded to our servers.</li>
+    <li><strong>Camera:</strong> Used only when you actively use QR code scanning. Images are decoded locally and are not uploaded to our servers.</li>
+    <li><strong>Video and audio:</strong> Rewarded and other ad formats may load and play media through third-party ad SDKs when you watch ads. We do not collect or upload your personal video or audio files, and we do not access the microphone.</li>
+    <li><strong>Calendar, SMS, contacts, system account information, call logs:</strong> Not collected.</li>
+  </ul>
+  <p>Collection by third-party advertising SDKs listed above occurs <strong>only after you tap Agree</strong> on the first-launch privacy dialog (mainland China Android build) or when you use the relevant ad services (other builds). If you choose <strong>Decline and use core features only</strong>, we do not initialize advertising SDKs and the related collection does not occur.</p>
+
   <h5>2. Third-Party SDKs and Advertising</h5>
 
   <p class="permission-name">2.1 Google AdMob advertising (iOS: system preferred language is not Simplified Chinese; Android: Google Play build)</p>
@@ -109,6 +129,7 @@
     <li><strong>Device information</strong> (such as device model and operating system version; platform-specific identifiers such as Android ID on Android or IDFV on iOS): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
     <li><strong>Advertising identifiers</strong> (such as Google Advertising ID on Android; advertising-related identifiers on iOS where permitted by the system): <strong>Purpose</strong> — ad measurement and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — device-assigned advertising-related identifiers. You can limit ad tracking or reset advertising identifiers in your device settings.</li>
     <li><strong>Network and diagnostic information</strong> (such as IP address, network type, and crash or diagnostic signals related to ad serving): <strong>Purpose</strong> — ad loading, fraud prevention, and SDK stability; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data related to ad delivery and SDK operation.</li>
+    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer and gyroscope): <strong>Purpose</strong> — ad anti-fraud, performance optimization, and device compatibility checks; <strong>Method</strong> — automatic collection by the SDK through system APIs; <strong>Scope</strong> — sensor types and list information directly related to advertising and anti-fraud.</li>
   </ul>
   <p>Where required by law (for example, in the European Economic Area, the UK, or Switzerland), the <strong>Google Play Android build</strong> may use Google's <strong>User Messaging Platform (UMP)</strong> to request your consent before serving personalized ads. You can review or change your ad privacy choices on that build in the app under <strong>Settings → Ad privacy settings</strong> when available for your region.</p>
   <p>On <strong>iOS in the AdMob scenario described above</strong>, the app does not use UMP and does not currently present an App Tracking Transparency (ATT) prompt before showing AdMob ads. You can limit personalized ads or reset advertising identifiers in iOS system settings (for example, <strong>Settings → Privacy &amp; Security → Apple Advertising</strong>).</p>
@@ -127,6 +148,7 @@
     <li><strong>OAID</strong> (mainland China Android build only; Open Anonymous Device Identifier): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — the anonymous device identifier assigned for advertising services.</li>
     <li><strong>Network state information</strong> (such as network type and connectivity): <strong>Purpose</strong> — ad loading and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data related to network connectivity.</li>
     <li><strong>Ad interaction and diagnostic information</strong> (such as impressions, clicks, conversions, and SDK operational logs): <strong>Purpose</strong> — ad measurement, settlement, and troubleshooting; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data directly related to ad services.</li>
+    <li><strong>IP address</strong>: <strong>Purpose</strong> — ad loading, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection during network communication by the SDK; <strong>Scope</strong> — network addresses related to ad services.</li>
   </ul>
 
   <p><strong>SDK providers and privacy policies:</strong></p>
@@ -145,8 +167,9 @@
     <li><strong>IMEI and similar telephony identifiers</strong></li>
     <li><strong>Location information (for advertising)</strong> (the app manifest removes the ad SDK's <em>coarse location</em> permission declaration; location permission used for Bluetooth scanning is required by the operating system for device discovery and is unrelated to ad targeting)</li>
     <li><strong>Wi‑Fi state</strong> (Wi‑Fi state reads for advertising are disabled)</li>
+    <li><strong>Sensor list and specific sensor types</strong> (disabled via Pangle SDK <em>motion_info</em> and Tencent Ads SDK <em>sensor_ts</em>)</li>
   </ul>
-  <p>If you choose <strong>Decline</strong> on that Android build, we do not initialize advertising SDKs and you may continue using core NFC features without ads.</p>
+  <p>If you choose <strong>Decline and use core features only</strong> on that Android build, we do not initialize advertising SDKs and you may continue using core NFC features without ads.</p>
   <p><strong>iOS (system preferred language is Simplified Chinese).</strong> We configure the Pangle SDK privacy provider to disable use of location for advertising. Before initializing the Pangle SDK, if the system has not yet recorded your choice, the app may present an <strong>App Tracking Transparency (ATT)</strong> prompt to determine whether IDFA may be used. If you deny or restrict tracking, we configure the SDK to limit IDFA use. Unlike the mainland China Android build, iOS does not currently show the same first-launch Agree/Decline privacy dialog; VIP subscribers do not see ads. iOS does not involve Android-specific identifiers such as Android ID, OAID, or IMEI.</p>
   <p>Third-party SDKs may transmit the above information to their servers for processing and storage. Please refer to each provider's privacy policy for details.</p>
 
@@ -206,7 +229,7 @@
   <p>If you are not satisfied with our response, especially where applicable law grants you additional remedies, you may lodge a complaint with a data protection authority in your country or region. You may also seek resolution through a court of competent jurisdiction where permitted by law.</p>
 
   <div class="text-right">
-    <span>Effective date:</span><span>2026.7.13</span>
+    <span>Effective date:</span><span>2026.7.14</span>
   </div>
 </body>
 </html>
