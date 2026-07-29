@@ -10,41 +10,13 @@
       margin: 0;
       font-size: 16px;
       color: rgba(0, 0, 0, 0.9);
+      box-sizing: border-box;
     }
     body {
       max-width: 860px;
       margin: auto;
-      padding: 2rem 2rem 5rem 2rem;
-    }
-    a {
-      color: #0a59f7;
-      text-decoration: none;
-    }
-    #icon {
-      font-size: 0;
-      text-align: center;
-    }
-    #icon svg {
-      width: 4rem;
-      height: 4rem;
-    }
-    #dark {
-      display: none;
-    }
-    #update-time {
-      text-align: center;
-    }
-    #update-time span {
-      font-size: 14px;
-    }
-    .font-secondary {
-      color: rgba(0, 0, 0, 0.6);
-    }
-    #firstDesc {
-      margin-top: 3rem;
-    }
-    #firstDesc span {
-      font-weight: 600;
+      padding: 2rem 2rem 5rem;
+      line-height: 1.6;
     }
     h2 {
       margin: 2rem 0 0.5rem;
@@ -52,80 +24,186 @@
       font-size: 18px;
     }
     h5 {
-      word-break: break-word;
       margin-top: 3rem;
       margin-bottom: 1rem;
+      word-break: break-word;
     }
     p {
+      margin-bottom: 1rem;
       word-break: break-word;
       line-height: 1.6;
-      margin-bottom: 0.75rem;
+    }
+    ul {
+      margin: 0 0 1rem 1.25rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+    }
+    #update-time {
+      text-align: center;
+    }
+    #firstDesc {
+      margin-top: 3rem;
+    }
+    #firstDesc strong {
+      font-weight: 600;
+    }
+    .permission-name {
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+    .permission-name:first-of-type {
+      margin-top: 0;
+    }
+    a {
+      color: #0a59f7;
+      text-decoration: none;
     }
     .text-right {
       text-align: right;
-    }
-    #date-info {
       margin-top: 40px;
     }
     @media (prefers-color-scheme: dark) {
       body {
-        background-color: #000000;
+        background-color: #000;
       }
-      #light {
-        display: none;
-      }
-      #dark {
-        display: inline;
+      * {
+        color: rgba(255, 255, 255, 0.9);
       }
       .font-secondary {
         color: rgba(255, 255, 255, 0.6);
       }
-      * {
-        color: rgba(255, 255, 255, 0.9);
+      a {
+        color: #317af7;
       }
     }
   </style>
 </head>
 <body>
-  <div id="icon">
-    <svg id="light" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M13.12 3L18.64 5.2C18.85 5.29 19 5.38 19.09 5.5C19.19 5.6 19.25 5.77 19.26 6L19.26 12.36C19.25 13.51 19.01 14.59 18.55 15.59C18.1 16.59 17.41 17.57 16.48 18.54C16.12 18.93 15.67 19.3 15.15 19.67C14.63 20.03 13.96 20.42 13.12 20.86L13.12 23.26C14.56 22.48 15.62 21.87 16.3 21.42C16.98 20.98 17.55 20.51 18.01 20.02C19.11 18.87 19.94 17.7 20.5 16.48C21.07 15.25 21.36 13.92 21.37 12.5L21.37 5.5C21.37 4.93 21.21 4.48 20.88 4.13C20.56 3.77 20.11 3.48 19.54 3.26L13.12 0.73L13.12 3ZM4.48 3.26C3.94 3.47 3.5 3.76 3.15 4.12C2.81 4.47 2.63 4.9 2.63 5.38L2.63 12.5C2.65 13.96 2.93 15.3 3.48 16.54C4.04 17.76 4.87 18.92 6 20.02C6.68 20.7 7.3 21.24 7.85 21.62C8.41 22 9.08 22.4 9.88 22.8L10.87 23.26L10.87 20.86C10.03 20.43 9.36 20.04 8.85 19.68C8.34 19.33 7.89 18.95 7.5 18.54C6.58 17.57 5.89 16.59 5.43 15.59C4.97 14.59 4.75 13.51 4.75 12.36L4.75 6C4.75 5.79 4.79 5.63 4.87 5.51C4.97 5.39 5.12 5.29 5.34 5.2L10.87 3L10.87 0.73L4.48 3.26Z" fill="#000000" fill-opacity="0.9" fill-rule="nonzero"></path>
-      <path d="M10.62 14.76L13.37 14.76L13.37 8.26L10.62 8.26L10.62 14.76Z" fill="#0A59F7" fill-opacity="1" fill-rule="nonzero"></path>
-    </svg>
-    <svg id="dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path d="M13.12 3L18.64 5.2C18.85 5.29 19 5.38 19.09 5.5C19.19 5.6 19.25 5.77 19.26 6L19.26 12.36C19.25 13.51 19.01 14.59 18.55 15.59C18.1 16.59 17.41 17.57 16.48 18.54C16.12 18.93 15.67 19.3 15.15 19.67C14.63 20.03 13.96 20.42 13.12 20.86L13.12 23.26C14.56 22.48 15.62 21.87 16.3 21.42C16.98 20.98 17.55 20.51 18.01 20.02C19.11 18.87 19.94 17.7 20.5 16.48C21.07 15.25 21.36 13.92 21.37 12.5L21.37 5.5C21.37 4.93 21.21 4.48 20.88 4.13C20.56 3.77 20.11 3.48 19.54 3.26L13.12 0.73L13.12 3ZM4.48 3.26C3.94 3.47 3.5 3.76 3.15 4.12C2.81 4.47 2.63 4.9 2.63 5.38L2.63 12.5C2.65 13.96 2.93 15.3 3.48 16.54C4.04 17.76 4.87 18.92 6 20.02C6.68 20.7 7.3 21.24 7.85 21.62C8.41 22 9.08 22.4 9.88 22.8L10.87 23.26L10.87 20.86C10.03 20.43 9.36 20.04 8.85 19.68C8.34 19.33 7.89 18.95 7.5 18.54C6.58 17.57 5.89 16.59 5.43 15.59C4.97 14.59 4.75 13.51 4.75 12.36L4.75 6C4.75 5.79 4.79 5.63 4.87 5.51C4.97 5.39 5.12 5.29 5.34 5.2L10.87 3L10.87 0.73L4.48 3.26Z" fill="#FFFFFF" fill-opacity="0.9" fill-rule="nonzero"></path>
-      <path d="M10.62 14.76L13.37 14.76L13.37 8.26L10.62 8.26L10.62 14.76Z" fill="#317AF7" fill-opacity="1" fill-rule="nonzero"></path>
-    </svg>
-  </div>
+  <h2>Privacy Statement for iEmulator</h2>
+  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.7.29</span></p>
 
-  <h2>Statement on iEmulator and Privacy</h2>
-  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.7.1</span></p>
+  <p id="firstDesc">
+    <strong>iEmulator</strong> is an application provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us") for <strong>retro game emulation</strong> on Apple platforms. This Privacy Statement applies to iEmulator on <strong>iOS</strong>, <strong>iPadOS</strong>, and <strong>macOS</strong>.
+  </p>
+  <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-standard security practices.</p>
+  <p>This Privacy Statement works together with our <a href="https://weigantechnology.github.io/applications/iEmulator/UserAgreement.html" target="_blank" rel="noopener noreferrer">User Agreement for iEmulator</a>.</p>
+  <p>On the <strong>iOS / iPadOS</strong> build, advertising and usage-quota features apply to non-VIP users. When your detected region is <strong>mainland China</strong>, ads are served through Pangle GroMore mediation (including Pangle and Tencent Ads); in other regions, Google AdMob is used. VIP purchases are offered through Apple In-App Purchase. The <strong>macOS</strong> build does not display ads or apply daily launch quotas, but launching games requires an active VIP subscription.</p>
 
-  <p id="firstDesc"><span>iEmulator</span> is the application provided to you by <span>Weigan Technology (Shenzhen) Co., Ltd.</span> ("we," "us," or "our"). This Privacy Statement is established by us for the processing of your personal information in connection with <span>iEmulator</span>.</p>
-  <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-recognized security standards.</p>
+  <h5>1. How We Collect and Use Your Information</h5>
+  <p>We will only use your personal information where we have a lawful basis to do so. Under applicable law, we may process your information based on lawful grounds such as your consent, where necessary to perform or enter into a contract with you, or where necessary to comply with legal obligations.</p>
+  <p>1.1 <strong>Core app features.</strong> To provide emulation, save management, netplay, controller support, and related features, we invoke Bluetooth, microphone, local network, and iCloud capabilities through system APIs only when you use the related features. On <strong>iOS / iPadOS</strong>, we may request photo-library add permission when you save in-game screenshots. Game ROM files, save data, screenshots, and other content you import are processed on your device or through services you actively choose. During netplay you initiate, game data may be transferred directly between your device and other players on your local network. Optional <strong>iCloud</strong> save sync and <strong>RetroAchievements</strong> are available only to VIP subscribers. We do not use this data to build a profile that identifies you.</p>
+  <p>1.2 <strong>Local preferences.</strong> We store certain settings on your device (such as theme, usage quota counters, VIP status flags, and emulator preferences) to operate the app. This information remains on your device unless otherwise described in this Statement.</p>
+  <p>1.3 <strong>Region detection for ads (iOS / iPadOS only).</strong> To choose the appropriate advertising provider, the app may request your country or region code from a third-party IP geolocation service (<a href="https://ipinfo.io" target="_blank" rel="noopener noreferrer">ipinfo.io</a>). This request may expose your IP address to that service. If the request fails or no stored value exists, we may fall back to your device language (for example, Simplified Chinese maps to mainland China). The resulting region code is stored locally on your device.</p>
+  <p>1.4 <strong>Cover art lookup.</strong> To display game cover art, the app may send a cleaned game title derived from your ROM filename to third-party services such as <strong>IGDB</strong> (via Twitch OAuth) and the <strong>Apple iTunes Search API</strong>. We do not send your ROM file contents. Retrieved cover images are cached locally on your device.</p>
+  <p>1.5 <strong>Optional third-party sign-in.</strong> If you are a VIP subscriber and choose to use <strong>RetroAchievements</strong>, your username and authentication token are stored locally in the device keychain and transmitted to RetroAchievements servers to sign you in and sync achievements. We do not operate RetroAchievements; its processing is governed by RetroAchievements policies.</p>
+  <p>1.6 <strong>What we do not do.</strong> We do not require you to create an in-app account. On <strong>iOS / iPadOS</strong>, non-VIP users may use core emulation features subject to usage limits. On <strong>macOS</strong>, launching games requires an active VIP subscription. We do not provide, include, or distribute copyrighted game ROM files or other third-party content through the app.</p>
 
-  <h5>1. How We Collect and Use Your Personal Information</h5>
-  <p>We use your personal information only where we have a lawful basis to do so. Under applicable law, we may use your personal information based on lawful grounds such as your consent, the necessity to perform or enter into a contract with you, or compliance with legal obligations.</p>
-  <p>1.1 We offer both basic feature services and full feature services. You may choose between them in the game library interface. The path may vary depending on your device or app version; please refer to the interface on your current device. Under the basic feature service, we do not collect personal information and only provide the basic function of importing ROM files. We do not provide, include, or distribute any copyrighted game files or other additional features, which may affect your user experience.</p>
+  <p>1.7 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that iEmulator may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that our app does not actively collect, read, or upload that type of information for the stated purpose.</strong></p>
+  <ul>
+    <li><strong>Device identifiers (IDFV; IDFA where authorized):</strong> On <strong>iOS / iPadOS</strong>, advertising SDKs may automatically collect device identifiers — <strong>purpose</strong> ad delivery, performance measurement, and anti-fraud; <strong>method</strong> automatic SDK collection; <strong>scope</strong> parameters necessary for advertising services. IDFA is used only where you authorize App Tracking Transparency (ATT). The <strong>macOS</strong> build does not integrate advertising SDKs for this purpose.</li>
+    <li><strong>IP address:</strong> On <strong>iOS / iPadOS</strong>, Google AdMob or Pangle / Tencent Ads SDKs may automatically collect IP addresses when serving ads — <strong>purpose</strong> ad loading, anti-fraud, and SDK stability; <strong>method</strong> automatic SDK collection; <strong>scope</strong> network addresses related to ad services. The app may also send your IP address to <strong>ipinfo.io</strong> when determining your advertising region — <strong>purpose</strong> region detection for ad provider selection; <strong>method</strong> network request initiated by the app; <strong>scope</strong> country or region code returned by the service.</li>
+    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer and gyroscope): On <strong>iOS / iPadOS</strong>, Google AdMob may perform such collection when serving ads. We configure the Pangle SDK not to use location for advertising.</li>
+    <li><strong>Location information:</strong> Not collected by us for advertising. We do not request location permission for ad targeting.</li>
+    <li><strong>Clipboard:</strong> We write content to the system clipboard only when you actively trigger a copy action (for example, copying our support email address). We do not read or upload clipboard content in the background.</li>
+    <li><strong>Game title for cover lookup:</strong> When fetching cover art, we may send a cleaned game title derived from your ROM filename to IGDB and the Apple iTunes Search API — <strong>purpose</strong> retrieving publicly available cover images; <strong>method</strong> network request initiated by the app; <strong>scope</strong> game title text only, not ROM file contents.</li>
+    <li><strong>Images and photo library:</strong> On <strong>iOS / iPadOS</strong>, when you take a screenshot in-game, the app may request photo-library add permission to save the image to your album; if permission is denied, the screenshot is saved to app storage instead. We do not read your entire photo library in the background.</li>
+    <li><strong>Microphone:</strong> Used only when a game or core you are running requires microphone input (for example, some Nintendo DS titles). Audio is processed locally for emulation and is not uploaded to our servers.</li>
+    <li><strong>Video and audio in ads:</strong> Rewarded and other ad formats may load and play media through third-party ad SDKs on <strong>iOS / iPadOS</strong> when you watch ads. We do not collect or upload your personal video or audio files through ads.</li>
+    <li><strong>Game ROM files and save data:</strong> Processed locally on your device or in your iCloud container when you enable sync. We do not upload your ROM library to our servers.</li>
+    <li><strong>Calendar, SMS, contacts, phone number, call logs:</strong> Not collected.</li>
+  </ul>
 
-  <h5>2. Device Permissions</h5>
-  <p><strong>Device discovery and connection</strong> (access Bluetooth and use Bluetooth capabilities; allow access to and use of NearLink functionality)</p>
-  <p>To provide a better gaming experience, our application may request the following device permissions after you grant authorization: <strong>Bluetooth permission (ACCESS_BLUETOOTH)</strong>: used to search for and connect to external controller devices (such as Bluetooth game controllers) so that you can use peripherals for gameplay. If you decline authorization, you will not be able to use controller functionality, but other basic features of the application will not be affected.</p>
+  <h5>2. Third-Party SDKs and Advertising</h5>
 
-  <h5>3. Managing Your Personal Information</h5>
-  <p>If you have further requests regarding your data subject rights, or if you have any questions, comments, or suggestions, you may contact us using the methods described in the "How to Contact Us" section of this statement to exercise your related rights.</p>
+  <p class="permission-name">2.1 Google AdMob advertising (iOS / iPadOS: detected region is not mainland China)</p>
+  <p>In this scenario, the app integrates the <strong>Google Mobile Ads SDK (AdMob)</strong> to display ads (including app-open and rewarded formats), measure ad performance, and prevent fraud. AdMob is provided by Google LLC and may automatically collect information such as:</p>
+  <ul>
+    <li><strong>Device information</strong> (such as device model, operating system version, and IDFV): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
+    <li><strong>Advertising identifiers</strong> (advertising-related identifiers on iOS where permitted by the system): <strong>Purpose</strong> — ad measurement and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — device-assigned advertising-related identifiers. You can limit ad tracking or reset advertising identifiers in your device settings.</li>
+    <li><strong>Network and diagnostic information</strong> (such as IP address, network type, and crash or diagnostic signals related to ad serving): <strong>Purpose</strong> — ad loading, fraud prevention, and SDK stability; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data related to ad delivery and SDK operation.</li>
+    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer and gyroscope): <strong>Purpose</strong> — ad anti-fraud, performance optimization, and device compatibility checks; <strong>Method</strong> — automatic collection by the SDK through system APIs; <strong>Scope</strong> — sensor types and list information directly related to advertising and anti-fraud.</li>
+  </ul>
+  <p>On <strong>iOS / iPadOS in the AdMob scenario described above</strong>, the app does not currently present an App Tracking Transparency (ATT) prompt before showing AdMob ads. You can limit personalized ads or reset advertising identifiers in iOS system settings (for example, <strong>Settings → Privacy &amp; Security → Apple Advertising</strong>).</p>
+  <p>Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
+  <p>VIP subscribers do not see ads for features covered by their active subscription.</p>
 
-  <h5>4. Storage Location and Retention Period</h5>
-  <p>4.1 We undertake that, except as otherwise required by laws and regulations, we will retain your information only for the shortest period necessary to achieve the purposes of processing.</p>
-  <p>4.2 The information described above will be transmitted to and stored on servers located within mainland China.</p>
+  <p class="permission-name">2.2 Pangle GroMore mediation (iOS / iPadOS: detected region is mainland China)</p>
+  <p>In this scenario, the app does <strong>not</strong> use AdMob. It initializes third-party advertising SDKs through <strong>Pangle GroMore mediation</strong>, which may serve ads from the following ad networks we have integrated:</p>
+  <ul>
+    <li><strong>Pangle (Chuanshanjia)</strong> — Beijing Juliang Engine Network Technology Co., Ltd.</li>
+    <li><strong>Tencent Ads (Youlianghui / GDT)</strong> — Shenzhen Tencent Computer Systems Co., Ltd.</li>
+  </ul>
+  <p>GroMore selects and fills ad requests across these networks for the ad placements you trigger in the app. The SDKs automatically collect information such as:</p>
+  <ul>
+    <li><strong>Device information</strong> (such as device model and operating system version; IDFV on iOS, and IDFA on iOS where you authorize ATT): <strong>Purpose</strong> — ad delivery, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — parameters necessary for advertising services.</li>
+    <li><strong>Network state information</strong> (such as network type and connectivity): <strong>Purpose</strong> — ad loading and anti-fraud; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data related to network connectivity.</li>
+    <li><strong>Ad interaction and diagnostic information</strong> (such as impressions, clicks, conversions, and SDK operational logs): <strong>Purpose</strong> — ad measurement, settlement, and troubleshooting; <strong>Method</strong> — automatic collection by the SDK; <strong>Scope</strong> — data directly related to ad services.</li>
+    <li><strong>IP address</strong>: <strong>Purpose</strong> — ad loading, performance measurement, and anti-fraud; <strong>Method</strong> — automatic collection during network communication by the SDK; <strong>Scope</strong> — network addresses related to ad services.</li>
+  </ul>
 
-  <h5>5. How to Contact Us</h5>
-  <p>You may contact us through the following means to exercise your related rights, and we will respond as soon as possible.</p>
+  <p><strong>SDK providers and privacy policies:</strong></p>
+  <ul>
+    <li>Pangle / GroMore: <a href="https://www.csjplatform.com/privacy/partner" target="_blank" rel="noopener noreferrer">https://www.csjplatform.com/privacy/partner</a></li>
+    <li>Tencent Ads (GDT): <a href="https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983" target="_blank" rel="noopener noreferrer">https://e.qq.com/dev/help_detail.html?cid=2005&amp;pid=5983</a></li>
+  </ul>
+  <p>On <strong>iOS / iPadOS (mainland China region)</strong>, we configure the Pangle SDK privacy provider to disable use of location for advertising. Before initializing the Pangle SDK, if the system has not yet recorded your choice, the app may present an <strong>App Tracking Transparency (ATT)</strong> prompt to determine whether IDFA may be used. If you deny or restrict tracking, we configure the SDK to limit IDFA use. VIP subscribers do not see ads.</p>
+  <p>Third-party SDKs may transmit the above information to their servers for processing and storage. Please refer to each provider's privacy policy for details.</p>
+
+  <h5>3. In-App Purchases and Subscriptions</h5>
+  <p>The <strong>iOS / iPadOS</strong> and <strong>macOS</strong> builds offer VIP subscriptions and a lifetime purchase through <strong>Apple In-App Purchase (StoreKit)</strong>. Payment flows are handled by Apple; we do not collect or store your full payment card numbers or other sensitive payment credentials.</p>
+  <p>We receive only purchase confirmation, subscription status, and product identifiers to unlock VIP features (such as ad-free experience on iOS / iPadOS, unlimited game launches, theme and interface customization, iCloud save sync, and RetroAchievements access) on your device. You can manage or cancel subscriptions in your Apple account settings.</p>
+  <p>Apple's handling of payment data is governed by Apple's policies: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
+  <p>On <strong>iOS / iPadOS</strong>, non-VIP users may be subject to daily free launch limits and can earn additional launches by watching rewarded video ads. On <strong>macOS</strong>, launching games requires an active VIP subscription.</p>
+
+  <h5>4. Device Permission Usage</h5>
+  <p>This service may request the following permissions on iOS, iPadOS, and/or macOS. We ask for your consent through the system permission dialog before using sensitive capabilities. Permissions you deny will limit only the related features.</p>
+
+  <p class="permission-name">Bluetooth</p>
+  <p>Used to discover and connect to external game controllers for gameplay and controller configuration tools.</p>
+
+  <p class="permission-name">Photo library (add only, iOS / iPadOS)</p>
+  <p>Used when you save an in-game screenshot to your photo album. If you deny this permission, screenshots are saved to app storage instead.</p>
+
+  <p class="permission-name">Microphone</p>
+  <p>Used to support sound input in games or cores that require microphone access (such as some Nintendo DS titles). Audio is processed locally for emulation.</p>
+
+  <p class="permission-name">Local network</p>
+  <p>Used to discover and connect to other players for rollback netplay over your local network (Bonjour).</p>
+
+  <p class="permission-name">iCloud</p>
+  <p>Used when VIP subscribers enable save-data sync. Save files are stored in your iCloud container and managed according to Apple's iCloud policies.</p>
+
+  <p class="permission-name">App Tracking Transparency (iOS / iPadOS)</p>
+  <p>May be requested before initializing Pangle advertising SDKs in the mainland China ad scenario, to determine whether IDFA may be used.</p>
+
+  <p class="permission-name">Internet</p>
+  <p>Used for ads (iOS / iPadOS non-VIP users), App Store billing, optional RetroAchievements sign-in (VIP only), region detection for ads, automatic or manual cover-art lookup, and netplay.</p>
+
+  <p>You can manage permissions for this app at any time in your device Settings.</p>
+
+  <h5>5. Managing Your Personal Information</h5>
+  <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to data portability where applicable.</p>
+  <p>For data processed by Google (AdMob), Apple (App Store In-App Purchase and iCloud), Pangle, Tencent Ads, GroMore, IGDB, RetroAchievements, or ipinfo.io, you may also exercise choices through the relevant provider's settings and policies.</p>
+  <p>To exercise rights relating to data we control, contact us using the details in Section 7. We will respond within a reasonable time as required by applicable law.</p>
+
+  <h5>6. Information Storage Location and Retention Period</h5>
+  <p>6.1 Game files, save data, and emulator settings you process through the app are handled on your device or, for VIP subscribers who enable sync, in your iCloud container, unless you explicitly initiate other network transfers (such as netplay or RetroAchievements).</p>
+  <p>6.2 Advertising, billing, cover-art lookup, RetroAchievements, region-detection, and related data processed by Google, Apple, IGDB, Twitch, Pangle, Tencent Ads, RetroAchievements, ipinfo.io, and their service providers is stored and processed according to each provider's policies and infrastructure, which may involve servers outside your country of residence.</p>
+  <p>6.3 We retain information only for as long as necessary to fulfill the purposes described in this Statement, unless a longer retention period is required by law.</p>
+
+  <h5>7. How to Contact Us</h5>
+  <p>You may contact us through the following methods to exercise your relevant rights. We will respond as soon as possible.</p>
   <p><span>Email:</span> <a href="mailto:weigantechnology@outlook.com">weigantechnology@outlook.com</a></p>
-  <p>If you are not satisfied with our response, especially where the processing of personal information has harmed your lawful rights and interests, you may also seek resolution through external channels such as filing a lawsuit with a court of competent jurisdiction, or lodging a complaint with an industry self-regulatory association or relevant government authority. You may also contact us to learn about potentially applicable complaint channels.</p>
+  <p>If you are not satisfied with our response, especially where applicable law grants you additional remedies, you may lodge a complaint with a data protection authority in your country or region. You may also seek resolution through a court of competent jurisdiction where permitted by law.</p>
 
-  <div id="date-info">
-    <div class="text-right"><span>Effective date:</span><span>2026.7.1</span></div>
+  <div class="text-right">
+    <span>Effective date:</span><span>2026.7.29</span>
   </div>
 </body>
 </html>
