@@ -7,6 +7,18 @@
                 "paths": ["/infc/*"]
             },
             {
+                "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
+                "paths": ["/iemulator/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
+                "paths": ["/iromemulator/*"]
+            },
+            {
+                "appID": "7KZ75239SH.com.weigantech.localai",
+                "paths": ["/localai/*"]
+            },
+            {
                 "appID": "7KZ75239SH.com.weigantech.idraft",
                 "paths": ["/idraft/*"]
             },
@@ -45,10 +57,6 @@
             {
                 "appID": "7KZ75239SH.com.weigantech.iconsole",
                 "paths": ["/iconsole/*"]
-            },
-            {
-                "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
-                "paths": ["/iromemulator/*"]
             }
         ]
     }
