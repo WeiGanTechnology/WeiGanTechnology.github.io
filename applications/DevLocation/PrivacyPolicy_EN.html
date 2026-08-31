@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevLocation Privacy Policy</title>
+  <link rel="icon" href="data:image/ico;base64,aWNv">
+  <style>
+    * {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.9);
+      box-sizing: border-box;
+    }
+    body {
+      max-width: 860px;
+      margin: auto;
+      padding: 2rem 2rem 5rem;
+      line-height: 1.6;
+    }
+    h2 {
+      margin: 2rem 0 0.5rem;
+      text-align: center;
+      font-size: 18px;
+    }
+    h5 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      word-break: break-word;
+    }
+    p {
+      margin-bottom: 1rem;
+      word-break: break-word;
+      line-height: 1.6;
+    }
+    ul {
+      margin: 0 0 1rem 1.25rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+    }
+    #update-time {
+      text-align: center;
+    }
+    #firstDesc {
+      margin-top: 3rem;
+    }
+    #firstDesc strong {
+      font-weight: 600;
+    }
+    .permission-name {
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+    .permission-name:first-of-type {
+      margin-top: 0;
+    }
+    a {
+      color: #0a59f7;
+      text-decoration: none;
+    }
+    .text-right {
+      text-align: right;
+      margin-top: 40px;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000;
+      }
+      * {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .font-secondary {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      a {
+        color: #317af7;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Privacy Policy for DevLocation</h2>
+  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.8.31</span> · <a href="PrivacyPolicy_CN.html">简体中文</a></p>
+
+  <p id="firstDesc">
+    <strong>DevLocation</strong> is a <strong>GPS location simulation tool for development and testing</strong> provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). It helps you simulate GPS locations on connected iOS devices to support app development and testing. This Privacy Policy applies to DevLocation on <strong>iOS</strong>, <strong>iPadOS</strong>, <strong>macOS</strong>, and <strong>visionOS</strong>.
+  </p>
+  <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-standard security practices.</p>
+  <p>This Privacy Policy works together with our <a href="https://www.weigantech.com/applications/DevLocation/UserAgreement_EN.html" target="_blank" rel="noopener noreferrer">User Agreement for DevLocation</a>.</p>
+  <p>The Mac app is the primary control surface. It connects to iPhones and other iOS devices over USB or the local network to send simulated locations. The iOS / iPadOS / visionOS companion app shows simulation status, map views, and remote stop controls. Simulated coordinates are processed mainly on your devices; saved places, routes, history, and runtime logs are processed mainly on macOS. We do not upload this data to our own cloud servers. The Service currently does <strong>not</strong> integrate third-party advertising SDKs and does <strong>not</strong> provide app accounts or cloud sync operated by us.</p>
+
+  <h5>1. How We Collect and Use Your Personal Information</h5>
+  <p>We use your personal information only where we have a lawful basis to do so. Depending on applicable law, we may rely on your consent, performance of a contract with you, compliance with legal obligations, or other lawful bases.</p>
+  <p>1.1 <strong>Core app features.</strong> To provide single-point simulation, route playback, device connection and management, favorites and history, GPX import/export, map picking, and address search, we process simulated coordinates, waypoints, speed settings, saved places, saved routes, visit history, device names and UDIDs (to identify connected devices), runtime state, and UI preferences on your devices. Device connection management, favorites and history, GPX import/export, and address search are mainly available on <strong>macOS</strong>; the companion app mainly displays synced simulation status. This data is used to perform location simulation and show status on your devices. We do not use it to identify you personally, and we do not upload a full database of your simulation data to our servers.</p>
+  <p>1.2 <strong>Local preferences and cross-device sync.</strong> We store certain settings locally, such as map style, simulation mode, tunnel/background agent state, and UI preferences. Between the <strong>macOS</strong> control app and the <strong>iOS / iPadOS / visionOS</strong> companion, simulation state summaries (for example, whether simulation is active, current coordinates, and device name) are synced mainly over the <strong>local network (Bonjour)</strong>. Remote commands such as stop are also sent over that local connection. <strong>App Group</strong> storage is used for on-device state and commands within the same device (where applicable) and does not automatically sync across a Mac and an iPhone. This communication stays within your local network or on your devices and is not uploaded to our servers.</p>
+  <p>1.3 <strong>Maps and address search.</strong> When you use map display features, they are provided by <strong>Apple MapKit</strong> and related system map services. On <strong>macOS</strong>, when you use address search or place lookup, we may send search keywords or map region information to Apple to obtain search results and map tiles. Apple's handling of that data is governed by its policies.</p>
+  <p>1.4 <strong>Optional road routing (OSRM).</strong> On macOS, if you enable the optional road-routing feature, the app may send start and end coordinates to a public <strong>OSRM</strong> routing service (such as <code>router.project-osrm.org</code>) to obtain road-following waypoints. We send only the coordinates needed for the feature and do not send device identifiers, contacts, or unrelated information. That service is operated by a third party and is governed by its own policies.</p>
+  <p>1.5 <strong>Diagnostics and troubleshooting.</strong> On macOS, the app may generate local runtime logs or diagnostic summaries for device connection, tunneling, and simulation troubleshooting. You may view or copy these logs. By default, this information is not uploaded to our servers.</p>
+  <p>1.6 <strong>GPX and pairing files (where applicable).</strong> On <strong>macOS</strong>, when you import or export GPX route files, you choose the files yourself and they are stored locally on your device or in folders you select. In advanced/internal builds, you may also import developer pairing files. We do not proactively read or upload your other personal files.</p>
+  <p>1.7 <strong>What we do not do.</strong> The Service does <strong>not</strong> require you to register an in-app account with us. We currently do <strong>not</strong> integrate Firebase, Umeng, Pangle, AdMob, or similar third-party advertising or behavioral analytics SDKs. We do not read your photo library, contacts, SMS, call logs, or phone number in the background, and we do not request camera, microphone, or other sensitive permissions unrelated to core features (subject to the version you use).</p>
+
+  <p>1.8 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that DevLocation may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that our app does not actively collect, read, or upload that type of information for the stated purpose.</strong></p>
+  <ul>
+    <li><strong>Simulated coordinates and route data</strong>: processed locally and may be sent over USB or the local network to connected and authorized iOS devices; <strong>purpose</strong>: GPS simulation; <strong>method</strong>: local processing and device communication; <strong>scope</strong>: coordinates, speed, and waypoints for the current simulation session.</li>
+    <li><strong>Saved places, routes, and history</strong>: processed locally on macOS; <strong>purpose</strong>: save and manage frequently used locations and routes; <strong>method</strong>: local storage; <strong>scope</strong>: place names and coordinates related to the app.</li>
+    <li><strong>Device connection information</strong> (such as device name, UDID, and connection type): processed locally; <strong>purpose</strong>: identify and manage connected iOS devices; <strong>method</strong>: system developer-service interfaces; <strong>scope</strong>: parameters needed for connection management.</li>
+    <li><strong>Simulation state summaries</strong>: synced mainly over Bonjour on your local network between your Mac and iOS devices; App Group is used for on-device state within the same device (where applicable); <strong>purpose</strong>: companion status display and remote control; <strong>method</strong>: LAN communication or on-device sharing; <strong>scope</strong>: simulation state, coordinate summary, and host name.</li>
+    <li><strong>Map search keywords</strong> (macOS): sent to Apple MapKit; <strong>purpose</strong>: address and place search; <strong>method</strong>: system map service requests; <strong>scope</strong>: search terms or map regions you enter.</li>
+    <li><strong>Road-routing coordinates (optional, macOS)</strong>: sent to a public OSRM service when you enable the feature; <strong>purpose</strong>: generate road-following paths; <strong>method</strong>: HTTPS requests initiated by the app; <strong>scope</strong>: start/end latitude and longitude.</li>
+    <li><strong>Mac current location (optional)</strong>: read when you grant location permission and use the "current location" feature; <strong>purpose</strong>: quickly center the map; <strong>method</strong>: system location APIs; <strong>scope</strong>: one-time coordinates, not uploaded to our servers.</li>
+    <li><strong>App settings and preferences</strong>: processed locally; <strong>purpose</strong>: remember UI and feature preferences; <strong>method</strong>: local storage; <strong>scope</strong>: app configuration items.</li>
+    <li><strong>Clipboard</strong> (macOS): the app writes to the system clipboard only when you actively copy coordinates or text. It does not read or upload clipboard content in the background.</li>
+    <li><strong>Calendar, SMS, contacts, phone number, call logs</strong>: not collected.</li>
+    <li><strong>Advertising identifiers (IDFA, etc.)</strong>: the Service does not integrate advertising SDKs and does not collect these identifiers for advertising.</li>
+  </ul>
+
+  <h5>2. Third-Party Services</h5>
+  <p>This section describes third-party services that the Service may involve. Actual integrations may vary by platform.</p>
+
+  <p class="permission-name">2.1 Apple Services (iOS / iPadOS / macOS / visionOS)</p>
+  <p>The Service uses <strong>Apple MapKit</strong> for map display; on <strong>macOS</strong>, it is also used for place search. The Service uses Apple developer-service interfaces to communicate with connected iOS devices. Related data processing is governed by Apple policies.<br>
+  Apple privacy policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
+
+  <p class="permission-name">2.2 OSRM Road Routing (macOS, optional)</p>
+  <p>When you enable the optional road-routing feature, the app may send start/end coordinates to a public OSRM instance (such as the Project OSRM demo service) to obtain route geometry. That service is operated by a third-party community or organization. We do not guarantee its availability, accuracy, or data-handling practices. You can disable the feature at any time to stop sending requests.</p>
+
+  <p class="permission-name">2.3 Operating System and Open-Source Components</p>
+  <p>The Service mainly relies on operating-system capabilities for USB, local networking, location, file selection, and UI rendering. The macOS version may bundle or invoke open-source device-communication components (such as a <strong>pymobiledevice3</strong>-related runtime) to interact with your iOS devices locally. Except for map search and optional road routing that you actively enable, we do not upload your simulation database to our own cloud servers.</p>
+
+  <h5>3. Paid Services</h5>
+  <p>The Service is currently offered as a development tool and does <strong>not</strong> charge in-app subscriptions or one-time purchases, nor does it use app-store in-app purchases to unlock core features. If a future version introduces paid capabilities, we will update this Privacy Policy as required by law and obtain your consent where necessary.</p>
+
+  <h5>4. Device Permissions</h5>
+  <p>The Service may request the permissions below while running. We ask for your consent in system permission dialogs. Denying a permission affects only the related feature. Details vary by platform.</p>
+
+  <p class="permission-name">macOS</p>
+
+  <p class="permission-name">Location (When In Use)</p>
+  <p>Used to jump the map to your Mac's current location for faster point selection.</p>
+
+  <p class="permission-name">USB / External Devices</p>
+  <p>Used to discover and connect iOS devices with Developer Mode enabled over USB.</p>
+
+  <p class="permission-name">Local Network</p>
+  <p>Used to discover devices over Wi-Fi, run tunnel services, and sync simulation state with the iOS companion through Bonjour.</p>
+
+  <p class="permission-name">Network</p>
+  <p>Used for optional road routing through third-party OSRM services when you enable that feature, and for other network requests needed for device communication.</p>
+
+  <p class="permission-name">User-Selected Files</p>
+  <p>Used to import or export GPX route files.</p>
+
+  <p class="permission-name">Clipboard (Write)</p>
+  <p>Used to write coordinates or log excerpts to the system clipboard when you actively copy them.</p>
+
+  <p class="permission-name">iOS / iPadOS / visionOS</p>
+
+  <p class="permission-name">Local Network</p>
+  <p>Used to discover the Mac control app on your local network and sync simulation state.</p>
+
+  <p class="permission-name">Location (When In Use, where applicable)</p>
+  <p>The companion mainly displays simulated coordinates synced from the Mac and usually does not actively read your device's real location. If your version or system prompts involve location permission, the actual behavior is subject to your version.</p>
+
+  <p>You can manage app permissions at any time in system Settings or the app's permission settings.</p>
+
+  <h5>5. Managing Your Personal Information</h5>
+  <p>If you have requests regarding your data-subject rights, or if you have questions, comments, or suggestions, contact us using the details in "How to Contact Us" below.</p>
+  <p>For information processed by Apple, OSRM, or other third parties, you may also exercise rights through those providers' settings or policies. You can remove locally stored simulation data and settings by deleting favorites/history, clearing app data, or uninstalling the app.</p>
+
+  <h5>6. Storage Location and Retention</h5>
+  <p>6.1 Simulated coordinates generated through the Service are processed and stored mainly on your devices. Saved places, routes, history, and runtime logs are processed and stored mainly on macOS. The current version does not provide cloud sync operated by us.</p>
+  <p>6.2 Map search and optional road-routing data may be stored and processed by Apple, OSRM, and other third parties on infrastructure that may be located outside your country or region, in accordance with their respective policies.</p>
+  <p>6.3 Unless otherwise required by law, we retain information only for as long as necessary to fulfill the processing purpose. After you uninstall the app or clear data, the corresponding local information is deleted.</p>
+
+  <h5>7. How to Contact Us</h5>
+  <p>You may contact us using the details below to exercise your rights. We will respond as soon as reasonably possible.</p>
+  <p><span>Email:</span> <a href="mailto:weigantechnology@outlook.com">weigantechnology@outlook.com</a></p>
+  <p>If you are not satisfied with our response, especially where you believe our processing has harmed your lawful rights and interests, you may seek resolution through a court with jurisdiction, an industry self-regulatory body, or a relevant government authority. You may also ask us about other complaint channels that may apply.</p>
+
+  <div class="text-right">
+    <span>Effective date:</span><span>2026.8.31</span>
+  </div>
+</body>
+</html>
