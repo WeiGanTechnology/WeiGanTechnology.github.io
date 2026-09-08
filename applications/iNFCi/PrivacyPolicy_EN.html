@@ -86,28 +86,34 @@
 </head>
 <body>
   <h2>Privacy Statement for iNFCi</h2>
-  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.7.14</span></p>
+  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.9.8</span></p>
 
   <p id="firstDesc">
-    <strong>iNFCi</strong> is an application provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us") for <strong>NFC read/write</strong> and related device connectivity features. This Privacy Statement applies to iNFCi on <strong>iOS</strong> and <strong>Android</strong>.
+    <strong>iNFCi</strong> is an application provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us") for <strong>NFC read/write</strong> and related device connectivity features. This Privacy Statement applies to iNFCi on <strong>iOS</strong>, <strong>Android</strong>, and <strong>HarmonyOS</strong>.
   </p>
   <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-standard security practices.</p>
-  <p>Depending on how you obtain the app, which operating system you use, and your device language environment, advertising and billing features may differ: the <strong>Google Play Android build</strong> always uses Google AdMob and Google Play Billing, regardless of device system language; on the <strong>iOS App Store build</strong>, when your <strong>device system preferred language is not Simplified Chinese</strong>, Google AdMob and Apple In-App Purchase are used, and when your <strong>device system preferred language is Simplified Chinese</strong>, Pangle GroMore mediation (including Pangle and Tencent Ads) is used and VIP is still offered through Apple In-App Purchase; the <strong>mainland China app-store Android build</strong> also uses GroMore mediation and does not include Google Play Billing.</p>
+  <p>Depending on how you obtain the app, which operating system you use, and your device language environment, advertising and billing features may differ: the <strong>Google Play Android build</strong> always uses Google AdMob and Google Play Billing, regardless of device system language; on the <strong>iOS App Store build</strong>, when your <strong>device system preferred language is not Simplified Chinese</strong>, Google AdMob and Apple In-App Purchase are used, and when your <strong>device system preferred language is Simplified Chinese</strong>, Pangle GroMore mediation (including Pangle and Tencent Ads) is used and VIP is still offered through Apple In-App Purchase; the <strong>mainland China app-store Android build</strong> and the <strong>HarmonyOS (Huawei AppGallery) build</strong> also use GroMore mediation. The mainland China Android build does not include Google Play Billing; the HarmonyOS build offers VIP through Huawei In-App Purchases (IAP).</p>
 
   <h5>1. How We Collect and Use Your Information</h5>
   <p>We will only use your personal information where we have a lawful basis to do so. Under applicable law, we may process your information based on lawful grounds such as your consent, where necessary to perform or enter into a contract with you, or where necessary to comply with legal obligations.</p>
   <p>1.1 <strong>Core app features.</strong> To provide NFC read/write, Bluetooth device connection, firmware updates, QR code scanning, and LAN-based device updates, we invoke NFC, Bluetooth, camera, and network capabilities through system APIs only when you use the related features. NFC tag data, device communication payloads, and files you choose to read or write are processed on your device or between your device and the peripherals you connect. We do not use this data to build a profile that identifies you.</p>
   <p>1.2 <strong>Local preferences.</strong> We store certain settings on your device (such as theme, usage quota counters, and VIP status flags) to operate the app. This information remains on your device unless otherwise described in this Statement.</p>
-  <p>1.3 <strong>What we do not do.</strong> We do not require you to create an account to use iNFCi. We do not provide, include, or distribute copyrighted game files or other third-party content through the app.</p>
+  <p>1.3 <strong>Sensor data (HarmonyOS toolbox, and equivalent tools on other platforms where provided).</strong> When you actively open the related tool page, we read the following data locally through system sensor APIs for on-device display. <strong>We do not upload this data to our servers, do not use it for advertising or profiling, and do not share it with third parties:</strong></p>
+  <ul>
+    <li><strong>Accelerometer:</strong> <strong>Purpose</strong> — power the Level Meter by calculating device tilt (pitch and roll) from three-axis acceleration and displaying the bubble indicator; <strong>Method</strong> — read in real time through system sensor APIs only while the Level Meter page is open; <strong>Scope</strong> — three-axis acceleration values from the device accelerometer. Reading stops when you leave the page.</li>
+    <li><strong>Ambient light sensor:</strong> <strong>Purpose</strong> — power the Light Meter by measuring and displaying current illuminance (Lux) and min/max values; <strong>Method</strong> — local reads only while the Light Meter page is open; <strong>Scope</strong> — ambient illuminance values.</li>
+    <li><strong>Orientation sensor</strong> (and gyroscope-related capabilities that may be used for the compass): <strong>Purpose</strong> — power the Compass by showing device heading; <strong>Method</strong> — local reads only while the Compass page is open; <strong>Scope</strong> — orientation / attitude values.</li>
+  </ul>
+  <p>1.4 <strong>What we do not do.</strong> We do not require you to create an account to use iNFCi. We do not provide, include, or distribute copyrighted game files or other third-party content through the app.</p>
 
-  <p>1.4 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that iNFCi may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that neither our app nor the third-party SDKs we have configured to restrict collection will actively collect, read, or upload that type of information.</strong></p>
+  <p>1.5 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that iNFCi may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that neither our app nor the third-party SDKs we have configured to restrict collection will actively collect, read, or upload that type of information.</strong></p>
   <ul>
     <li><strong>Android ID:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). On the <strong>Google Play Android build</strong>, the Google AdMob SDK may automatically collect Android ID when serving ads — <strong>purpose</strong> ad delivery, performance measurement, and anti-fraud; <strong>method</strong> automatic SDK collection; <strong>scope</strong> device identifiers necessary for advertising services.</li>
     <li><strong>ICCID, IMSI, MEID, phone number, hardware serial number:</strong> Not collected.</li>
     <li><strong>IMEI:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). Not actively collected by our app on other builds.</li>
     <li><strong>MAC address:</strong> <strong>Not collected</strong> on the mainland China app-store Android build (disabled in ad SDK privacy settings). Bluetooth features are used only to connect peripherals you choose; MAC addresses are not uploaded to our servers.</li>
     <li><strong>OAID</strong> (Open Anonymous Device Identifier): Collected <strong>only on the mainland China Android build</strong> after you agree to this Privacy Statement, by Pangle / Tencent Ads SDKs — <strong>purpose</strong> ad delivery, performance measurement, and anti-fraud; <strong>method</strong> automatic SDK collection; <strong>scope</strong> the anonymous device identifier assigned for advertising services.</li>
-    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer, gyroscope, and other publicly available sensor types on the device): <strong>Not collected</strong> on the mainland China app-store Android build (disabled via Pangle SDK <em>motion_info</em> and Tencent Ads SDK <em>sensor_ts</em> settings). Core NFC and Bluetooth features do not depend on reading the sensor list. On the <strong>Google Play Android build</strong>, Google AdMob may perform similar collection when serving ads; see Section 2.1.</li>
+    <li><strong>Sensor list and specific sensor types</strong> (such as accelerometer, gyroscope, and ambient light sensor): <strong>Our app</strong> reads the accelerometer, ambient light sensor, and orientation sensor locally only when you actively use the Level Meter, Light Meter, or Compass tools, as described in Section 1.3, and <strong>does not upload</strong> these readings. The <strong>mainland China app-store Android build</strong> does not collect the sensor list for advertising (disabled via Pangle SDK <em>motion_info</em> and Tencent Ads SDK <em>sensor_ts</em>). Toolbox sensor reads on the <strong>HarmonyOS build</strong> are unrelated to advertising. On the <strong>Google Play Android build</strong>, Google AdMob may perform similar collection when serving ads; see Section 2.1.</li>
     <li><strong>Location information:</strong> <strong>Not collected for advertising</strong> on the mainland China Android build (disabled in ad SDK settings; coarse-location permission declarations for ads removed from the manifest). On Android 11 and below, the OS may require location permission for Bluetooth scanning; this is unrelated to ad targeting and location data is not uploaded to our servers. On <strong>iOS</strong>, location may be requested only when you actively use map or tag-coordinate features.</li>
     <li><strong>Wi‑Fi list, SSID, BSSID, Wi‑Fi state:</strong> <strong>Not collected</strong> on the mainland China Android build (Wi‑Fi state reads for advertising disabled). We do not collect Wi‑Fi lists, SSID, or BSSID.</li>
     <li><strong>Installed application list:</strong> <strong>Not collected</strong> on the mainland China Android build (disabled in ad SDK settings; <em>query all packages</em> permission removed from the manifest).</li>
@@ -115,10 +121,10 @@
     <li><strong>Clipboard:</strong> We write content to the system clipboard only when you actively trigger a copy action (for example, copying a device identifier). We do not read or upload clipboard content in the background.</li>
     <li><strong>Images:</strong> Accessed only when you actively choose an image from your library to decode a QR code, or save a QR code to your library. Images are processed locally and are not uploaded to our servers.</li>
     <li><strong>Camera:</strong> Used only when you actively use QR code scanning. Images are decoded locally and are not uploaded to our servers.</li>
-    <li><strong>Video and audio:</strong> Rewarded and other ad formats may load and play media through third-party ad SDKs when you watch ads. We do not collect or upload your personal video or audio files, and we do not access the microphone.</li>
+    <li><strong>Video and audio:</strong> Rewarded and other ad formats may load and play media through third-party ad SDKs when you watch ads. The Decibel Meter reads microphone input locally only while that tool is open, to calculate sound level; audio is not uploaded or saved as a recording. We do not collect or upload your personal video or audio files.</li>
     <li><strong>Calendar, SMS, contacts, system account information, call logs:</strong> Not collected.</li>
   </ul>
-  <p>Collection by third-party advertising SDKs listed above occurs <strong>only after you tap Agree</strong> on the first-launch privacy dialog (mainland China Android build) or when you use the relevant ad services (other builds). If you choose <strong>Decline and use core features only</strong>, we do not initialize advertising SDKs and the related collection does not occur.</p>
+  <p>Collection by third-party advertising SDKs listed above occurs <strong>only after you tap Agree</strong> on the first-launch privacy dialog (mainland China Android build and HarmonyOS AppGallery build) or when you use the relevant ad services (other builds). If you choose <strong>Decline and use core features only</strong>, we do not initialize advertising SDKs and the related collection does not occur.</p>
 
   <h5>2. Third-Party SDKs and Advertising</h5>
 
@@ -136,7 +142,7 @@
   <p>Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
   <p>VIP subscribers do not see ads for features covered by their active subscription.</p>
 
-  <p class="permission-name">2.2 Pangle GroMore mediation (iOS: system preferred language is Simplified Chinese; Android: mainland China app-store build)</p>
+  <p class="permission-name">2.2 Pangle GroMore mediation (iOS: system preferred language is Simplified Chinese; Android: mainland China app-store build; HarmonyOS: Huawei AppGallery build)</p>
   <p>In these scenarios, the app does <strong>not</strong> use AdMob. It initializes third-party advertising SDKs through <strong>Pangle GroMore mediation</strong>, which may serve ads from the following ad networks we have integrated:</p>
   <ul>
     <li><strong>Pangle (Chuanshanjia)</strong> — Beijing Juliang Engine Network Technology Co., Ltd.</li>
@@ -174,24 +180,36 @@
   <p>Third-party SDKs may transmit the above information to their servers for processing and storage. Please refer to each provider's privacy policy for details.</p>
 
   <h5>3. In-App Purchases and Subscriptions</h5>
-  <p>The <strong>iOS (App Store) build</strong> offers optional VIP subscriptions and a lifetime purchase through <strong>Apple In-App Purchase (StoreKit)</strong> regardless of system language environment. The <strong>Android (Google Play) build</strong> offers comparable benefits through <strong>Google Play Billing</strong>. Payment flows are handled by Apple or Google; we do not collect or store your full payment card numbers or other sensitive payment credentials.</p>
-  <p>We receive only purchase confirmation, subscription status, and product identifiers to unlock VIP features (such as ad-free experience, theme access, and expanded usage) on your device. You can manage or cancel subscriptions in your Apple or Google account settings.</p>
+  <p>The <strong>iOS (App Store) build</strong> offers optional VIP subscriptions and a lifetime purchase through <strong>Apple In-App Purchase (StoreKit)</strong> regardless of system language environment. The <strong>Android (Google Play) build</strong> offers comparable benefits through <strong>Google Play Billing</strong>. The <strong>HarmonyOS (Huawei AppGallery) build</strong> offers comparable benefits through <strong>Huawei In-App Purchases (IAP)</strong>. Payment flows are handled by Apple, Google, or Huawei; we do not collect or store your full payment card numbers or other sensitive payment credentials.</p>
+  <p>We receive only purchase confirmation, subscription status, and product identifiers to unlock VIP features (such as ad-free experience, theme access, and expanded usage) on your device. You can manage or cancel subscriptions in your Apple, Google, or Huawei account settings.</p>
   <p>Apple's handling of payment data is governed by Apple's policies: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
-  <p>Non-VIP users may be subject to daily free usage limits and can earn additional uses by watching rewarded video ads (this may apply on iOS and on Android builds where monetization is enabled).</p>
-  <p>The <strong>mainland China Android build</strong> does not use Google Play Billing. Free usage quotas on that build are governed by in-app rules and may include rewarded video ads.</p>
+  <p>Non-VIP users may be subject to daily free usage limits and can earn additional uses by watching rewarded video ads (this may apply on iOS, HarmonyOS, and on Android builds where monetization is enabled).</p>
+  <p>The <strong>mainland China Android build</strong> does not use Google Play Billing. Free usage quotas on that build are governed by in-app rules and may include rewarded video ads. HarmonyOS usage quotas follow in-app rules.</p>
   <p>Google's handling of payment data is governed by Google's policies: <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldl=en_GB&amp;ldo=0&amp;ldt=buyertos" target="_blank" rel="noopener noreferrer">Google Payments Terms of Service</a></p>
 
   <h5>4. Device Permission Usage</h5>
-  <p>This service may request the following permissions on iOS and/or Android. We ask for your consent through the system permission dialog before using sensitive capabilities. Permissions you deny will limit only the related features.</p>
+  <p>This service may request the following permissions on iOS, Android, and/or HarmonyOS. We ask for your consent through the system permission dialog before using sensitive capabilities. Permissions you deny will limit only the related features.</p>
 
   <p class="permission-name">NFC</p>
-  <p>Used to read from and write to NFC tags and cards when you use NFC features (iOS and Android).</p>
+  <p>Used to read from and write to NFC tags and cards when you use NFC features (iOS, Android, and HarmonyOS).</p>
 
   <p class="permission-name">Bluetooth (scan and connect)</p>
-  <p>Used to discover and connect to external Bluetooth devices (such as Pixl.js) for data transfer and firmware updates (iOS and Android). On Android 12 and above, Bluetooth scan is declared as not used for location purposes.</p>
+  <p>Used to discover and connect to external Bluetooth devices (such as Pixl.js) for data transfer and firmware updates (iOS, Android, and HarmonyOS). On Android 12 and above, Bluetooth scan is declared as not used for location purposes.</p>
+
+  <p class="permission-name">Accelerometer</p>
+  <p>Used by the Level Meter on <strong>HarmonyOS</strong> (and other builds that provide this tool). We read accelerometer data only while you have the Level Meter page open, to calculate device tilt and display it locally. Reading stops when you leave the page; the data is not uploaded to our servers.</p>
+
+  <p class="permission-name">Ambient light sensor</p>
+  <p>Used by the Light Meter. Ambient illuminance is read locally only while that page is open and is not uploaded to our servers.</p>
+
+  <p class="permission-name">Orientation sensor / gyroscope</p>
+  <p>Used by the Compass. Heading-related data is read locally only while that page is open and is not uploaded to our servers.</p>
+
+  <p class="permission-name">Microphone</p>
+  <p>Used by the Decibel Meter. Microphone input is read locally only while you measure sound level, to calculate decibels. Audio is processed on device and is not uploaded or saved as a recording.</p>
 
   <p class="permission-name">Location</p>
-  <p><strong>Android:</strong> On Android 11 and below, the operating system may require location permission before Bluetooth device scanning. This permission is not requested on Android 12 and above for Bluetooth scanning in this app. It is unrelated to ad targeting on the mainland China build, where coarse location permission declarations for the ad SDK have been removed from the manifest.<br><strong>iOS:</strong> Location permission may be requested when you use map or tag-coordinate related features. Such data is used only for features you actively invoke and is not used directly for ad targeting.</p>
+  <p><strong>Android:</strong> On Android 11 and below, the operating system may require location permission before Bluetooth device scanning. This permission is not requested on Android 12 and above for Bluetooth scanning in this app. It is unrelated to ad targeting on the mainland China build, where coarse location permission declarations for the ad SDK have been removed from the manifest.<br><strong>iOS:</strong> Location permission may be requested when you use map or tag-coordinate related features. Such data is used only for features you actively invoke and is not used directly for ad targeting.<br><strong>HarmonyOS:</strong> Some system versions may associate Bluetooth scanning with location-related capability declarations. This is used only to discover peripherals you choose to connect and is not used for advertising.</p>
 
   <p class="permission-name">Photo library (iOS)</p>
   <p>Used when you actively choose an image from your library to decode a QR code, or when you save a QR code to your library from a related feature. Access occurs only when you trigger the related feature; we do not read your entire photo library in the background.</p>
@@ -200,10 +218,10 @@
   <p>Used for local authentication when you enable app lock or related security features. Biometric data is processed by the system; we do not collect or store your biometric templates.</p>
 
   <p class="permission-name">Camera</p>
-  <p>Used for QR code scanning when you choose that feature. Camera images are processed locally for decoding and are not uploaded to our servers (iOS and Android).</p>
+  <p>Used for QR code scanning when you choose that feature. Camera images are processed locally for decoding and are not uploaded to our servers (iOS, Android, and HarmonyOS).</p>
 
   <p class="permission-name">Internet and local network</p>
-  <p>Used for ads, store billing, firmware or content downloads you initiate, and LAN-based device updates (iOS and Android).</p>
+  <p>Used for ads, store billing, firmware or content downloads you initiate, and LAN-based device updates (iOS, Android, and HarmonyOS).</p>
 
   <p class="permission-name">Notifications (Android)</p>
   <p>Used to show optional status notifications related to background device operations (such as Bluetooth connections or updates), when you grant notification permission.</p>
@@ -215,12 +233,12 @@
 
   <h5>5. Managing Your Personal Information</h5>
   <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to data portability where applicable.</p>
-  <p>For data processed by Google (AdMob, Play Billing, or UMP on the Google Play Android build), Apple (App Store In-App Purchase on the iOS build), or by Pangle, Tencent Ads, and GroMore on the iOS Simplified Chinese ad scenario and the mainland China Android build, you may also exercise choices through the relevant provider's settings and policies.</p>
+  <p>For data processed by Google (AdMob, Play Billing, or UMP on the Google Play Android build), Apple (App Store In-App Purchase on the iOS build), Huawei (In-App Purchases on the HarmonyOS build), or by Pangle, Tencent Ads, and GroMore on the iOS Simplified Chinese ad scenario, the mainland China Android build, and the HarmonyOS build, you may also exercise choices through the relevant provider's settings and policies.</p>
   <p>To exercise rights relating to data we control, contact us using the details in Section 7. We will respond within a reasonable time as required by applicable law.</p>
 
   <h5>6. Information Storage Location and Retention Period</h5>
   <p>6.1 Core NFC and Bluetooth data you process through the app is handled on your device or directly with connected peripherals, unless you explicitly initiate a network transfer.</p>
-  <p>6.2 Advertising and billing-related data processed by Google, Apple, Pangle, Tencent Ads, and their service providers is stored and processed according to each provider's policies and infrastructure, which may involve servers outside your country of residence.</p>
+  <p>6.2 Advertising and billing-related data processed by Google, Apple, Huawei, Pangle, Tencent Ads, and their service providers is stored and processed according to each provider's policies and infrastructure, which may involve servers outside your country of residence.</p>
   <p>6.3 We retain information only for as long as necessary to fulfill the purposes described in this Statement, unless a longer retention period is required by law.</p>
 
   <h5>7. How to Contact Us</h5>
@@ -229,7 +247,7 @@
   <p>If you are not satisfied with our response, especially where applicable law grants you additional remedies, you may lodge a complaint with a data protection authority in your country or region. You may also seek resolution through a court of competent jurisdiction where permitted by law.</p>
 
   <div class="text-right">
-    <span>Effective date:</span><span>2026.7.14</span>
+    <span>Effective date:</span><span>2026.9.8</span>
   </div>
 </body>
 </html>
