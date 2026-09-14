@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiYi Privacy Policy</title>
+  <link rel="icon" href="data:image/ico;base64,aWNv">
+  <style>
+    * {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.9);
+      box-sizing: border-box;
+    }
+    body {
+      max-width: 860px;
+      margin: auto;
+      padding: 2rem 2rem 5rem;
+      line-height: 1.6;
+    }
+    h2 {
+      margin: 2rem 0 0.5rem;
+      text-align: center;
+      font-size: 18px;
+    }
+    h5 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      word-break: break-word;
+    }
+    p {
+      margin-bottom: 1rem;
+      word-break: break-word;
+      line-height: 1.6;
+    }
+    ul {
+      margin: 0 0 1rem 1.25rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+    }
+    #update-time {
+      text-align: center;
+    }
+    #firstDesc {
+      margin-top: 3rem;
+    }
+    #firstDesc strong {
+      font-weight: 600;
+    }
+    .permission-name {
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+    .permission-name:first-of-type {
+      margin-top: 0;
+    }
+    a {
+      color: #0a59f7;
+      text-decoration: none;
+    }
+    .text-right {
+      text-align: right;
+      margin-top: 40px;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000;
+      }
+      * {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .font-secondary {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      a {
+        color: #317af7;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Privacy Policy for TiYi</h2>
+  <p id="update-time"><span class="font-secondary">Last updated: </span><span class="font-secondary">2026.9.14</span> · <a href="PrivacyPolicy.html">简体中文</a></p>
+
+  <p id="firstDesc">
+    <strong>TiYi</strong> is a <strong>multi-protocol VPN client</strong> provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). This Privacy Policy applies to TiYi on <strong>iOS</strong>, <strong>iPadOS</strong>, and <strong>macOS</strong>.
+  </p>
+  <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-standard security practices.</p>
+  <p>This Privacy Policy works together with our <a href="https://www.weigantech.com/applications/TiYi/UserAgreement_EN.html" target="_blank" rel="noopener noreferrer">User Agreement for TiYi</a>.</p>
+  <p>TiYi is a VPN / proxy <strong>client</strong> that runs on your device and connects to nodes, remote configuration URLs, or enterprise VPN servers <strong>that you import yourself</strong>. We do <strong>not</strong> operate public VPN nodes and do not provide a traffic-relay service hosted by us. Profiles are stored primarily in the main app's local database. The compiled configuration used for the current connection, tunnel options, and some preferences are shared with the system Network Extension on the same device through an App Group. IKEv2 passwords are stored in the system Keychain. The Service currently does <strong>not</strong> integrate third-party advertising SDKs and does <strong>not</strong> offer in-app purchases or paid subscriptions.</p>
+
+  <h5>1. How We Collect and Use Your Information</h5>
+  <p>We will only use your personal information where we have a lawful basis to do so. Under applicable law, we may process your information based on lawful grounds such as your consent, where necessary to perform or enter into a contract with you, or where necessary to comply with legal obligations.</p>
+  <p>1.1 <strong>Profiles, nodes, and remote configuration URLs.</strong> You may import Shadowsocks, VMess, VLESS, Trojan, Hysteria / Hysteria2, TUIC, WireGuard, OpenVPN, Clash / sing-box configurations, or share links by pasting text, entering a remote configuration URL, importing a file, opening a configuration file from the system, using a URL scheme (such as ss, vmess, or vless), or (on iOS / iPadOS) scanning a QR code, subject to your actual build. The original configuration, parsed node list, remote configuration URL, expiry information, and the node you select are stored locally on your device so that the app can connect, switch nodes, and display profiles. The compiled configuration needed for the current connection may be written to the App Group for the Network Extension to read. When you import or refresh a remote configuration, the app requests <strong>the URL you provided</strong> and downloads the configuration. That request goes to the third party you specified, not to servers we operate. The request may include a client identifier (the current User-Agent may contain fields such as clash-meta/tiyi, subject to your actual build) so the provider can recognize the client type.</p>
+  <p>1.2 <strong>VPN connection, traffic routing, and DNS.</strong> After you authorize the system VPN / Network Extension, the Service may establish a packet tunnel or a system IKEv2 connection on your device and forward traffic according to the rule, global, or direct mode you choose. Web and app traffic inside the tunnel is forwarded by the operating system and the on-device engine to the node or VPN server you specified. Default configurations generated by the app for proxy connections may include third-party DNS resolver addresses (the current build may use 1.1.1.1, 223.5.5.5, or similar, subject to your actual build). A complete configuration you import yourself may also specify other DNS servers. During a connection, domain-name lookups may be sent to those resolvers, system DNS, or a node you configured. We do <strong>not</strong> record, store, or analyze your browsing content, access history, DNS queries, or full traffic logs on servers we operate, and we cannot view your browsing content from our servers.</p>
+  <p>1.3 <strong>IKEv2 credentials.</strong> If you add an IKEv2 profile, the username, server address, and identifiers are stored in the local profile; the password is written to the system Keychain and read by the system VPN API to establish the connection. We do not upload IKEv2 passwords to our servers.</p>
+  <p>1.4 <strong>Speed tests, latency checks, and traffic statistics.</strong> When you measure node latency in the app, the device makes a short TCP connection attempt to that node's host and port. Configurations generated by the app for proxy connections may also include an automatic urltest outbound that periodically probes the speed-test URL you configured (the default may be a public connectivity-check address such as <code>https://www.gstatic.com/generate_204</code>, which you can change in Settings). That request is typically sent through the relevant node and is handled by the connectivity-check provider under its own policies. Upload/download byte counts are calculated by the on-device Network Extension, shown in the app, and stored locally.</p>
+  <p>1.5 <strong>Diagnostic logs.</strong> During a connection, the local engine and Network Extension may generate diagnostic logs (such as connection status and error messages) so the app can show why a connection failed. Logs remain on your device. We do not automatically upload them to our servers.</p>
+  <p>1.6 <strong>Camera and clipboard (on your action).</strong> On iOS / iPadOS, after you grant camera access, the Service may scan a node or remote-configuration QR code and parse only the code you point at. When you tap Paste from Clipboard, the app reads the current clipboard text to import a configuration. We do not read or upload clipboard content in the background.</p>
+  <p>1.7 <strong>File import.</strong> When you choose to import a local file (such as `.json`, `.yaml`, `.yml`, `.ovpn`, `.conf`, or `.txt`), the app reads the configuration text from the file you selected. This read happens only after you choose the file. The content is stored locally on your device.</p>
+  <p>1.8 <strong>Update checks and review prompts (where applicable).</strong> The app may query Apple App Store public APIs to see whether an update is available, or use the system review-prompt capability. Those requests are handled by Apple. We do not collect payment credentials or advertising identifiers as a result.</p>
+  <p>1.9 <strong>What we do not do.</strong> We do not require you to create an in-app account operated by us. We currently do <strong>not</strong> integrate third-party advertising or user-behavior analytics SDKs such as Firebase, Umeng, Pangle, or AdMob, and we do <strong>not</strong> offer in-app purchases, paid subscriptions, or cloud account sync operated by us. We do not enable VPN without your authorization, do not request photo library, contacts, microphone, location, Bluetooth, or other sensitive permissions unrelated to core connectivity (subject to your actual build), and do not upload your profiles, credentials, or internet content to our servers.</p>
+
+  <p>1.10 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that TiYi may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that our app does not actively collect, read, or upload that type of information for the stated purpose.</strong></p>
+  <ul>
+    <li><strong>VPN / proxy profiles and node information</strong> (including remote configuration URLs, node addresses, ports, protocol parameters, certificate/key material, and Clash or sing-box configuration text): Processed locally — <strong>purpose</strong> importing, saving, and connecting to endpoints you specify; <strong>method</strong> the main app's local database and files, plus sharing the compiled configuration needed for the current connection with the Network Extension; <strong>scope</strong> profiles you import or generate. We do not upload them to our servers.</li>
+    <li><strong>IKEv2 account and password:</strong> Username and related fields are stored in the local profile; the password is written to the system Keychain — <strong>purpose</strong> establishing an IKEv2 connection through the system VPN API; <strong>method</strong> local storage and Keychain; <strong>scope</strong> credentials you enter for that profile.</li>
+    <li><strong>Traffic forwarded through the tunnel:</strong> Forwarded only between your device and the node/VPN server you specify, according to your configuration — <strong>purpose</strong> providing the VPN / proxy connection; <strong>method</strong> system Network Extension and on-device engine; <strong>scope</strong> the current session. We do not store your internet content or access history on servers we operate.</li>
+    <li><strong>Remote-configuration refresh requests:</strong> Sent to the URL you provide only when you import or refresh a remote configuration — <strong>purpose</strong> obtaining an updated node list; <strong>method</strong> HTTPS/HTTP request (which may include a client User-Agent); <strong>scope</strong> that request and the returned configuration. How the third party handles the request is governed by its own policies.</li>
+    <li><strong>DNS queries:</strong> Domain names are resolved according to the configuration while VPN is connected — <strong>purpose</strong> establishing connections and forwarding traffic; <strong>method</strong> the on-device engine and system DNS settings; <strong>scope</strong> domain names being resolved. The default configuration may send some queries to third-party resolvers such as 1.1.1.1 or 223.5.5.5 (subject to your actual build and any configuration you import). We do not store your DNS query logs on servers we operate.</li>
+    <li><strong>Speed tests and latency probes:</strong> A short TCP probe to a node host/port, or a connectivity check to your configured speed-test URL — <strong>purpose</strong> displaying latency, selecting a node, or maintaining automatic urltest; <strong>method</strong> on-device probe or a network request typically sent through a node; <strong>scope</strong> the minimum probe needed for the test.</li>
+    <li><strong>Traffic statistics and connection status:</strong> Processed locally — <strong>purpose</strong> displaying upload/download volume and session duration; <strong>method</strong> local counters; <strong>scope</strong> non-identifying statistics.</li>
+    <li><strong>Diagnostic logs:</strong> Stored locally — <strong>purpose</strong> troubleshooting connection failures; <strong>method</strong> local log buffer; <strong>scope</strong> status and error output from the engine and extension.</li>
+    <li><strong>App settings and preferences</strong> (such as the selected profile, routing mode, include-all-networks, system-proxy toggle, and speed-test URL): Processed locally (including App Group) — <strong>purpose</strong> remembering your connection preferences; <strong>method</strong> local storage; <strong>scope</strong> app configuration items.</li>
+    <li><strong>QR-code content:</strong> Parsed locally only when you scan — <strong>purpose</strong> importing a node or remote configuration; <strong>method</strong> camera preview and on-device decoding; <strong>scope</strong> the code currently in view. We do not save your photo library or continuously record video.</li>
+    <li><strong>Clipboard text:</strong> Read only when you tap paste-to-import — <strong>purpose</strong> importing a configuration; <strong>method</strong> system clipboard APIs; <strong>scope</strong> the text then on the clipboard. Not read or uploaded in the background.</li>
+    <li><strong>User-selected configuration files:</strong> Read after you authorize the file picker — <strong>purpose</strong> parsing a VPN / proxy configuration; <strong>method</strong> system file picker; <strong>scope</strong> the single file you select.</li>
+    <li><strong>Device and system information</strong> (such as device model, OS version, and app version): <strong>purpose</strong> feature compatibility, VPN extension status, and update checks; <strong>method</strong> system API access or a query to App Store public APIs; <strong>scope</strong> parameters necessary for functionality.</li>
+    <li><strong>Network connectivity:</strong> Used for remote-configuration refresh, speed tests, DNS resolution, update checks, and connecting to nodes you specify — <strong>purpose</strong> those features; <strong>method</strong> system networking and Network Extension; <strong>scope</strong> necessary network requests or tunnel traffic.</li>
+    <li><strong>Local network:</strong> Used for node latency checks and local-proxy related communication — <strong>purpose</strong> speed testing and providing on-device proxy capability; <strong>method</strong> system local-network APIs; <strong>scope</strong> on-device / local-network communication needed for that feature.</li>
+    <li><strong>Calendar, photo library, contacts, SMS, device phone number, call logs, location information:</strong> Not collected.</li>
+    <li><strong>Advertising identifiers (IDFA, etc.):</strong> The Service currently does not integrate advertising SDKs and does not collect these identifiers for advertising purposes.</li>
+    <li><strong>Payment and paid-subscription information:</strong> Not collected (the Service currently does not offer in-app purchases or paid subscriptions).</li>
+  </ul>
+
+  <h5>2. Third-Party Services</h5>
+  <p>This section describes third-party services that the Service may involve. Actual capabilities may differ by operating-system version.</p>
+
+  <p class="permission-name">2.1 Apple services (iOS / iPadOS / macOS)</p>
+  <p>The Service uses Apple's <strong>Network Extension (Packet Tunnel)</strong>, <strong>system VPN (including IKEv2)</strong>, <strong>Keychain</strong>, and <strong>App Groups</strong>, as well as optional <strong>camera</strong>, <strong>local network</strong>, <strong>App Store update lookup</strong>, and <strong>system review prompts (StoreKit)</strong>. VPN configurations are stored by the system and managed in system Settings. In-app purchase is not currently used. Related processing is governed by Apple's policies.<br>
+  Apple privacy policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
+
+  <p class="permission-name">2.2 Nodes, remote-configuration sources, DNS, and speed-test addresses</p>
+  <p>When you import or refresh a remote configuration, connect to a node, resolve a domain name, or run a speed test, network requests are sent to <strong>third-party servers you provide or select</strong>, and to third-party DNS / connectivity-check addresses in the app's default configuration (the current build may include 1.1.1.1, 223.5.5.5, and <code>https://www.gstatic.com/generate_204</code>, subject to your actual build). Those services are operated by the relevant providers. We cannot control their logging, retention, or privacy practices. Confirm that a source is trustworthy before importing it, and read that provider's terms and privacy policy.</p>
+
+  <p class="permission-name">2.3 Operating-system capabilities and the on-device engine</p>
+  <p>The Service uses an on-device VPN / proxy engine in the Network Extension to process profiles you import, and uses operating-system capabilities for local storage, Keychain, networking, file picking, camera, and UI rendering. Except for necessary requests to third parties you specify or to Apple, we do not upload your profiles, credentials, or internet content to cloud servers we operate. The current version does not provide cloud sync operated by us. If a future version enables iCloud or other sync, we will update this Policy as required by law.</p>
+
+  <h5>3. Paid Features and Commercialization</h5>
+  <p>The current version of TiYi does <strong>not</strong> offer in-app purchases, paid subscriptions, or ad-based unlocks. If a future version introduces paid features or advertising, we will update this Privacy Policy and the User Agreement as required by law and obtain your consent where necessary.</p>
+
+  <h5>4. Device Permission Usage</h5>
+  <p>TiYi requests permissions only as needed for VPN connectivity, profile import, and speed testing. We ask for your consent through the system permission dialog or system-settings guidance. Permissions you deny will limit only the related features. Permissions are described by platform below.</p>
+
+  <p class="permission-name">iOS / iPadOS</p>
+
+  <p class="permission-name">VPN / Network Extension</p>
+  <p>Used to install and enable a packet tunnel or system IKEv2 configuration so the app can connect through nodes you import. Connection is not possible without this authorization.</p>
+
+  <p class="permission-name">Camera</p>
+  <p>Used to scan node or remote-configuration QR codes. You can still import profiles by paste, URL, or file if this permission is denied.</p>
+
+  <p class="permission-name">Local Network</p>
+  <p>Used for node latency checks and local-proxy related communication.</p>
+
+  <p class="permission-name">Internet</p>
+  <p>Used to import or refresh remote configurations, run speed tests, resolve domain names, check for App Store updates, and connect to nodes you specify.</p>
+
+  <p class="permission-name">Clipboard (on-demand read)</p>
+  <p>Read only when you tap paste-to-import.</p>
+
+  <p class="permission-name">Files (user-selected)</p>
+  <p>Used to read a local configuration file after you choose it and import its contents.</p>
+
+  <p class="permission-name">macOS</p>
+  <p>VPN / Network Extension, local network, internet, clipboard paste, and file import are used for the same purposes described above. The current macOS build does not provide camera QR scanning; you can import profiles by paste, remote configuration URL, or file.</p>
+
+  <p>You can disable VPN, withdraw camera or local-network access, or uninstall the app at any time in system Settings to stop related processing.</p>
+
+  <h5>5. Managing Your Personal Information</h5>
+  <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing of your personal information, and to data portability where applicable.</p>
+  <p>You can stop processing and remove locally stored profiles, preferences, and logs by deleting profiles in the app, removing the VPN configuration in system Settings, uninstalling the app, or clearing app data. IKEv2 passwords are removed from the Keychain when the corresponding profile is deleted. For information processed by Apple or by a node, remote-configuration, DNS, or speed-test provider you specify, you may also exercise choices through that provider's settings and policies.</p>
+  <p>To exercise rights relating to data we control, contact us using the details in Section 7. We will respond within a reasonable time as required by applicable law.</p>
+
+  <h5>6. Information Storage Location and Retention Period</h5>
+  <p>6.1 Profiles, node lists, routing preferences, traffic statistics, and diagnostic logs you generate through the app are handled and stored primarily on your device. The compiled configuration needed for the current connection and some preferences may be shared with the Network Extension through an App Group. IKEv2 passwords are stored in the system Keychain. The current version does not provide cloud sync operated by us.</p>
+  <p>6.2 Remote-configuration refresh, DNS resolution, speed tests, and tunnel traffic occur between your device and the relevant third parties. Update-check requests are processed by Apple according to Apple's policies and infrastructure, which may involve servers outside your country of residence.</p>
+  <p>6.3 We retain information only for as long as necessary to fulfill the purposes described in this Policy, unless a longer retention period is required by law. After you uninstall the app, delete a profile, or clear data, corresponding local information is deleted, but VPN preferences already written to the system, and requests already sent to third parties, remain subject to those system or third-party mechanisms.</p>
+
+  <h5>7. How to Contact Us</h5>
+  <p>You may contact us through the following methods to exercise your relevant rights. We will respond as soon as possible.</p>
+  <p><span>Email:</span> <a href="mailto:weigantechnology@outlook.com">weigantechnology@outlook.com</a></p>
+  <p>If you are not satisfied with our response, especially where applicable law grants you additional remedies, you may lodge a complaint with a data protection authority in your country or region. You may also seek resolution through a court of competent jurisdiction where permitted by law.</p>
+
+  <div class="text-right">
+    <span>Effective date: </span><span>2026.9.14</span>
+  </div>
+</body>
+</html>
