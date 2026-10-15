@@ -100,7 +100,7 @@
   <p>欢迎使用 iEmulator。请阅读并充分理解<a href="https://www.weigantech.com/applications/iEmulator/UserAgreement_CN.html" target="_blank" rel="noopener noreferrer">《用户协议》</a>和《隐私政策》。</p>
   <p><strong>一、核心功能</strong><br>为提供 ROM 导入、游戏模拟、联机对战等功能，我们会在您使用相关功能时申请存储和网络权限。相关数据主要在本地处理。</p>
   <p><strong>二、广告服务（仅在您点击「同意」后初始化）</strong><br>为展示广告、统计广告效果及防范作弊，本应用通过穿山甲 GroMore 聚合服务接入第三方广告 SDK，包括「穿山甲广告 SDK」「优量汇 Android SDK」与「抖音SDK（安卓版）」。每日可免费启动游戏 2 次，观看激励视频可额外获得 2 次启动机会。</p>
-  <p>在您点击「同意」后，优量汇 Android SDK 可能读取特定类型传感器列表（如加速度传感器、陀螺仪等传感器类型）。目的为广告反作弊与效果统计，方式为 SDK 通过系统接口自动读取，范围仅限传感器类型列表，不用于识别您的个人身份。</p>
+  <p>在您点击「同意」后，穿山甲广告 SDK 与优量汇 Android SDK 可能读取特定类型传感器列表（如加速度传感器、陀螺仪等传感器类型）。目的为广告反作弊与效果统计，方式为 SDK 通过系统接口自动读取，范围仅限传感器类型列表，不用于识别您的个人身份。</p>
   <p><strong>三、不会收集的信息</strong><br>本应用不收集通讯录、短信、通话记录，不申请也不使用相机权限，不拍摄、不读取相机画面。上述信息并非游戏模拟或广告服务所必需。</p>
   <p>若您不同意广告服务相关条款，可选择「不同意，仅使用核心功能」：我们不会初始化广告 SDK，也不会读取传感器列表。在此模式下，您可使用手柄设置等基础功能；游戏启动、游戏库（校准）及每日启动配额需在同意广告服务后使用。</p>
 
@@ -117,7 +117,7 @@
   <ul>
     <li><strong>设备标识符（IDFV；经授权时的 IDFA；Android 可能涉及 OAID、Android ID）</strong>：在 <strong>iOS / iPadOS</strong> 上，广告 SDK 可能自动采集设备标识符，<strong>目的</strong>为广告投放、效果统计与反作弊，<strong>方式</strong>为 SDK 自动采集，<strong>范围</strong>为与广告服务相关的必要参数。IDFA 仅在您授权 App Tracking Transparency（ATT）后使用。<strong>macOS</strong> 不为此目的集成广告 SDK。在 <strong>Android</strong> 中国大陆分发版本接入广告服务后，相关 SDK（如穿山甲广告 SDK、优量汇 Android SDK、抖音SDK（安卓版）等）可能采集 OAID、Android ID 等设备标识符，<strong>目的</strong>为广告投放、效果统计、反作弊与 SDK 稳定性，<strong>方式</strong>为 SDK 自动采集，<strong>范围</strong>为与广告服务相关的必要参数，具体以您的同意及本隐私政策第 2.3 节为准。</li>
     <li><strong>IP 地址</strong>：在 <strong>iOS / iPadOS</strong> 上，Google AdMob 或穿山甲 / 优量汇等广告 SDK 展示广告时可能自动采集 IP 地址；在 <strong>Android</strong> 中国大陆分发版本接入广告后，穿山甲广告 SDK、优量汇 Android SDK、抖音SDK（安卓版）等可能自动采集 IP 地址，<strong>目的</strong>为广告加载、反作弊与 SDK 稳定性，<strong>方式</strong>为 SDK 自动采集，<strong>范围</strong>为与广告服务相关的网络地址。应用判定广告地区时，亦可能将 IP 地址发送至 <strong>ipinfo.io</strong>，<strong>目的</strong>为选择广告服务商，<strong>方式</strong>为本应用发起的网络请求，<strong>范围</strong>为该服务返回的国家或地区代码。</li>
-    <li><strong>读取特定类型传感器列表</strong>（如加速度传感器、陀螺仪等）：在 <strong>iOS / iPadOS</strong> 上展示 AdMob 广告时，Google AdMob SDK 可能读取传感器列表，<strong>目的</strong>为广告反作弊，<strong>方式</strong>为 SDK 自动读取，<strong>范围</strong>为与广告反作弊相关的传感器类型。在 <strong>Android</strong> 中国大陆分发版本中，仅在您点击「同意」并初始化广告 SDK 后，<strong>优量汇 Android SDK</strong>可能读取特定类型传感器列表，<strong>目的</strong>为广告反作弊与效果统计，<strong>方式</strong>为 SDK 通过系统接口自动读取，<strong>范围</strong>仅限传感器类型列表，不用于识别您的个人身份。若您选择「不同意，仅使用核心功能」，我们不会初始化广告 SDK，也不会进行上述读取。我们已配置穿山甲 SDK 不将位置信息用于广告。</li>
+    <li><strong>读取特定类型传感器列表</strong>（如加速度传感器、陀螺仪等）：在 <strong>iOS / iPadOS</strong> 上展示 AdMob 广告时，Google AdMob SDK 可能读取传感器列表，<strong>目的</strong>为广告反作弊，<strong>方式</strong>为 SDK 自动读取，<strong>范围</strong>为与广告反作弊相关的传感器类型。在 <strong>Android</strong> 中国大陆分发版本中，仅在您点击「同意」并初始化广告 SDK 后，<strong>穿山甲广告 SDK</strong>与<strong>优量汇 Android SDK</strong>可能读取特定类型传感器列表，<strong>目的</strong>为广告反作弊与效果统计，<strong>方式</strong>为 SDK 通过系统接口自动读取，<strong>范围</strong>仅限传感器类型列表，不用于识别您的个人身份。若您选择「不同意，仅使用核心功能」，我们不会初始化广告 SDK，也不会进行上述读取。我们已配置穿山甲 SDK 不将位置信息用于广告。</li>
     <li><strong>位置信息</strong>：我们不以广告投放为目的收集位置信息，亦不为广告定向申请位置权限。</li>
     <li><strong>剪切板</strong>：本应用仅在您主动触发复制操作时，将您选择的内容写入系统剪切板（如复制我们的客服邮箱），不会在后台读取或上传剪切板内容。</li>
     <li><strong>封面查询用游戏标题</strong>：获取封面时，我们可能将基于 ROM 文件名清理后的游戏标题发送至 IGDB 及 Apple iTunes Search API，<strong>目的</strong>为检索公开可用的封面图片，<strong>方式</strong>为本应用发起的网络请求，<strong>范围</strong>仅为游戏标题文本，不包含 ROM 文件内容。</li>
