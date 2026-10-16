@@ -4,59 +4,43 @@
         "details": [
             {
                 "appID": "7KZ75239SH.com.weigantech.infc",
-                "paths": ["/infc/*"]
+                "paths": ["/infci/*"]
             },
             {
                 "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
                 "paths": ["/iemulator/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.iROMEmulator",
-                "paths": ["/iromemulator/*"]
-            },
-            {
                 "appID": "7KZ75239SH.com.weigantech.localai",
                 "paths": ["/localai/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.idraft",
-                "paths": ["/idraft/*"]
+                "appID": "7KZ75239SH.com.weigantech.capture",
+                "paths": ["/capturelink/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.isms",
-                "paths": ["/isms/*"]
+                "appID": "7KZ75239SH.com.weigantech.DevLocation",
+                "paths": ["/devlocation/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.icontact",
-                "paths": ["/icontact/*"]
+                "appID": "7KZ75239SH.com.weigantech.network",
+                "paths": ["/tiyi/*"]
+            },
+                        {
+                "appID": "7KZ75239SH.com.weigantech.sms",
+                "paths": ["/spambanish/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.iblog",
-                "paths": ["/iblog/*"]
+                "appID": "7KZ75239SH.com.weigantech.blog",
+                "paths": ["/blog/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.itelevision",
-                "paths": ["/itelevision/*"]
+                "appID": "7KZ75239SH.com.weigantech.iSpider",
+                "paths": ["/retrospider/*"]
             },
             {
-                "appID": "7KZ75239SH.com.weigantech.ibluetooth",
-                "paths": ["/ibluetooth/*"]
-            },
-            {
-                "appID": "7KZ75239SH.com.weigantech.datamodel",
-                "paths": ["/datamodel/*"]
-            },
-            {
-                "appID": "7KZ75239SH.com.weigantech.ipicture",
-                "paths": ["/ipicture/*"]
-            },
-            {
-                "appID": "7KZ75239SH.com.weigantech.icapture",
-                "paths": ["/icapture/*"]
-            },
-            {
-                "appID": "7KZ75239SH.com.weigantech.iconsole",
-                "paths": ["/iconsole/*"]
+                "appID": "7KZ75239SH.com.weigantech.contact",
+                "paths": ["/eAbacus/*"]
             }
         ]
     }
