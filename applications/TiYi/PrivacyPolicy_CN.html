@@ -86,28 +86,30 @@
 </head>
 <body>
   <h2>TiYi 隐私政策</h2>
-  <p id="update-time"><span class="font-secondary">更新日期：</span><span class="font-secondary">2026.9.14</span> · <a href="PrivacyPolicy_EN.html">English</a></p>
+  <p id="update-time"><span class="font-secondary">更新日期：</span><span class="font-secondary">2026.10.17</span> · <a href="PrivacyPolicy_EN.html">English</a></p>
 
   <p id="firstDesc">
-    <strong>TiYi</strong> 是由 <strong>为敢技术（深圳）有限公司</strong>（以下简称「我们」）为您提供的<strong>全协议 VPN 客户端</strong>。本隐私政策适用于 <strong>iOS</strong>、<strong>iPadOS</strong> 与 <strong>macOS</strong> 平台的 TiYi，并说明我们如何处理您的个人信息。
+    <strong>TiYi</strong> 是由 <strong>为敢技术（深圳）有限公司</strong>（以下简称「我们」）为您提供的<strong>全协议 VPN 客户端</strong>。本隐私政策适用于 <strong>iOS</strong>、<strong>iPadOS</strong>、<strong>macOS</strong> 与 <strong>tvOS（Apple TV）</strong> 平台的 TiYi，并说明我们如何处理您的个人信息。
   </p>
   <p>我们非常重视您的个人信息和隐私保护，将会按照法律要求和业界成熟的安全标准，为您的个人信息提供相应的安全保护措施。</p>
   <p>本隐私政策与《<a href="https://www.weigantech.com/applications/TiYi/UserAgreement.html" target="_blank" rel="noopener noreferrer">TiYi 用户协议</a>》共同构成您使用本服务的完整法律文件。</p>
-  <p>TiYi 是一款在您设备上运行的 VPN / 代理<strong>客户端</strong>，用于连接<strong>您自行导入</strong>的节点、远程配置链接或企业 VPN 服务器。我们<strong>不运营</strong>公共 VPN 节点，也不提供由我们托管的上网流量中转服务。配置档案主要保存在主应用的本地数据库中；当前用于连接的编译配置、隧道选项与部分偏好通过 App Group 与系统网络扩展在同一设备上共享。IKEv2 密码保存在系统钥匙串中。本服务当前<strong>不集成第三方广告 SDK</strong>，亦<strong>不提供</strong>应用内购买或付费订阅。</p>
+  <p>TiYi 是一款在您设备上运行的 VPN / 代理<strong>客户端</strong>，用于连接<strong>您自行导入</strong>的节点、远程配置链接或企业 VPN 服务器。我们<strong>不运营</strong>公共 VPN 节点，也不提供由我们托管的上网流量中转服务。配置档案主要保存在主应用的本地数据库中；当前用于连接的编译配置、隧道选项与部分偏好通过 App Group 与系统网络扩展在同一设备上共享。在 Apple TV 上，这些共享文件保存在 App Group 的 Library/Caches 中。IKEv2 密码保存在系统钥匙串中。您可以通过 Apple 处理的订阅或一次性买断解锁不限时连接；未购买时每天仅可免费连接有限时长。Apple TV 与 macOS 当前<strong>不集成</strong>第三方广告 SDK。iOS / iPadOS 在未解锁时可能展示广告。iCloud 同步默认关闭，仅在您开启或手动同步后，把配置写入<strong>您本人的</strong> iCloud，而不是我们的服务器。</p>
 
   <h5>1. 我们如何收集和使用您的个人信息</h5>
   <p>我们仅在有合法性基础的情形下才会使用您的个人信息。根据适用的法律，我们可能会基于您的同意、为履行/订立您与我们的合同所必需、履行法定义务所必需等合法性基础，使用您的个人信息。</p>
-  <p>1.1 <strong>配置、节点与远程配置链接。</strong> 您可通过粘贴文本、远程配置链接、文件导入、系统打开配置文件、URL Scheme（如 ss、vmess、vless 等），或（在 iOS / iPadOS 上）扫描二维码，导入 Shadowsocks、VMess、VLESS、Trojan、Hysteria / Hysteria2、TUIC、WireGuard、OpenVPN、Clash / sing-box 配置或节点分享链接（以实际版本支持为准）。相关配置原文、解析后的节点列表、远程配置地址、到期信息与您选择的节点，保存在设备本地，用于建立连接、切换节点与展示配置；其中当前连接所需的编译配置可能写入 App Group，供网络扩展读取。当您主动导入或更新远程配置时，本应用会向<strong>您提供的 URL</strong> 发起请求并下载配置；该请求发往您指定的第三方，而不是我们运营的服务器。请求中可能携带客户端标识（当前版本的 User-Agent 可能包含 clash-meta/tiyi 等字段，以实际版本为准），以便对方识别客户端类型。</p>
-  <p>1.2 <strong>VPN 连接、流量路由与 DNS。</strong> 在您授权系统 VPN / 网络扩展后，本服务可在设备上建立数据包隧道（Packet Tunnel）或系统 IKEv2 连接，并按您选择的规则、全局或直连模式转发网络流量。隧道内的网页、应用通信内容由操作系统与本地引擎按您的配置转发至您指定的节点或 VPN 服务器。应用为代理连接生成的默认配置可能包含第三方 DNS 解析地址（当前版本可能使用 1.1.1.1、223.5.5.5 等，以实际版本为准）；您自行导入的完整配置也可能指定其他 DNS。连接期间，域名解析请求可能发往上述解析服务、系统 DNS 或您配置的节点。我们<strong>不会</strong>在自有服务器上记录、存储或分析您的上网内容、访问记录、DNS 查询或完整流量日志，也无法从我们的服务器侧查看您的浏览内容。</p>
-  <p>1.3 <strong>IKEv2 凭证。</strong> 若您添加 IKEv2 配置，用户名、服务器地址及标识信息保存在本地配置中；密码写入系统钥匙串，并由系统 VPN 接口读取以建立连接。我们不会将 IKEv2 密码上传至我们的服务器。</p>
+  <p>1.1 <strong>配置、节点与远程配置链接。</strong> 在 iOS、iPadOS 与 macOS 上，您可通过粘贴文本、远程配置链接、文件导入、系统打开配置文件、URL Scheme（如 ss、vmess、vless 等）导入配置，在 iOS / iPadOS 上还可扫描二维码。在 Apple TV 上，您可用遥控器输入远程配置链接或配置文本、手动添加节点（含 WireGuard）或填写 IKEv2，也可在 iPhone 或 Mac 开启 iCloud 同步后把配置同步过来。Apple TV 不提供相机扫码、系统文件选择器导入，也不读取剪切板。可导入的协议包括 Shadowsocks、VMess、VLESS、Trojan、Hysteria / Hysteria2、TUIC、WireGuard、OpenVPN、Clash / sing-box 配置或节点分享链接（以实际版本支持为准）。相关配置原文、解析后的节点列表、远程配置地址、到期信息与您选择的节点，保存在设备本地，用于建立连接、切换节点与展示配置；其中当前连接所需的编译配置可能写入 App Group，供网络扩展读取。当您主动导入或更新远程配置时，本应用会向<strong>您提供的 URL</strong> 发起请求并下载配置；该请求发往您指定的第三方，而不是我们运营的服务器。请求中可能携带客户端标识（当前版本的 User-Agent 可能包含 clash-meta/tiyi 等字段，以实际版本为准），以便对方识别客户端类型。</p>
+  <p>1.2 <strong>VPN 连接、流量路由与 DNS。</strong> 在您授权系统 VPN / 网络扩展后，本服务可在设备上建立数据包隧道（Packet Tunnel）或系统 IKEv2 连接，并按您选择的规则、全局或直连模式转发网络流量。在 Apple TV 上，系统不提供「包含所有网络」开关；若您开启绕过局域网，私有网段与链路本地地址由本机隧道规则直连。隧道内的网页、应用通信内容由操作系统与本地引擎按您的配置转发至您指定的节点或 VPN 服务器。应用为代理连接生成的默认配置可能包含第三方 DNS 解析地址（当前版本可能使用 1.1.1.1、223.5.5.5 等，以实际版本为准）；您自行导入的完整配置也可能指定其他 DNS。连接期间，域名解析请求可能发往上述解析服务、系统 DNS 或您配置的节点。我们<strong>不会</strong>在自有服务器上记录、存储或分析您的上网内容、访问记录、DNS 查询或完整流量日志，也无法从我们的服务器侧查看您的浏览内容。</p>
+  <p>1.3 <strong>IKEv2 凭证。</strong> 若您添加 IKEv2 配置，用户名、服务器地址及标识信息保存在本地配置中；密码写入系统钥匙串，并由系统 VPN 接口读取以建立连接。我们不会将 IKEv2 密码上传至我们的服务器。若您开启 iCloud 同步或手动执行同步，该密码会随对应配置写入您的 iCloud 容器，由 Apple 存储。</p>
   <p>1.4 <strong>测速、延迟检测与流量统计。</strong> 您在应用内对节点进行延迟检测时，本机会向该节点的主机与端口发起短时 TCP 连接探测。应用为代理连接生成的配置还可能包含自动测速出站，按设定间隔向您配置的测速 URL 发起连通性检测（默认可能为 <code>https://www.gstatic.com/generate_204</code> 等公开检测地址，您可在设置中修改）；该请求通常经相应节点发出，并由该检测服务的提供方按其自身政策处理。上传/下载字节等流量统计由本地网络扩展计算并在应用内展示，保存在设备本地。</p>
   <p>1.5 <strong>诊断日志。</strong> 连接过程中，本地引擎与网络扩展可能生成诊断日志（如连接状态、错误信息），用于在应用内展示故障原因。日志保留在设备本地，我们不会自动将其上传至我们的服务器。</p>
-  <p>1.6 <strong>相机与剪切板（按您的操作）。</strong> 在 iOS / iPadOS 上，经您授权相机权限后，本服务可扫描节点或远程配置二维码，仅用于解析您对准的二维码内容。您点击「从剪贴板粘贴」时，本应用会读取当时的剪切板文本以导入配置；我们不会在后台读取或上传剪切板内容。</p>
-  <p>1.7 <strong>文件导入。</strong> 当您选择导入本地文件（如 `.json`、`.yaml`、`.yml`、`.ovpn`、`.conf`、`.txt`）时，本应用读取您选定文件中的配置文本。该读取仅在您主动选择文件后发生，文件内容保存在设备本地。</p>
-  <p>1.8 <strong>版本检查与评价提示（如适用）。</strong> 应用可能通过 Apple App Store 公开接口查询本应用是否有可用更新，或使用系统提供的评价提示能力。相关请求由 Apple 处理，我们不会因此收集您的支付凭证或广告标识符。</p>
-  <p>1.9 <strong>我们不会做的事。</strong> 本服务<strong>不要求</strong>您注册我们运营的应用内账号。我们当前<strong>不集成</strong> Firebase、友盟、穿山甲、AdMob 等第三方广告或用户行为分析 SDK，亦<strong>不提供</strong>应用内购买、付费订阅或由我们运营的云端账号同步。我们不会在您未授权时开启 VPN，不会申请相册、通讯录、麦克风、定位、蓝牙等与核心连接功能无关的敏感权限（以实际版本为准），亦不会将您的配置、凭证或上网内容上传至我们的服务器。</p>
+  <p>1.6 <strong>相机与剪切板（按您的操作）。</strong> 在 iOS / iPadOS 上，经您授权相机权限后，本服务可扫描节点或远程配置二维码，仅用于解析您对准的二维码内容。您点击「从剪贴板粘贴」时，本应用会读取当时的剪切板文本以导入配置；我们不会在后台读取或上传剪切板内容。Apple TV 不申请、不使用相机，也不读取剪切板。macOS 当前不提供相机扫码。</p>
+  <p>1.7 <strong>文件导入与加密备份。</strong> 在 iOS、iPadOS 与 macOS 上，当您选择导入本地文件（如 `.json`、`.yaml`、`.yml`、`.ovpn`、`.conf`、`.txt`）时，本应用读取您选定文件中的配置文本。该读取仅在您主动选择文件后发生，文件内容保存在设备本地。上述平台还可让您用自设密码导出或导入加密备份，备份包含配置、分流、DNS、规则与节点测速记录；密码与备份文件由您保管，我们不接收该文件。Apple TV 不提供本地文件导入，也不提供加密备份文件的导入或导出。</p>
+  <p>1.8 <strong>版本检查、评价提示与广告（按平台）。</strong> 应用可能通过 Apple App Store 公开接口查询本应用是否有可用更新。iOS、iPadOS 与 macOS 可能使用系统提供的评价提示；Apple TV 当前不弹出系统评价提示。相关请求由 Apple 处理。<strong>Apple TV 与 macOS 不集成第三方广告 SDK，不请求跟踪权限，也不收集广告标识符。</strong> 在 iOS / iPadOS 上，若您尚未解锁不限时连接，本应用可能使用 Google AdMob 展示开屏广告和激励视频。看完激励视频可延长当日免费连接时长。在适用地区，我们会先通过 Google 的同意管理流程征求广告相关同意；仅在您授权跟踪后，才可能读取广告标识符（IDFA）用于广告投放。我们不会把 VPN 配置、凭证或上网内容提供给广告服务。</p>
+  <p>1.9 <strong>应用内购买与免费时长。</strong> 本服务提供由 Apple App Store 处理的自动续期订阅（如月付、年付，以应用内展示为准）和一次性买断。我们通过 StoreKit 获知购买是否成功、订阅是否有效以及恢复购买的结果，用于解锁不限时连接。我们<strong>不收集</strong>您的完整支付卡号、账单地址或 Apple ID 密码。未购买时，本应用在设备本地累计当天隧道实际处于连接中的时长；当前免费额度为每天 5 分钟（以应用内说明为准），用完后连接会断开。该计时保存在设备本地，不会上传至我们的服务器。iOS / iPadOS 上，观看激励视频可在当天额外增加连接时长；Apple TV 不提供该方式。</p>
+  <p>1.10 <strong>iCloud 同步（由您开启）。</strong> 自动同步默认关闭。您开启自动同步，或在 iCloud 可用时手动同步后，本应用会把配置档案写入您 Apple 账号下的 iCloud 容器（当前为 iCloud.com.weigantech.network 中的 Documents/Profiles）。每份档案可能包含配置名称、类型、原始配置文本、编译后的配置、远程配置地址、所选节点、上传/下载流量与到期信息，以及 IKEv2 的服务器、标识、用户名和密码。配置文本中可能含有节点密钥或证书。这些文件由 Apple 按其 iCloud 政策存储和传输，我们不能从自己的服务器读取您的 iCloud 内容。您可随时关闭自动同步，或在系统设置中关闭本应用的 iCloud 权限。</p>
+  <p>1.11 <strong>我们不会做的事。</strong> 本服务<strong>不要求</strong>您注册我们运营的应用内账号，也<strong>不提供</strong>由我们运营的云端账号。我们不会在您未授权时开启 VPN，不会申请相册、通讯录、麦克风、定位、蓝牙等与核心连接功能无关的敏感权限（以实际版本为准），亦不会将您的配置、凭证或上网内容上传至我们的服务器。Apple TV 另不使用相机、剪切板、通知、跟踪或广告标识符。</p>
 
-  <p>1.10 为满足个人信息保护法规及应用商店合规要求，我们按类型明示本应用可能涉及的个人信息处理情况。<strong>下列「目的」「方式」「范围」仅适用于标注的适用版本或场景；标注为「不收集」的类型，表示本应用不会为所述目的主动采集、读取或上传该类型信息。</strong></p>
+  <p>1.12 为满足个人信息保护法规及应用商店合规要求，我们按类型明示本应用可能涉及的个人信息处理情况。<strong>下列「目的」「方式」「范围」仅适用于标注的适用版本或场景；标注为「不收集」的类型，表示本应用不会为所述目的主动采集、读取或上传该类型信息。</strong></p>
   <ul>
     <li><strong>VPN / 代理配置与节点信息</strong>（含远程配置 URL、节点地址、端口、协议参数、证书/密钥材料、Clash 或 sing-box 配置文本）：在设备本地处理，<strong>目的</strong>为导入、保存并建立您指定的连接，<strong>方式</strong>为主应用本地数据库、文件，以及向网络扩展共享当前连接所需的编译配置，<strong>范围</strong>为您导入或生成的配置。我们不将其上传至我们的服务器。</li>
     <li><strong>IKEv2 账号与密码</strong>：用户名等保存在本地配置，密码写入系统钥匙串，<strong>目的</strong>为使用系统 VPN 接口建立 IKEv2 连接，<strong>方式</strong>为本地存储与钥匙串，<strong>范围</strong>为您填写的该条配置凭证。</li>
@@ -125,25 +127,35 @@
     <li><strong>网络连接</strong>：用于远程配置更新、测速、DNS 解析、版本检查、以及与您指定节点建立 VPN / 代理连接，<strong>目的</strong>为实现上述功能，<strong>方式</strong>为系统网络与网络扩展，<strong>范围</strong>为相关必要网络请求或隧道通信。</li>
     <li><strong>本地网络</strong>：用于节点延迟检测及本地代理相关通信，<strong>目的</strong>为测速与在本机提供代理能力，<strong>方式</strong>为系统本地网络接口，<strong>范围</strong>为实现该功能所需的本机/局域网通信。</li>
     <li><strong>日历、相册、通讯录、短信、本机号码、通话记录、位置信息</strong>：不收集。</li>
-    <li><strong>广告标识符（IDFA 等）</strong>：本服务当前不集成广告 SDK，不为广告投放目的收集上述标识符。</li>
-    <li><strong>支付与付费订阅信息</strong>：不收集（本服务当前不提供应用内购买或付费订阅）。</li>
+    <li><strong>iCloud 中的配置档案</strong>：仅在您开启自动同步或手动同步时写入您的 iCloud 容器，<strong>目的</strong>为在您自己的设备之间同步配置，<strong>方式</strong>为 iCloud Drive 文件，<strong>范围</strong>为第 1.10 节所列档案内容（可能含节点密钥与 IKEv2 密码）。我们不在自有服务器上保存。</li>
+    <li><strong>免费连接时长</strong>：在设备本地累计，<strong>目的</strong>为执行未购买时的每日连接限额，<strong>方式</strong>为本地记录，<strong>范围</strong>为当日隧道已连接秒数。不上传至我们的服务器。</li>
+    <li><strong>购买与订阅状态</strong>：由 Apple 处理，<strong>目的</strong>为解锁不限时连接、校验订阅和恢复购买，<strong>方式</strong>为 StoreKit，<strong>范围</strong>为实现解锁所必需的交易结果与订阅状态。不收集完整支付卡号或 Apple ID 密码。</li>
+    <li><strong>广告标识符（IDFA 等）</strong>：仅 iOS / iPadOS 在未解锁且您授权跟踪时，可能为广告投放而读取。Apple TV 与 macOS 不收集。</li>
+    <li><strong>广告互动（仅 iOS / iPadOS）</strong>：由 Google AdMob 按其政策处理广告请求、展示与激励视频完成情况，<strong>目的</strong>为展示广告或延长当日免费时长，<strong>范围</strong>为广告服务所需的设备与广告标识信息。不含您的 VPN 配置或上网内容。</li>
+    <li><strong>通知（iOS / iPadOS / macOS）</strong>：在您授权后，用于订阅到期、流量不足或远程配置更新失败的本地提醒。Apple TV 不申请通知权限，也不发送此类通知。</li>
+    <li><strong>支付卡号等完整支付凭证</strong>：不收集。</li>
   </ul>
 
   <h5>2. 第三方服务</h5>
   <p>本节说明本服务可能涉及的第三方服务。不同系统版本实际可用的能力可能有所差异。</p>
 
-  <p class="permission-name">2.1 Apple 服务（iOS / iPadOS / macOS）</p>
-  <p>本服务使用 Apple 提供的<strong>网络扩展（Network Extension / Packet Tunnel）</strong>、<strong>系统 VPN（含 IKEv2）</strong>、<strong>钥匙串（Keychain）</strong>、<strong>App Group</strong>，以及可选的<strong>相机</strong>、<strong>本地网络</strong>、<strong>App Store 更新查询</strong>与<strong>系统评价提示（StoreKit）</strong>。VPN 配置由系统保存并由您在系统设置中管理。支付相关能力当前未用于内购。相关数据处理受 Apple 政策约束。<br>
+  <p class="permission-name">2.1 Apple 服务（iOS / iPadOS / macOS / tvOS）</p>
+  <p>本服务使用 Apple 提供的<strong>网络扩展（Network Extension / Packet Tunnel）</strong>、<strong>系统 VPN（含 IKEv2）</strong>、<strong>钥匙串（Keychain）</strong>、<strong>App Group</strong>、<strong>StoreKit（应用内购买与订阅）</strong>，以及可选的<strong>iCloud Drive</strong>、<strong>相机</strong>、<strong>本地网络</strong>、<strong>通知</strong>、<strong>App Store 更新查询</strong>与<strong>系统评价提示</strong>。相机、通知与系统评价提示不用于 Apple TV。VPN 配置由系统保存并由您在系统设置中管理；购买与订阅由 Apple 处理；iCloud 内容保存在您的 Apple 账号中。相关数据处理受 Apple 政策约束。<br>
   Apple 隐私政策：<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a></p>
 
   <p class="permission-name">2.2 您指定的节点、远程配置源、DNS 与测速地址</p>
   <p>当您导入或刷新远程配置、连接节点、解析域名或进行测速时，网络请求会发往<strong>您提供或选择的第三方服务器</strong>，以及应用默认配置中的第三方 DNS / 连通性检测地址（当前版本可能包括 1.1.1.1、223.5.5.5 及 <code>https://www.gstatic.com/generate_204</code> 等，以实际版本为准）。这些服务由相应提供方运营，我们无法控制其日志、留存或隐私实践。请在导入前确认来源可信，并阅读该提供方的条款与隐私政策。</p>
 
   <p class="permission-name">2.3 操作系统与本地引擎</p>
-  <p>本服务在网络扩展中使用本地 VPN / 代理引擎处理您导入的配置，并使用操作系统提供的本地存储、钥匙串、网络、文件选择、相机与界面渲染能力。除发往您指定第三方或 Apple 的必要请求外，我们不会将您的配置、凭证或上网内容上传至我们自有的云端服务器。当前版本不提供由我们运营的云端同步；如未来启用 iCloud 或其他同步能力，我们将依法更新本政策。</p>
+  <p>本服务在网络扩展中使用本地 VPN / 代理引擎处理您导入的配置，并使用操作系统提供的本地存储、钥匙串、网络、文件选择、相机与界面渲染能力。除发往您指定第三方、Apple（含 iCloud 与 App Store）或下文广告服务的必要请求外，我们不会将您的配置、凭证或上网内容上传至我们自有的云端服务器。</p>
+
+  <p class="permission-name">2.4 Google 广告服务（仅 iOS / iPadOS）</p>
+  <p>未解锁不限时连接时，iOS / iPadOS 版本可能使用 Google AdMob 及配套的同意管理与广告归因能力。Apple TV 与 macOS 不使用这些服务。Google 如何处理广告数据，适用其自身政策。<br>
+  Google 隐私政策：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></p>
 
   <h5>3. 付费与商业化</h5>
-  <p>当前版本的 TiYi <strong>不提供</strong>应用内购买、付费订阅或广告解锁。若未来版本引入付费功能或广告，我们将依法更新本隐私政策与用户协议，并在必要时征得您的同意。</p>
+  <p>当前版本提供由 Apple 处理的自动续期订阅和一次性买断，用于解锁不限时连接。价格、周期与名称以 App Store 及购买页展示为准。订阅默认自动续期，除非您在当前周期结束前至少 24 小时在 Apple ID 的订阅管理中关闭续期；Apple 可能在周期结束前 24 小时内扣取续期费用。您可随时在系统「订阅」中管理或取消，取消后当前已付周期通常仍可使用至结束。一次性买断不自动续费。同一 Apple ID 的购买可在本应用支持的平台（含 Apple TV）上恢复，以 Apple 的校验结果为准。</p>
+  <p>未购买时每天可免费连接有限时长。iOS / iPadOS 在未解锁时可能展示广告，观看激励视频可延长当日免费时长；解锁后不再为提供免费时长而展示激励视频。Apple TV 与 macOS 不展示第三方广告，Apple TV 也不能通过观看视频延长免费时长。</p>
 
   <h5>4. 设备权限调用</h5>
   <p>TiYi 仅在实现 VPN 连接、配置导入与测速所必需时申请权限。我们会在系统权限弹窗或系统设置引导中征求您的同意；您拒绝授权仅会影响对应功能。以下按平台分别说明。</p>
@@ -168,18 +180,27 @@
   <p class="permission-name">文件访问（用户选定）</p>
   <p>用于在您选择本地配置文件后读取其内容并导入。</p>
 
-  <p class="permission-name">macOS</p>
-  <p>VPN / 网络扩展、本地网络、网络、剪切板粘贴与文件导入的使用目的与上文相同。当前 macOS 版本不提供相机扫码；您可通过粘贴、远程配置链接或文件导入配置。</p>
+  <p class="permission-name">通知</p>
+  <p>用于提醒节点订阅即将到期、流量不足或远程配置更新失败。未授权时不影响连接。</p>
 
-  <p>您可以随时在系统「设置」中关闭 VPN、撤回相机或本地网络权限，或卸载应用以停止相关处理。</p>
+  <p class="permission-name">跟踪（按需）</p>
+  <p>仅在未解锁且您同意后，用于读取广告标识符以提供广告。拒绝后仍可使用连接功能，只是广告可能较不相关，激励视频是否可用以实际展示为准。</p>
+
+  <p class="permission-name">macOS</p>
+  <p>VPN / 网络扩展、本地网络、网络、剪切板粘贴、文件导入、加密备份与通知的使用目的与上文相同。当前 macOS 版本不提供相机扫码，也不集成第三方广告 SDK。您可通过粘贴、远程配置链接或文件导入配置。</p>
+
+  <p class="permission-name">Apple TV（tvOS）</p>
+  <p>VPN / 网络扩展用于安装数据包隧道或系统 IKEv2，从而按您导入或同步来的节点建立连接。网络用于远程配置、测速、域名解析、iCloud 同步、App Store 购买校验以及连接您指定的节点。若系统提示本地网络权限，其用途为节点延迟检测及本地代理相关通信。Apple TV 不使用相机、剪切板、文件选择器、通知、跟踪或广告标识符，也不提供加密备份文件的导入导出。配置可在电视上用遥控器输入，或从已开启 iCloud 的 iPhone / Mac 同步。</p>
+
+  <p>您可以随时在系统「设置」中关闭 VPN、撤回相机、本地网络、通知或跟踪权限，关闭本应用的 iCloud，在 Apple ID 中管理订阅，或卸载应用以停止相关处理。</p>
 
   <h5>5. 管理您的个人信息</h5>
   <p>如您对您的数据主体权利有进一步要求或存在任何疑问、意见或建议，可通过本隐私政策中「如何联系我们」章节中所述方式与我们取得联系，并行使您的相关权利。</p>
-  <p>您可通过删除应用内配置、在系统设置中移除 VPN 配置、卸载应用或清除应用数据的方式，停止处理并移除设备本地保存的配置、偏好与日志。IKEv2 密码随相应配置删除从钥匙串中移除。对于由 Apple 或您指定的第三方节点/远程配置源/DNS 或测速服务处理的信息，您也可通过相应提供方的设置或政策行使权利。</p>
+  <p>您可通过删除应用内配置、在系统设置中移除 VPN 配置、关闭 iCloud 同步、卸载应用或清除应用数据的方式，停止处理并移除设备本地保存的配置、偏好与日志。IKEv2 密码随相应配置删除从钥匙串中移除；若该配置已同步到 iCloud，请在同步开启时删除，或在系统 iCloud 设置中移除本应用数据。订阅请在 Apple ID 的订阅管理中取消。对于由 Apple、Google（仅 iOS / iPadOS 广告）或您指定的第三方节点/远程配置源/DNS 或测速服务处理的信息，您也可通过相应提供方的设置或政策行使权利。</p>
 
   <h5>6. 信息存储地点及期限</h5>
-  <p>6.1 您通过本应用产生的配置档案、节点列表、路由偏好、流量统计与诊断日志，主要在您的设备本地处理与保存；当前连接所需的编译配置与部分偏好可通过 App Group 与网络扩展共享；IKEv2 密码保存在系统钥匙串。当前版本不提供由我们运营的云端同步服务。</p>
-  <p>6.2 远程配置更新、DNS 解析、测速及与节点之间的隧道通信发生在您的设备与相应第三方之间；版本检查相关请求由 Apple 按照其政策在相应基础设施中处理，可能涉及您所在国家或地区以外的服务器。</p>
+  <p>6.1 您通过本应用产生的配置档案、节点列表、路由偏好、流量统计、免费时长计数与诊断日志，主要在您的设备本地处理与保存；当前连接所需的编译配置与部分偏好可通过 App Group 与网络扩展共享。在 Apple TV 上，App Group 中的共享文件位于 Library/Caches。IKEv2 密码保存在系统钥匙串。我们不运营云端账号；仅当您开启或手动执行 iCloud 同步时，第 1.10 节所述档案会保存在您的 iCloud 中，保存期限受 Apple 及您的 iCloud 设置约束。</p>
+  <p>6.2 远程配置更新、DNS 解析、测速及与节点之间的隧道通信发生在您的设备与相应第三方之间。版本检查、购买校验及 iCloud 同步由 Apple 按照其政策在相应基础设施中处理，可能涉及您所在国家或地区以外的服务器。iOS / iPadOS 上的广告请求由 Google 按其政策处理，同样可能涉及其他地区的服务器。</p>
   <p>6.3 除法律法规另有规定外，我们对信息的保存期限为为实现处理目的所必要的最短时间。您卸载应用、删除配置或主动清除数据后，相应本地信息将被删除，但已写入系统 VPN 偏好或已发往第三方的请求，仍受相应系统或第三方机制约束。</p>
 
   <h5>7. 如何联系我们</h5>
@@ -188,7 +209,7 @@
   <p>如果您对我们的回复不满意，特别是当个人信息处理行为损害了您的合法权益时，您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。您也可以向我们了解可能适用的相关投诉途径的信息。</p>
 
   <div class="text-right">
-    <span>生效日期：</span><span>2026.9.14</span>
+    <span>生效日期：</span><span>2026.10.17</span>
   </div>
 </body>
 </html>
