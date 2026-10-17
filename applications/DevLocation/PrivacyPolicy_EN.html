@@ -86,14 +86,14 @@
 </head>
 <body>
   <h2>Privacy Policy for DevLocation</h2>
-  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.8.31</span> · <a href="PrivacyPolicy_CN.html">简体中文</a></p>
+  <p id="update-time"><span class="font-secondary">Last updated:</span><span class="font-secondary">2026.10.17</span> · <a href="PrivacyPolicy_CN.html">简体中文</a></p>
 
   <p id="firstDesc">
     <strong>DevLocation</strong> is a <strong>GPS location simulation tool for development and testing</strong> provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> (hereinafter referred to as "we" or "us"). It helps you simulate GPS locations on connected iOS devices to support app development and testing. This Privacy Policy applies to DevLocation on <strong>iOS</strong>, <strong>iPadOS</strong>, <strong>macOS</strong>, and <strong>visionOS</strong>.
   </p>
   <p>We attach great importance to the protection of your personal information and privacy. We will provide appropriate security measures for your personal information in accordance with legal requirements and industry-standard security practices.</p>
   <p>This Privacy Policy works together with our <a href="https://www.weigantech.com/applications/DevLocation/UserAgreement_EN.html" target="_blank" rel="noopener noreferrer">User Agreement for DevLocation</a>.</p>
-  <p>The Mac app is the primary control surface. It connects to iPhones and other iOS devices over USB or the local network to send simulated locations. The iOS / iPadOS / visionOS companion app shows simulation status, map views, and remote stop controls. Simulated coordinates are processed mainly on your devices; saved places, routes, history, and runtime logs are processed mainly on macOS. We do not upload this data to our own cloud servers. The Service currently does <strong>not</strong> integrate third-party advertising SDKs and does <strong>not</strong> provide app accounts or cloud sync operated by us.</p>
+  <p>The Mac app is the primary control surface. It connects to iPhones and other iOS devices over USB or the local network to send simulated locations. The iOS / iPadOS / visionOS companion app shows simulation status, map views, and remote stop controls. Simulated coordinates are processed mainly on your devices; saved places, routes, history, and runtime logs are processed mainly on macOS. We do not upload this data to our own cloud servers, and we do not provide it to advertising partners. The Service does <strong>not</strong> provide app accounts or cloud sync operated by us. On <strong>iPhone and iPad</strong>, if you have not purchased Premium, we integrate <strong>Google AdMob</strong> to show app-open ads and rewarded ads, and we use the <strong>Google User Messaging Platform (UMP)</strong> to ask for advertising consent. The <strong>macOS</strong> app does not load an advertising SDK and does not show ads.</p>
 
   <h5>1. How We Collect and Use Your Personal Information</h5>
   <p>We use your personal information only where we have a lawful basis to do so. Depending on applicable law, we may rely on your consent, performance of a contract with you, compliance with legal obligations, or other lawful bases.</p>
@@ -103,7 +103,7 @@
   <p>1.4 <strong>Optional road routing (OSRM).</strong> On macOS, if you enable the optional road-routing feature, the app may send start and end coordinates to a public <strong>OSRM</strong> routing service (such as <code>router.project-osrm.org</code>) to obtain road-following waypoints. We send only the coordinates needed for the feature and do not send device identifiers, contacts, or unrelated information. That service is operated by a third party and is governed by its own policies.</p>
   <p>1.5 <strong>Diagnostics and troubleshooting.</strong> On macOS, the app may generate local runtime logs or diagnostic summaries for device connection, tunneling, and simulation troubleshooting. You may view or copy these logs. By default, this information is not uploaded to our servers.</p>
   <p>1.6 <strong>GPX and pairing files (where applicable).</strong> On <strong>macOS</strong>, when you import or export GPX route files, you choose the files yourself and they are stored locally on your device or in folders you select. In advanced/internal builds, you may also import developer pairing files. We do not proactively read or upload your other personal files.</p>
-  <p>1.7 <strong>What we do not do.</strong> The Service does <strong>not</strong> require you to register an in-app account with us. We currently do <strong>not</strong> integrate Firebase, Umeng, Pangle, AdMob, or similar third-party advertising or behavioral analytics SDKs. We do not read your photo library, contacts, SMS, call logs, or phone number in the background, and we do not request camera, microphone, or other sensitive permissions unrelated to core features (subject to the version you use).</p>
+  <p>1.7 <strong>What we do not do.</strong> The Service does <strong>not</strong> require you to register an in-app account with us. Except for Google AdMob and Google UMP on iPhone and iPad, which are used to show ads and collect advertising consent, we do <strong>not</strong> integrate Firebase, Umeng, Pangle, or similar third-party behavioral analytics SDKs, and we do <strong>not</strong> integrate an advertising SDK on macOS. We do not read your photo library, contacts, SMS, call logs, or phone number in the background, and we do not request camera, microphone, or other sensitive permissions unrelated to core features (subject to the version you use). We do not provide simulated coordinates, saved places, routes, device UDIDs, or runtime logs to advertising networks.</p>
 
   <p>1.8 <strong>Personal information inventory.</strong> To meet applicable privacy laws and app-store compliance requirements, we disclose below the categories of personal information that DevLocation may involve. <strong>The purpose, method, and scope described for each category apply only to the versions or scenarios noted. Categories marked as "not collected" mean that our app does not actively collect, read, or upload that type of information for the stated purpose.</strong></p>
   <ul>
@@ -117,7 +117,9 @@
     <li><strong>App settings and preferences</strong>: processed locally; <strong>purpose</strong>: remember UI and feature preferences; <strong>method</strong>: local storage; <strong>scope</strong>: app configuration items.</li>
     <li><strong>Clipboard</strong> (macOS): the app writes to the system clipboard only when you actively copy coordinates or text. It does not read or upload clipboard content in the background.</li>
     <li><strong>Calendar, SMS, contacts, phone number, call logs</strong>: not collected.</li>
-    <li><strong>Advertising identifiers (IDFA, etc.)</strong>: the Service does not integrate advertising SDKs and does not collect these identifiers for advertising.</li>
+    <li><strong>Advertising information (iPhone / iPad, unless you have Premium)</strong>: processed by Google AdMob and its advertising partners; <strong>purpose</strong>: show app-open and rewarded ads, measure performance, and prevent invalid traffic; <strong>method</strong>: the advertising SDK sends requests to Google and its partners; <strong>scope</strong> may include device and app information (such as device model, operating-system version, language, and app version), IP address, ad interactions (impressions, clicks, and whether a rewarded ad was watched to completion), coarse location usually inferred from IP, and the advertising identifier (IDFA) if you allow tracking. Our own servers do not receive this advertising data.</li>
+    <li><strong>Advertising consent and tracking permission</strong>: where consent is required, Google UMP collects your advertising choices; the iOS tracking prompt asks whether to allow tracking across apps. <strong>Purpose</strong>: decide whether ads may be requested and whether personalized ads may be requested; <strong>method</strong>: system prompt and consent form; <strong>scope</strong>: your choices. This state is stored mainly on your device.</li>
+    <li><strong>Purchase status</strong>: verified on device through Apple StoreKit; <strong>purpose</strong>: activate or restore Premium, remove ads, and lift usage limits; <strong>method</strong>: reading App Store transaction results; <strong>scope</strong>: product identifier, whether the transaction is valid, and subscription status. This does not include card numbers, payment passwords, or other full payment-account details.</li>
   </ul>
 
   <h5>2. Third-Party Services</h5>
@@ -131,10 +133,28 @@
   <p>When you enable the optional road-routing feature, the app may send start/end coordinates to a public OSRM instance (such as the Project OSRM demo service) to obtain route geometry. That service is operated by a third-party community or organization. We do not guarantee its availability, accuracy, or data-handling practices. You can disable the feature at any time to stop sending requests.</p>
 
   <p class="permission-name">2.3 Operating System and Open-Source Components</p>
-  <p>The Service mainly relies on operating-system capabilities for USB, local networking, location, file selection, and UI rendering. The macOS version may bundle or invoke open-source device-communication components (such as a <strong>pymobiledevice3</strong>-related runtime) to interact with your iOS devices locally. Except for map search and optional road routing that you actively enable, we do not upload your simulation database to our own cloud servers.</p>
+  <p>The Service mainly relies on operating-system capabilities for USB, local networking, location, file selection, and UI rendering. The macOS version may bundle or invoke open-source device-communication components (such as a <strong>pymobiledevice3</strong>-related runtime) to interact with your iOS devices locally. Except for map search and optional road routing that you actively enable, and advertising and purchase verification on iPhone and iPad, we do not upload your simulation database to our own cloud servers.</p>
+
+  <p class="permission-name">2.4 Google Advertising and Consent (iPhone / iPad)</p>
+  <p>Unless you have purchased Premium, the iPhone and iPad app uses <strong>Google AdMob</strong> to show two kinds of ads:</p>
+  <ul>
+    <li><strong>App-open ads</strong>: may appear on a cold start, or when you return to the app from the background. Returning from an ad itself does not immediately trigger another app-open ad.</li>
+    <li><strong>Rewarded ads</strong>: after the one free simulation for the calendar day is used, you may choose to watch one rewarded ad to completion and receive one additional simulation. Leaving early does not add a simulation. This ad plays only when you choose it, and it does not consume your quota in the background.</li>
+  </ul>
+  <p>Premium users with an active monthly subscription, annual subscription, or lifetime purchase do not load these ads. macOS does not show ads. When the free quota on a Mac is used up, you can purchase Premium, or watch a rewarded ad on a connected iPhone and then run one more remote simulation.</p>
+  <p>In regions where consent is required (such as the European Economic Area, the United Kingdom, and Switzerland, as determined by Google), the app presents a consent form through the <strong>Google User Messaging Platform (UMP)</strong> before requesting ads. We also ask through the iOS tracking permission whether you allow the advertising identifier to be used so that ads can be more relevant. If you decline tracking or limit advertising consent, you can still use location simulation. Ads may then be non-personalized or limited, or they may not appear if none can be filled.</p>
+  <p>Ad requests are processed by Google and its advertising partners. They may use the related information to deliver, measure, frequency-cap, and protect ads against invalid traffic, and, where the law allows and you have consented, to personalize ads. We do not control advertisers' content. We may view aggregated advertising performance in the Google AdMob console, such as impressions and clicks. Those aggregates do not include your simulated coordinates, saved places, or device UDID. This processing is governed by Google's policies:</p>
+  <ul>
+    <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+    <li>How Google uses information from sites or apps that use our services: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a></li>
+  </ul>
+  <p>The app also integrates Apple <strong>SKAdNetwork</strong> so advertising networks can measure ad performance without providing us an advertising identifier that identifies you. Conversion postbacks are handled by Apple and the relevant advertising networks.</p>
 
   <h5>3. Paid Services</h5>
-  <p>The Service is currently offered as a development tool and does <strong>not</strong> charge in-app subscriptions or one-time purchases, nor does it use app-store in-app purchases to unlock core features. If a future version introduces paid capabilities, we will update this Privacy Policy as required by law and obtain your consent where necessary.</p>
+  <p>3.1 The Service offers <strong>Premium</strong> through Apple App Store in-app purchases: a <strong>monthly subscription</strong>, an <strong>annual subscription</strong>, and a <strong>lifetime purchase</strong> (subject to the products, prices, currencies, and periods actually shown in your local store). Premium includes unlimited location simulations, unlimited routes and scripts, unlimited place search, and removal of app-open and rewarded ads on iPhone and iPad.</p>
+  <p>3.2 Payment, billing, refunds, and subscription management are handled by Apple. Through StoreKit, we receive the purchase result on your device, including the product identifier, whether the transaction is valid, and subscription status, and we use it only to grant, restore, or revoke Premium. We do <strong>not</strong> collect your card number, payment password, or other full payment-account details.</p>
+  <p>3.3 Subscriptions generally renew automatically unless you cancel at least 24 hours before the end of the current period. Price, any trial, renewal, and cancellation terms are those shown by Apple at purchase. You can manage or cancel a subscription at any time in your Apple ID subscriptions. After cancellation, Premium for the period already paid typically continues until that period ends. The lifetime purchase is a one-time purchase and does not renew.</p>
+  <p>3.4 Without Premium, the Service provides <strong>one</strong> free location simulation per calendar day. The count resets on the device's local calendar day and is stored only on that device. On iPhone and iPad, you may watch one rewarded ad to completion to receive one additional simulation. We do not upload free-quota or reward records to our own servers.</p>
 
   <h5>4. Device Permissions</h5>
   <p>The Service may request the permissions below while running. We ask for your consent in system permission dialogs. Denying a permission affects only the related feature. Details vary by platform.</p>
@@ -151,7 +171,7 @@
   <p>Used to discover devices over Wi-Fi, run tunnel services, and sync simulation state with the iOS companion through Bonjour.</p>
 
   <p class="permission-name">Network</p>
-  <p>Used for optional road routing through third-party OSRM services when you enable that feature, and for other network requests needed for device communication.</p>
+  <p>Used for optional road routing through third-party OSRM services when you enable that feature, to verify purchase status with the App Store, and for other network requests needed for device communication.</p>
 
   <p class="permission-name">User-Selected Files</p>
   <p>Used to import or export GPX route files.</p>
@@ -164,6 +184,12 @@
   <p class="permission-name">Local Network</p>
   <p>Used to discover the Mac control app on your local network and sync simulation state.</p>
 
+  <p class="permission-name">Tracking (App Tracking Transparency)</p>
+  <p>Used, if you allow it, so advertising partners can use the advertising identifier to show more relevant ads and measure performance. The system prompt says: "DevLocation uses this identifier to show more relevant ads." Declining does not block location simulation. Ads may then be non-personalized or limited, or they may not appear if none can be filled.</p>
+
+  <p class="permission-name">Network</p>
+  <p>Used to load app-open and rewarded ads, present the Google advertising consent form, and verify purchase status with the App Store.</p>
+
   <p class="permission-name">Location (When In Use, where applicable)</p>
   <p>The companion mainly displays simulated coordinates synced from the Mac and usually does not actively read your device's real location. If your version or system prompts involve location permission, the actual behavior is subject to your version.</p>
 
@@ -171,11 +197,12 @@
 
   <h5>5. Managing Your Personal Information</h5>
   <p>If you have requests regarding your data-subject rights, or if you have questions, comments, or suggestions, contact us using the details in "How to Contact Us" below.</p>
-  <p>For information processed by Apple, OSRM, or other third parties, you may also exercise rights through those providers' settings or policies. You can remove locally stored simulation data and settings by deleting favorites/history, clearing app data, or uninstalling the app.</p>
+  <p>For information processed by Apple, Google, OSRM, or other third parties, you may also exercise rights through those providers' settings or policies. You can manage this app's tracking permission in iOS Settings &gt; Privacy &amp; Security &gt; Tracking. Where applicable, you can manage advertising consent in the Google consent form shown at launch; whether that form appears depends on Google's determination of your region and consent state. Premium subscriptions can be managed or cancelled in your Apple ID subscriptions, and previous purchases can be restored in the app.</p>
+  <p>You can remove locally stored simulation data, free-quota records, and settings by deleting favorites and history, clearing app data, or uninstalling the app. Uninstalling the app does not by itself cancel an App Store subscription that is still active.</p>
 
   <h5>6. Storage Location and Retention</h5>
   <p>6.1 Simulated coordinates generated through the Service are processed and stored mainly on your devices. Saved places, routes, history, and runtime logs are processed and stored mainly on macOS. The current version does not provide cloud sync operated by us.</p>
-  <p>6.2 Map search and optional road-routing data may be stored and processed by Apple, OSRM, and other third parties on infrastructure that may be located outside your country or region, in accordance with their respective policies.</p>
+  <p>6.2 Map search, optional road routing, and advertising and consent data on iPhone and iPad may be stored and processed by Apple, Google, OSRM, and other third parties on infrastructure that may be located outside your country or region, in accordance with their respective policies. Retention of advertising identifiers, IP addresses, and ad-interaction records is determined by those third parties.</p>
   <p>6.3 Unless otherwise required by law, we retain information only for as long as necessary to fulfill the processing purpose. After you uninstall the app or clear data, the corresponding local information is deleted.</p>
 
   <h5>7. How to Contact Us</h5>
@@ -184,7 +211,7 @@
   <p>If you are not satisfied with our response, especially where you believe our processing has harmed your lawful rights and interests, you may seek resolution through a court with jurisdiction, an industry self-regulatory body, or a relevant government authority. You may also ask us about other complaint channels that may apply.</p>
 
   <div class="text-right">
-    <span>Effective date:</span><span>2026.8.31</span>
+    <span>Effective date:</span><span>2026.10.17</span>
   </div>
 </body>
 </html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstanTrans Privacy Statement</title>
+  <link rel="icon" href="data:image/ico;base64,aWNv">
+  <style>
+    * {
+      margin: 0;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.9);
+      box-sizing: border-box;
+    }
+    body {
+      max-width: 860px;
+      margin: auto;
+      padding: 2rem 2rem 5rem;
+      line-height: 1.6;
+    }
+    h2 {
+      margin: 2rem 0 0.5rem;
+      text-align: center;
+      font-size: 18px;
+    }
+    h5 {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      word-break: break-word;
+    }
+    p {
+      margin-bottom: 1rem;
+      word-break: break-word;
+      line-height: 1.6;
+    }
+    ul {
+      margin: 0 0 1rem 1.25rem;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .font-secondary {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+    }
+    #update-time {
+      text-align: center;
+    }
+    #firstDesc {
+      margin-top: 3rem;
+    }
+    #firstDesc strong {
+      font-weight: 600;
+    }
+    .permission-name {
+      font-weight: 600;
+      margin-top: 1.5rem;
+    }
+    .permission-name:first-of-type {
+      margin-top: 0;
+    }
+    a {
+      color: #0a59f7;
+      text-decoration: none;
+    }
+    .text-right {
+      text-align: right;
+      margin-top: 40px;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000;
+      }
+      * {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .font-secondary {
+        color: rgba(255, 255, 255, 0.6);
+      }
+      a {
+        color: #317af7;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>InstanTrans Privacy Statement</h2>
+  <p id="update-time"><span class="font-secondary">Last updated: </span><span class="font-secondary">2026.10.17</span> · <a href="PrivacyPolicy_CN.html">简体中文</a></p>
+
+  <p id="firstDesc">
+    <strong>InstanTrans</strong> (瞬译) is a real-time captioning app for <strong>iOS</strong>, provided by <strong>Weigan Technology (Shenzhen) Co., Ltd.</strong> ("we," "us," or "our"). It turns speech from the microphone you select, or playback audio from other apps after you start a system broadcast, into on-device captions, and can show a translation with the system translation framework. This statement explains how personal information related to the app is handled.
+  </p>
+  <p>We take the protection of your personal information seriously and apply safeguards consistent with applicable law and established security practice.</p>
+  <p>You do <strong>not</strong> need an account operated by us. The current version does <strong>not</strong> show ads, does <strong>not</strong> track you across apps, and does <strong>not</strong> include in-app purchases or subscriptions. We do <strong>not</strong> operate a server that receives your recordings, captions, or an account profile.</p>
+
+  <h5>1. Information we process and why</h5>
+  <p>We process personal information only where we have a lawful basis, such as your consent, providing a feature you asked for, or complying with law.</p>
+
+  <p class="permission-name">1.1 Audio</p>
+  <p>Audio is processed only while you have started a caption session. The <strong>purpose</strong> is to turn speech into text. The <strong>method</strong> is reading audio on your device and passing it to on-device recognition. The <strong>scope</strong> is the speech in that session.</p>
+  <ul>
+    <li><strong>Microphone.</strong> Used only if you choose the microphone as the audio source and allow the system permission. If you deny it, microphone captions are unavailable. Screen-audio captions that do not need the microphone can still be used, subject to the system.</li>
+    <li><strong>Playback audio from other apps.</strong> Captured only after you start a broadcast with the system broadcast picker. A Broadcast Upload Extension receives <strong>audio other apps are playing</strong>. It processes audio samples only. It does <strong>not</strong> capture the screen image and does <strong>not</strong> record video. The picker does not offer a microphone button. The microphone is a separate in-app source and is not mixed into that broadcast.</li>
+    <li>Audio is converted on the device into the format recognition needs. Screen audio is written temporarily into the App Group shared by the app and the extension so on-device recognition can read it. It is <strong>not</strong> kept as a recording library and is <strong>not</strong> uploaded to our servers. Starting a new screen-audio capture clears the previous temporary audio file. Uninstalling the app deletes temporary files that remain on the device.</li>
+  </ul>
+
+  <p class="permission-name">1.2 Speech recognition</p>
+  <p>Recognition starts on your device. We do not send audio to a server of our own. Which path runs depends on the language and your settings:</p>
+  <ul>
+    <li><strong>System speech, on device first.</strong> When the selected language supports on-device recognition, the app requires the system to recognize speech on the device. Audio is not sent to Apple's speech-recognition service for that reason. The text is used only for the live captions, translation, and history if you keep history.</li>
+    <li><strong>System speech that Apple may process.</strong> If on-device recognition is not available for that language, or if system recognition fails repeatedly in a session and the app briefly stops forcing on-device mode before it switches to the local model, Apple's speech framework may send audio to Apple as described in <a href="https://www.apple.com/legal/privacy/data/en/speech-recognition/" target="_blank" rel="noopener noreferrer">Apple's speech recognition disclosure</a>. Apple handles that processing under its own privacy policy. We do not control Apple's retention period. After failures reach the in-app threshold, the session switches to the local model below and stops sending that session's audio to system speech.</li>
+    <li><strong>On-device enhanced recognition.</strong> If you turn on enhanced recognition, if the language has no system speech recognizer, or if system recognition fails repeatedly, the app transcribes with a model that runs on the device (WhisperKit's base model). Audio and text stay on the device and are not uploaded for recognition. The model file is downloaded on first use. That download contacts the model host WhisperKit uses by default (Hugging Face). The host may see connection data such as an IP address. The request is for the model file. It does not include your recording or captions.</li>
+  </ul>
+
+  <p class="permission-name">1.3 Translation</p>
+  <p>Translations are produced on the device by Apple's Translation framework. The first time you use a language pair, the system may download that translation pack from Apple. After the pack is ready, caption text is translated on the device. <strong>We do not send source or translated captions to our servers, and the app does not call a third-party online translation API.</strong></p>
+
+  <p class="permission-name">1.4 Caption history</p>
+  <p>If "Keep caption history" is on (it is on by default), the app stores recent captions on the device, including the original text, the translation, and the time. History is capped (currently 80 lines); older lines are removed. You can delete individual lines or clear the history. New lines are not saved after you turn the option off.</p>
+  <p>You can export history as an SRT file and send it through the system share sheet to an app or person you choose. We do not upload that file for you.</p>
+
+  <p class="permission-name">1.5 Preferences</p>
+  <p>The app stores preferences on the device so the next launch can reuse them: source and target language, audio source (screen audio or microphone), Picture in Picture, whether the original is shown first, whether history is kept, window style, type size, background opacity, whether enhanced recognition is preferred, and recent language pairs. These are used to provide the features you asked for. They are not used for advertising or profiling.</p>
+
+  <p class="permission-name">1.6 Optional iCloud sync</p>
+  <p>iCloud sync is <strong>off by default</strong>. Only if you turn on automatic sync, or run a sync yourself, does the app write two documents into the iCloud container for <strong>your own Apple ID</strong> (<strong>iCloud.com.weigantech.see</strong>):</p>
+  <ul>
+    <li>caption preferences (the settings listed in section 1.5);</li>
+    <li>caption history (original text, translation, and time).</li>
+  </ul>
+  <p>Apple stores and transfers those documents under iCloud's rules. We do not have a backend that can sign in and read that container, and we do not copy its contents to our servers. You can turn sync off, limit it to Wi-Fi, and choose whether conflicts keep the device copy, the iCloud copy, or the newer one. Turning sync off does not by itself delete copies already in iCloud. Delete those in the system's iCloud storage settings.</p>
+
+  <p class="permission-name">1.7 Version check</p>
+  <p>On launch, the app asks Apple's iTunes lookup service for this app's public App Store listing (app identifier, version, release notes, size, and release date) so it can tell you when an update exists. The request does not include your name, an account, or caption text. Apple handles ordinary connection data, such as an IP address, for that request. You can skip the prompt for a given version.</p>
+
+  <p class="permission-name">1.8 Feedback and ratings</p>
+  <p>If you use in-app Feedback, your mail app sends the message to <a href="mailto:support@weigantech.com">support@weigantech.com</a>. We receive only what you choose to write. In-app Rate opens Apple's App Store review flow. We do not receive your Apple ID from that action.</p>
+
+  <p class="permission-name">1.9 Diagnostic logs</p>
+  <p>The app writes operating-system logs so recognition or translation issues can be inspected on the device. A log line may include a short snippet of recognized text, a language identifier, and an error description. Logs stay on your device for tools such as Console. <strong>We do not upload them to our servers.</strong></p>
+
+  <p class="permission-name">1.10 Information we do not collect</p>
+  <p>The app does not collect the following for upload to our servers:</p>
+  <ul>
+    <li>name, phone number, email address, government ID, precise location, contacts, photo library, messages, call history, calendar, health data, or payment card numbers;</li>
+    <li>an advertising identifier (IDFA) or other identifier used to track you across apps, or hardware identifiers such as Android ID, IMEI, OAID, IMSI, ICCID, or MAC address (this app is iOS only);</li>
+    <li>screen images, camera images, or your photo and video files;</li>
+    <li>a list of installed apps, Wi-Fi networks, or your social graph.</li>
+  </ul>
+  <p>Beyond the system permissions and network requests described above, the app does not include an advertising SDK, an analytics SDK, or a crash-reporting SDK.</p>
+
+  <h5>2. Device permissions</h5>
+  <p>Permissions are requested only when a feature needs them. Denying one permission affects only the feature that depends on it.</p>
+
+  <p class="permission-name">Speech recognition</p>
+  <p>Used to turn microphone or screen audio into captions. Manage it in iOS Settings → Privacy &amp; Security → Speech Recognition.</p>
+
+  <p class="permission-name">Microphone</p>
+  <p>Used only when you choose the microphone source and start captions, to hear what you say. Screen-audio captions do not use the microphone. Manage it in iOS Settings → Privacy &amp; Security → Microphone.</p>
+
+  <p class="permission-name">System broadcast</p>
+  <p>Used, after you confirm the system broadcast control, to capture playback audio from other apps. iOS shows that a broadcast is active. Capture stops when you end the broadcast or stop captions. This capability is not used to record the screen image.</p>
+
+  <p class="permission-name">Network</p>
+  <p>Used to download translation packs, to download the local recognition model the first time it is needed, to check the App Store version, and to sync iCloud after you turn that on. Packs and models already on the device can still be used offline, subject to the system.</p>
+
+  <p class="permission-name">iCloud</p>
+  <p>Used only after you enable sync or run a manual sync, to store caption preferences and history in your iCloud. The device must be signed in to iCloud.</p>
+
+  <p class="permission-name">Background audio</p>
+  <p>While a caption session you started is still running, this lets recognition continue after the app leaves the foreground. It is not a separate permission that collects a new category of personal information.</p>
+
+  <h5>3. System services and other providers</h5>
+  <p>Some capabilities are provided by the operating system and the providers below. They are independent controllers and handle information under their own policies. What the app makes available to them is limited to the feature involved:</p>
+  <ul>
+    <li><strong>Apple</strong> (speech recognition, translation, iCloud, the App Store, system broadcast, and ratings). In the cases described in section 1.2, audio may be processed by Apple. Translation packs, iCloud documents, and the version lookup are Apple services. Apple's privacy policy: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/</a>. Speech recognition: <a href="https://www.apple.com/legal/privacy/data/en/speech-recognition/" target="_blank" rel="noopener noreferrer">https://www.apple.com/legal/privacy/data/en/speech-recognition/</a>.</li>
+    <li><strong>Model hosting (Hugging Face, via WhisperKit).</strong> Your device downloads a model file only when the local recognizer is first needed or needs an update. We do not send recordings or captions to that service. Hugging Face privacy policy: <a href="https://huggingface.co/privacy" target="_blank" rel="noopener noreferrer">https://huggingface.co/privacy</a>.</li>
+  </ul>
+  <p>We do not sell your personal information, and we do not provide captions or audio to advertisers.</p>
+
+  <h5>4. Where information is stored and for how long</h5>
+  <p>4.1 Audio, recognition, translation, caption history, and preferences are processed on your device by default. We do not operate a server that stores this content, so we do not transfer it to servers of our own outside your country or region.</p>
+  <p>4.2 In the exception in section 1.2, system speech recognition may be processed on Apple's infrastructure. Server location is determined by Apple and may be outside your country or region. Documents in iCloud follow your Apple ID and Apple's iCloud rules. When the local model is downloaded, the device contacts the model host, whose servers may be outside your country or region. That connection is used to obtain the model file.</p>
+  <p>4.3 Unless the law requires longer, on-device information is kept only as long as the feature needs it. Temporary audio is cleared when a new screen capture starts. Caption history is deleted when you delete it, clear it, turn off history, or uninstall the app, and it is also limited by the line cap. Preferences are removed when you change them, uninstall the app, or delete the app's data. Copies already in iCloud are deleted by you through Apple's storage tools. Apple's retention of speech-recognition data follows Apple's policy.</p>
+
+  <h5>5. Your choices and rights</h5>
+  <p>You can exercise most rights in the app:</p>
+  <ul>
+    <li><strong>Access and correct.</strong> Read original and translated lines on the caption screen and in history, and change language and display preferences in Settings.</li>
+    <li><strong>Delete.</strong> Delete or clear history, turn off "Keep caption history," turn off iCloud sync and delete synced documents in iCloud settings, or uninstall the app to remove on-device data.</li>
+    <li><strong>Withdraw consent.</strong> Turn off Microphone or Speech Recognition in iOS Settings. The related feature then stops. Withdrawal does not affect processing that was already completed on the basis of consent.</li>
+    <li><strong>Portability.</strong> Export history as SRT and keep or send the file yourself.</li>
+  </ul>
+  <p>For information handled by Apple or the model host, use that provider's settings or privacy policy as well. If you want help with information we still hold under this statement, contact us as described in section 8. We may need enough detail to verify the request, and we will respond within the time required by law.</p>
+
+  <h5>6. Children</h5>
+  <p>The app is intended for a general audience. It is not directed at children under 14, and we do not knowingly collect personal information from children. If you are a minor, please read this statement with a parent or guardian and use the app only with their consent. If you are a guardian and believe we have processed a child's personal information without consent, contact us and we will review and delete it.</p>
+
+  <h5>7. Security and updates to this statement</h5>
+  <p>The app relies on the iOS sandbox, system permissions, and your own iCloud to protect data. Keep your device passcode and Apple ID secure. No method of transmission or storage is completely secure. If a security incident occurs that the law requires us to announce, we will notify you as required.</p>
+  <p>We may update this statement and change the "Last updated" date on this page. Material changes will be described in the app, on this page, or by another reasonable notice. If you do not agree to the updated statement, stop using the app and uninstall it. Continued use means you have read the update.</p>
+
+  <h5>8. Contact us</h5>
+  <p>Questions about this statement or about personal information, and requests to exercise your rights, can be sent to:</p>
+  <p>In-app feedback: <a href="mailto:support@weigantech.com">support@weigantech.com</a></p>
+  <p>Company email: <a href="mailto:weigantechnology@outlook.com">weigantechnology@outlook.com</a></p>
+  <p>Operator: Weigan Technology (Shenzhen) Co., Ltd.</p>
+  <p>If you are not satisfied with our response, and especially if our handling of personal information has harmed your lawful rights, you may bring a claim in a court with jurisdiction, or complain to a self-regulatory body or a regulator.</p>
+
+  <div class="text-right">
+    <span>Effective date: </span><span>2026.10.17</span>
+  </div>
+</body>
+</html>
